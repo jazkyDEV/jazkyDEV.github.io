@@ -1,0 +1,211 @@
+body {
+
+    margin: 0;
+    font-family: 'Didact Gothic', sans-serif;
+    
+    font-size: 34px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1;
+    text-transform: uppercase;
+}
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+/* PAGE */
+.page {
+    background: #fff url(../images/bg.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    filter: blur();
+}
+
+.page__inner {
+    
+}
+
+.page__title {
+    position: absolute;
+    top: 6.94444vh;
+    left: 4.96vw;
+    z-index: 2;
+    font-size: 10vh;
+}
+
+
+.page__subtitle {
+    position: absolute;
+    bottom: 50vh;
+    right: 14vw;
+    z-index: 2;
+    width: 53.125vw;
+
+    font-size: 7vh;
+    text-align: center;
+
+    
+}
+
+.line__higher  {
+    display: block;
+    position: absolute;
+    top: 8.3333333vh;
+    left: 4.5vw;
+    z-index: 1;
+    width: 60.7vw;
+    height: 37.96vh;
+    
+}
+
+.line__lower {
+    position: absolute;
+    display: block;
+    right: 5vw;
+    bottom: 12.96vh;
+    width: 84.375vw;
+    height: 41.6666666мр;
+}
+
+
+.plane {
+    position: absolute;
+    bottom: 14.4vh;
+    right: 26.6vw;
+    z-index: 2;
+    width: 13.8vw;
+    height: 11.6vh;
+    
+}
+
+.btn {
+    position: absolute;
+    bottom: 15.3vh;
+    right: 6vw;
+    z-index: 2;
+    display: inline-block;
+    vertical-align: top;
+    
+    width: 18vw;
+    height: 100px;
+    padding: 20px 0;
+    height: auto;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    background-color: #e2907a;
+
+    font-family: inherit;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    text-transform: none;
+    
+    transition: color 0.1s linear;
+    transition: background-color 0.1s linear;
+    
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #320b0b;
+}
+
+
+
+/* INSTRUCTION */
+.instruction {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 500;
+    transform: translate3d(-50%, -50%, 0);
+    width: 65vw;
+    height: 74vh;
+    display: block;
+    background-color: #fff;
+    border: 5px solid #f79079;
+    display: none;
+}
+
+
+
+.instruction__inner {
+    padding: 4.2vh 5.7vw 7.4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+    text-align: center;
+    text-transform: initial;
+    position: relative;
+
+}
+
+.instruction__title {
+    font-size: 4.2vh;
+    margin-bottom: 4.2vh;
+}
+
+.instruction__text {
+    font-weight: 400;
+    font-size: 3.5vh;
+    font-style: italic;
+    margin-bottom: 3.2vh;
+    line-height: 1;
+}
+
+.instruction__btn {
+    display: inline-block;
+    width: 250px;
+    height: 80px;
+    padding-top: 15px;
+    background-color: #e2907a;
+    border-radius: 4px;
+    cursor: pointer;
+
+    font-size: 22px;
+    line-height: 0.9;
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.1s linear;
+    transition: background-color 0.1s linear;
+    
+    
+}
+
+.instruction__btn:hover {
+    color: #fff;
+    background-color: #320b0b;
+}
+
+.cross {
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    z-index: 1000;
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 0 4px;
+    border-radius: 4px;
+    transition: color .2s linear;
+    transition: background-color .2s linear;
+
+}
+
+.cross:hover {
+    color: #fff;
+    background-color: #333;
+}
+
