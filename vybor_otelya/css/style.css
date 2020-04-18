@@ -176,10 +176,10 @@ h6 {
 }
 
 .modal__content {
-  margin: 10vh auto;
+  margin: 5vh auto;
   
   width: 80%;
-  height: 80%;
+  height: 90%;
   position: relative;
   background-color: #fff;
     border: 4px solid #ffa68e;
@@ -249,10 +249,10 @@ h6 {
 
 
 .open__content{
-    margin: 10vh auto;
+    margin: 5vh auto;
   
   width: 80%;
-  height: 80%;
+  height: 90%;
   position: relative;
   background-color: #fff;
     border: 4px solid #ffa68e;
@@ -316,10 +316,10 @@ h6 {
 
 
 .box__content{
-    margin: 10vh auto;
+    margin: 5vh auto;
   
   width: 80%;
-  height: 80%;
+  height: 90%;
   position: relative;
   background-color: #fff;
     border: 4px solid #ffa68e;
