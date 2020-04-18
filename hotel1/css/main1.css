@@ -1,0 +1,107 @@
+body{
+	font-family: 'Didact Gothic', sans-serif;
+	background-color: #ebe4e2;
+}
+
+	.headertext{
+		text-align: center;
+		font-size: 40px;
+		font-weight: bold;
+		color: #370101;
+	}
+
+
+	.container{
+		display: flex;
+		justify-content: space-around;
+		
+
+	}
+
+	.container .container-item{
+		margin: 1%;
+		padding: 1%;
+	}
+
+
+	.container-item {
+		
+
+
+		-webkit-transition: all 0.3s ease-in-out;
+  		-o-transition: all 0.3s ease-in-out;
+ 		 transition: all 0.3s ease-in-out;
+  		-webkit-box-shadow: 3px 4px 9px #00000075;
+  		box-shadow: 3px 4px 9px #00000075;
+	}
+
+	.container-item:hover {
+		-webkit-transform: scale(1.03);
+  		-ms-transform: scale(1.03);
+ 		 transform: scale(1.03);
+  		-webkit-box-shadow: 3px 4px 15px #00000175;
+ 		 box-shadow: 3px 4px 15px #00000175;
+	}
+
+	.nazvnomera{
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.n1{
+		width: 100%;
+	}
+
+	.razmer{
+		font-size: 15px;
+		font-weight: bold;
+		margin-left: 5%;
+	}
+
+	.text{
+		font-size: 15px;
+	}
+
+	.footer{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 10%;		
+	}
+
+
+	.cost{
+		font-size: 35px;
+		font-weight: bold;
+	}
+
+	.buttonB{
+	width: 140px;
+    height: 55px;
+    font-size: 15px;
+    background-color: #f19883;
+    border: 3px #f19883;
+    cursor: pointer;
+	display: inline-block;
+	
+	-webkit-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+	-webkit-box-shadow: 2px 2px 5px #00000040;
+	box-shadow: 2px 2px 5px #00000040;
+
+	}
+
+	.buttonB:hover {
+    background-color: #370101;
+	color: #fff;
+	
+	-webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.82);
+	box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.82);
+	-webkit-transform: scale(1.03);
+	-ms-transform: scale(1.03);
+	transform: scale(1.03);
+   }
+
+
+
