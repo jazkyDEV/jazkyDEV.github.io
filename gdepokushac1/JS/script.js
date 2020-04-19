@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
 
-    var money = JSON.parse(sessionStorage.getItem('counter'));
+    var money = JSON.parse(sessionStorage.getItem('counter')).toFixed(1);
     $('.counter').html(money);
 
     $('.counter').counterUp({
@@ -8,7 +8,7 @@ jQuery(document).ready(function($){
         time: 500
     });
 
-
+    
     
     
     
