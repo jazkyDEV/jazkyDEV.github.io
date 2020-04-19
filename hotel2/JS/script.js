@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
 
-    var money = JSON.parse(sessionStorage.getItem('counter'));
+    var money = JSON.parse(sessionStorage.getItem('counter')..toFixed(1));
     $('.counter').html(money);
 
     $('.counter').counterUp({
@@ -9,6 +9,28 @@ jQuery(document).ready(function($){
     });
 
 
+
+
+    $('#econom').on('click', function(){
+
+        money=money-60;
+        sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
+        
+        });
+    
+    $('#comfort').on('click', function(){
+    
+            money=money-89;
+            sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
+            
+    });
+    
+    $('#lux2k').on('click', function(){
+    
+                money=money-159;
+                sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
+            
+    });
     
     
     
