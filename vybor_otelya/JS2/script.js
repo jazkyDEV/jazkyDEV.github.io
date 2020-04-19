@@ -8,6 +8,36 @@ jQuery(document).ready(function($){
         time: 500
     });
 
+    var taxi = JSON.parse(sessionStorage.getItem('taxi'));
+
+
+    $('#mariott').on('click',function(){
+
+      money = money-47*taxi;
+      sessionStorage.setItem('counter', JSON.stringify(money));  
+
+
+
+    });
+
+    $('#orbita').on('click',function(){
+
+        money = money-48*taxi;
+        sessionStorage.setItem('counter', JSON.stringify(money));  
+  
+  
+  
+      });
+
+      $('#viva').on('click',function(){
+
+        money = money-40*taxi;
+        sessionStorage.setItem('counter', JSON.stringify(money));  
+  
+  
+  
+      });
+
 
     
     
