@@ -14,7 +14,7 @@ jQuery(document).ready(function($){
     $('#mariott').on('click',function(){
 
       money = money-47*taxi;
-      sessionStorage.setItem('counter', JSON.stringify(money));  
+      sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));  
 
 
 
@@ -23,7 +23,7 @@ jQuery(document).ready(function($){
     $('#1orbita').on('click',function(){
 
         money = money-48*taxi;
-        sessionStorage.setItem('counter', JSON.stringify(money));  
+        sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1))); 
   
   
   
@@ -32,7 +32,7 @@ jQuery(document).ready(function($){
       $('#1viva').on('click',function(){
 
         money = money-40*taxi;
-        sessionStorage.setItem('counter', JSON.stringify(money));  
+        sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));   
   
   
   
