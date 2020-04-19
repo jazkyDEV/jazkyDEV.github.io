@@ -20,7 +20,7 @@ jQuery(document).ready(function($){
 
     });
 
-    $('#orbita').on('click',function(){
+    $('#1orbita').on('click',function(){
 
         money = money-48*taxi;
         sessionStorage.setItem('counter', JSON.stringify(money));  
@@ -29,7 +29,7 @@ jQuery(document).ready(function($){
   
       });
 
-      $('#viva').on('click',function(){
+      $('#1viva').on('click',function(){
 
         money = money-40*taxi;
         sessionStorage.setItem('counter', JSON.stringify(money));  
