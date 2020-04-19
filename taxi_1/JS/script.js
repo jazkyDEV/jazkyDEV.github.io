@@ -9,7 +9,7 @@ jQuery(document).ready(function($){
     });
 
 
-   /*  $('.counter__item').on('click', function(){
+    $('.counter__item').on('click', function(){
         $('.counter').counterUp({
             delay: 10,
             time: 500
@@ -42,7 +42,7 @@ jQuery(document).ready(function($){
         taxi=0.5;
         sessionStorage.setItem('taxi', JSON.stringify(taxi));
         sessionStorage.setItem('counter', JSON.stringify(money));
-    }); */
+    });
     
     
 
