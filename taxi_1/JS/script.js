@@ -9,12 +9,7 @@ jQuery(document).ready(function($){
     });
 
 
-    $('.counter__item').on('click', function(){
-        $('.counter').counterUp({
-            delay: 10,
-            time: 500
-        });
-    });
+    
 
 
     var taxi;
