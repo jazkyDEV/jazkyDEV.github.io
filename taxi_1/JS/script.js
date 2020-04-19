@@ -22,8 +22,8 @@ $(function(){
     $('#yandex1').on('click', function(){
 
         taxi=0.2;
-sessionStorage.setItem('taxi', JSON.stringify(taxi));
-    
+    sessionStorage.setItem('taxi', JSON.stringify(taxi));
+    sessionStorage.setItem('counter', JSON.stringify(money));
 
     });
 
@@ -32,7 +32,7 @@ sessionStorage.setItem('taxi', JSON.stringify(taxi));
 
         taxi=0.4;
         sessionStorage.setItem('taxi', JSON.stringify(taxi));
-    
+        sessionStorage.setItem('counter', JSON.stringify(money));
 
     });
 
@@ -41,7 +41,7 @@ sessionStorage.setItem('taxi', JSON.stringify(taxi));
 
         taxi=0.5;
         sessionStorage.setItem('taxi', JSON.stringify(taxi));
-        
+        sessionStorage.setItem('counter', JSON.stringify(money));
     });
     
     
