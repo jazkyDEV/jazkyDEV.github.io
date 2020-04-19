@@ -384,11 +384,11 @@ h6 {
   display: inline-block;
   background: linear-gradient(#ccc, #fff);
   width: 200px;
-  height: 50px;
+  height: 70px;
   border: 4px solid #F0B965;
   border-radius: 50px;
   cursor: pointer;
-  /* padding-top: 10px; */
+  padding-top: 10px;
 
 
   text-align: center;
