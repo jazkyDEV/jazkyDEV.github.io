@@ -1,4 +1,4 @@
-$(function(){
+jQuery(document).ready(function($){
 
     var money=1000;
     $('.counter').html(money);
