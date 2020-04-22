@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
 
-    var money=1000;
+    var money=650;
     $('.counter').html(money);
 
     $('.counter').counterUp({
