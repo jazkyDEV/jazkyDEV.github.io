@@ -20,6 +20,8 @@
     position:absolute;
 }
 
+
+
 @keyframes glowing {
   0% { background-color: #fddccf; box-shadow: 0 0 2px #f7cab0; }
   50% { background-color: #f7b986; box-shadow: 0 0 9px #f8977f; }
@@ -33,6 +35,10 @@ button{
 .button:hover{
  	animation: none;
     background-color: #370101;
+}
+
+.button:focus {
+    outline: none;
 }
 
 .ractangle{
