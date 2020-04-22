@@ -1,0 +1,155 @@
+.back2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    height:90vh;
+    width: 160vh;
+    margin-bottom: 66px;
+}
+  
+.button{
+    left: 47.37%;
+    bottom:84%;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+    background-color: #f19883;
+    border:none;
+    cursor:pointer; 
+    position:absolute;
+}
+
+@keyframes glowing {
+  0% { background-color: #fddccf; box-shadow: 0 0 2px #f7cab0; }
+  50% { background-color: #f7b986; box-shadow: 0 0 9px #f8977f; }
+  100% { background-color: #f89a74; box-shadow: 0 0 2px #f8945a; }
+}
+
+button{
+    animation:glowing 1500ms infinite;
+}
+
+.button:hover{
+ 	animation: none;
+    background-color: #370101;
+}
+
+.ractangle{
+	margin-left: 30px;
+    width: 0;
+	height: 0;
+	border-top: 21px solid transparent;
+    border-left: 40px solid #e8e8e8;
+    border-bottom: 21px solid transparent;
+}
+
+body{
+    position:relative;
+    font-family: 'Didact Gothic', sans-serif;
+    overflow-y: hidden;
+    
+}
+
+.back span{
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 36%;
+
+    text-align: center;
+    color: #000000;
+    font-size: 45px;
+
+    border: 1px solid #000000;
+    padding-top:2%;
+    padding-left: 4%;
+    padding-bottom: 2%;
+    padding-right: 4%;
+}
+
+h1{
+    display: inline-block;
+    position: absolute;
+    top: -10%;
+    left: 45%;
+
+    color: #000000;
+    font-size: 55vh;
+}
+
+h2{
+    display: inline-block;
+    top: -56%;
+    left: 19%;
+
+    color: #e78383;
+    font-size: 55vh;
+
+    position: absolute;
+}
+
+h3{
+    display: inline-block;
+    position: absolute;
+    top: -73%;
+    right: 17%;
+    z-index: 1;
+
+    color:#afabab;
+    font-size: 55vh;
+}
+
+span {
+    position: absolute;
+    animation: mymove 2s ;
+    animation-delay: none;
+    animation-iteration-count: 1;
+}
+@keyframes mymove {
+    from {top: -100%;}
+    to {top: 40%;}
+}
+
+.h1{
+opacity:0; 
+transition: all 2s linear; 
+animation: ap 1s 1; 
+animation-fill-mode: forwards; 
+animation-delay: 1s; 
+}
+@keyframes ap{
+    0%{
+		opacity:0;
+		transform: scale(2);
+	}
+
+    100% {
+		opacity:1;
+		transform: scale(1);
+	}
+}
+
+.h2{
+opacity:0; 
+transition: 2s; 
+animation: ap 1s 1,glowing1 40s infinite; 
+animation-fill-mode: forwards; 
+animation-delay: 1.5s; 
+}
+
+@keyframes glowing1 {
+    0% { color: #e2a8a8;}
+    25% { color: #c22020;}
+    50% { color: #741313;}
+    75% { color: #c22020;}
+    100% { color: #e2a8a8;}
+}
+
+.h3{
+    opacity:0; 
+    transition: 2s; 
+    animation: ap 1s 1; 
+    animation-fill-mode: forwards; 
+    animation-delay: 2s; 
+}
