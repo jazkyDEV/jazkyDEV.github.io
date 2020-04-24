@@ -8,6 +8,11 @@ jQuery(document).ready(function($){
         time: 500
     });
 
+    if(money<=0){
+        $(function(){
+          $('#wdw').fadeIn();
+        });
+      };
 
 
     $('#viva10').on('click', function(){

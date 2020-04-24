@@ -159,3 +159,110 @@ body{
 
 
 
+/* MODAL YOU LOOSE */
+
+.wdw {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.6);
+
+    width: 100%;
+    height: 100%;
+
+    display: none;
+    
+   
+}
+
+.wdw__inner {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1001;
+    transform: translate3d(-50%, -50%, 0);
+    display: flex;
+    flex-direction: column;
+
+    border: 3px solid #f79079;
+    color: #2a0101;
+    background-color: #fff;
+    font-family: 'Didact Gothic', sans-serif;
+
+    
+    margin: 0 auto;
+    width: 860px;
+}
+
+.wdw__img {
+    margin: 1px auto 30px;
+    width: 262px;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.wdw__title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+
+    margin-bottom: 20px;
+}
+
+.wdw__text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+
+    margin-bottom: 40px;
+}
+
+.wdw__link {
+    margin: 0 auto  40px;
+    
+
+
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+     transition: all ease 0.3s;
+     -webkit-box-shadow: 2px 2px 5px #00000040;
+     box-shadow: 2px 2px 5px #00000040;
+}
+
+.wdw__link:hover {
+    -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.82);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.82);
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+     transform: scale(1.03);
+}
+
+
+.wdw__link:hover .wdw__btn {
+    background-color: #370101;
+	color: #fff;
+}
+
+
+
+.wdw__btn {
+    border: none;
+    background-color: #f79079;
+    width: 350px;
+    height: 75px;
+
+    color: #2a0101;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 30px;
+
+    cursor: pointer;
+
+
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+     transition: all ease 0.3s;
+
+}

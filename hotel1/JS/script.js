@@ -9,6 +9,12 @@ jQuery(document).ready(function($){
     });
 
 
+    if(money<=0){
+        $(function(){
+          $('#wdw').fadeIn();
+        });
+      };
+      
     $('#classic').on('click', function(){
 
         money=money-195;

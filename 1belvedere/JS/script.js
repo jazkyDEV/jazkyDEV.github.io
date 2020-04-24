@@ -8,6 +8,11 @@ jQuery(document).ready(function($){
         time: 500
     });
 
+    if(money<=0){
+        $(function(){
+          $('#wdw').fadeIn();
+        });
+      };
 
     $('#belvedere1').on('click', function(){
 

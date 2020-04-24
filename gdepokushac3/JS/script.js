@@ -9,7 +9,11 @@ jQuery(document).ready(function($){
     });
 
 
-    
+    if(money<=0){
+        $(function(){
+          $('#wdw').fadeIn();
+        });
+      };
     
     
 
