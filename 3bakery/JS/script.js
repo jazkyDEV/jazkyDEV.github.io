@@ -10,7 +10,32 @@ jQuery(document).ready(function($){
 
 
     
+    $('#bakery1').on('click', function(){
+
+        money=money-16;
+        sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
+        location.href = 'https://jazkydev.github.io/activePassive';
+
+        
+        });
     
+    $('#bakery2').on('click', function(){
+    
+            money=money-12;
+            sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
+            location.href = 'https://jazkydev.github.io/activePassive';
+
+            
+    });
+    
+    $('#bakery3').on('click', function(){
+    
+                money=money-9;
+                sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
+                location.href = 'https://jazkydev.github.io/activePassive';
+
+                
+    });
     
 
 

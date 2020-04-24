@@ -11,7 +11,32 @@ jQuery(document).ready(function($){
 
     
     
+    $('#orbita1').on('click', function(){
+
+        money=money-18;
+        sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
+        location.href = 'https://jazkydev.github.io/activePassive';
+
+        
+        });
     
+    $('#orbita2').on('click', function(){
+    
+            money=money-13;
+            sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
+            location.href = 'https://jazkydev.github.io/activePassive';
+
+            
+    });
+    
+    $('#orbita3').on('click', function(){
+    
+                money=money-11;
+                sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
+                location.href = 'https://jazkydev.github.io/activePassive';
+
+                
+    });
 
 
 });
