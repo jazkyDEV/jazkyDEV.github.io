@@ -23,14 +23,33 @@ h6 {
 }
 
 .page {
+  max-width: 1200px;
   position: relative;
+}
+
+@media(max-width:1200px){
+    .page{
+        max-width: 970px;
+    }
+}
+
+@media(max-width:992px){
+    .page{
+        max-width: 750px;
+    }
+}
+
+@media(max-width:767px){
+    .page{
+        max-width: none;
+    }
 }
 
 .section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
+  max-width: 1200px;
   height: 140px;
 
   background: url("../css/images/images/fon-_01.jpg") center no-repeat;
@@ -51,6 +70,8 @@ h6 {
   font-size: 30px;
   color: #370101;
 }
+
+
 
 .containers {
   display: flex;
