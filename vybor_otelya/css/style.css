@@ -23,7 +23,7 @@ h6 {
 }
 
 .page {
-  max-width: 100%;
+  
   position: relative;
 }
 
@@ -31,17 +31,26 @@ h6 {
     .page{
         max-width: 970px;
     }
+    .section__suptitle{
+        font-size: 26px;
+    }
 }
 
 @media(max-width:992px){
     .page{
         max-width: 750px;
     }
+    .section__suptitle{
+        font-size: 24px;
+    }
 }
 
 @media(max-width:767px){
     .page{
         max-width: none;
+    }
+    .section__suptitle{
+        font-size: 20px;
     }
 }
 
