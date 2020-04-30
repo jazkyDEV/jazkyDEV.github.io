@@ -536,14 +536,20 @@ color: #fff;
 
 @media(max-width:767px){
     .section__suptitle{
-        font-size: 15px;
+        font-size: 10px;
     }
     #myModal{
         max-height: 80%;
     }
-    #wdw{
-        min-width: 80%;
+    .modal__content{
         max-height: 80%;
+    }
+    #wdw{
+        max-width: 60%;
+        max-height: 60%;
+    }
+    .counter__item{
+        max-width: 40px; 
     }
 }
 
