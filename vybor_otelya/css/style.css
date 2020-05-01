@@ -624,15 +624,15 @@ color: #fff;
     .wdw{
         
         max-height: 100%;
-        max-width: 90%;
+        max-width: 100%;
     }
     
     .wdw__img{
-        max-height: 200px;
-        max-width: 250px;
+        max-height: 170px;
+        max-width: 220px;
     }
     .wdw__title{
-        font-size: 25px;
+        font-size: 23px;
     }
     .wdw__text{
         font-size: 18px;
