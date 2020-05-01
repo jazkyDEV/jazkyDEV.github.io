@@ -302,7 +302,7 @@ body{
         max-width: none;
     }
     .headertext{
-        font-size: 30px;
+        font-size: 25px;
     }
      .wdw{
         max-height: 100%;
@@ -327,7 +327,7 @@ body{
     }
 
     .counter__item{
-        max-width: 130px; 
+        max-width: 150px; 
     }
 }
 
