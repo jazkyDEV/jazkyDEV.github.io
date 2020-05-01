@@ -282,7 +282,7 @@ body{
 
 @media(max-width:770px){
     .headertext{
-        font-size: 25px;
+        font-size: 28px;
     }
     
     .wdw{
@@ -322,6 +322,6 @@ body{
     padding-top: 7px;
   }
   .headertext{
-    font-size: 25px;
+    font-size: 28px;
   }
 }
