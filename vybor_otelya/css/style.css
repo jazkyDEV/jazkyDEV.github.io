@@ -543,8 +543,27 @@ color: #fff;
 
 }
 
-@media (max-width: 990px){
-  .counter__item{
+@media(max-width: 992px){
+    #myOpen{
+        max-height: 100%;
+    }
+    .open__content{
+        max-height: 100%;
+    }
+    .open-header{
+        font-size: 22px;
+    }
+    .open-description{
+        font-size: 16px;
+    }
+    .service{
+        font-size: 18px;
+    }
+    .images{
+        font-size: 18px;
+    }
+    
+    .counter__item{
     width: 150px;
     height: 50px;
     font-size: 20px;
@@ -649,25 +668,6 @@ color: #fff;
     }
 }
 
-@media(max-width: 992px){
-    #myOpen{
-        max-height: 100%;
-    }
-    .open__content{
-        max-height: 100%;
-    }
-    .open-header{
-        font-size: 22px;
-    }
-    .open-description{
-        font-size: 16px;
-    }
-    .service{
-        font-size: 18px;
-    }
-    .images{
-        font-size: 18px;
-    }
-}
+
 
 
