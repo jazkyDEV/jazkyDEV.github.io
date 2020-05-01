@@ -20,9 +20,10 @@ body{
 	}
 
 	.container .container-item{
-		margin-right: 7px;
+		margin-right: 12px;
+        margin-left: 12px;
 		padding: 1%;
-        max-width: 300px;
+        max-width: 320px;
 	}
 
 
