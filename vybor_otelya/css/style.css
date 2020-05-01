@@ -568,10 +568,10 @@ color: #fff;
         max-height: 90%;
     }
     .modal-header{
-        font-size: 18px;
+        font-size: 22px;
     }
     .description{
-        font-size: 15px;
+        font-size: 18px;
     }
     .list{
         font-size: 16px;
@@ -588,16 +588,16 @@ color: #fff;
         max-height: 100%;
     }
     .open-header{
-        font-size: 18px;
+        font-size: 22px;
     }
     .open-description{
-        font-size: 10px;
+        font-size: 16px;
     }
     .service{
-        font-size: 15px;
+        font-size: 16px;
     }
     .images{
-        font-size: 14px;
+        font-size: 18px;
     }
 
 
@@ -608,10 +608,10 @@ color: #fff;
         max-height: 90%;
     }
     .box-header{
-        font-size: 18px;
+        font-size: 22px;
     }
     .box-description{
-        font-size: 15px;
+        font-size: 18px;
     }
     .conv{
         font-size: 16px;
@@ -622,8 +622,10 @@ color: #fff;
 
 
     .wdw{
-        margin-top: 50%;
-        margin-left: 50%;
+        margin-top: 10%;
+        margin-left: 10%;
+        max-height: 100%;
+        max-width: 100%;
     }
     .wdw__inner{
         top: 50%;
