@@ -19,8 +19,11 @@ body{
 	}
 
 	.container .container-item{
-		margin: 1%;
+		margin: 0 auto;
 		padding: 1%;
+        max-width: 390px;
+        height: 530px;
+        
 	}
 	
 	.container-item {
