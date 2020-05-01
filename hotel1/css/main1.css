@@ -269,6 +269,9 @@ body{
     .headertext{
         font-size: 35px;
     }
+     .container{
+         max-width: 750px;
+     }
      
      
      .wdw{
@@ -302,6 +305,9 @@ body{
 @media(max-width: 767px){
     .headertext{
         font-size: 25px;
+    }
+    .container{
+        max-width: none;
     }
     
     
