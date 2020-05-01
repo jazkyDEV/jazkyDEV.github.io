@@ -20,7 +20,7 @@ body{
 	}
 
 	.container .container-item{
-		margin: 1%;
+		margin-right: 10px;
 		padding: 1%;
         max-width: 350px;
 	}
