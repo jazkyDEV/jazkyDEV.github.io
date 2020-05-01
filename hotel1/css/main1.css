@@ -20,12 +20,9 @@ body{
 	}
 
 	.container .container-item{
-        text-align: center;
 		
 		padding: 1%;
-        max-width: 30%;
-        margin-left: 2%;
-        margin-right: 2%;
+        max-width: 25%;
 	}
 
 
