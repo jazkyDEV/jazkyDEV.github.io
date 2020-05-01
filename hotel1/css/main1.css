@@ -16,13 +16,13 @@ body{
         justify-content: space-between;
         margin: 0 90px;
         flex-wrap: wrap;
-		
 
 	}
 
 	.container .container-item{
 		margin: 1%;
 		padding: 1%;
+        max-width: 200px;
 	}
 
 
