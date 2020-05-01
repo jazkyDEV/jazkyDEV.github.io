@@ -243,7 +243,7 @@ h1, h2, h3, h4, h5, h6 {
     .page__title {
         font-size: 8vh;
         top: 0.5vh;
-        width: 100vw;
+        width: 95vw;
         text-align: center;
     }
     .line__lower {
