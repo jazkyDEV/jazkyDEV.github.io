@@ -574,7 +574,7 @@ color: #fff;
         font-size: 18px;
     }
     .list{
-        font-size: 16px;
+        font-size: 20px;
     }
     .img{
         font-size: 18px;
@@ -594,7 +594,7 @@ color: #fff;
         font-size: 16px;
     }
     .service{
-        font-size: 16px;
+        font-size: 20px;
     }
     .images{
         font-size: 18px;
@@ -614,7 +614,7 @@ color: #fff;
         font-size: 18px;
     }
     .conv{
-        font-size: 16px;
+        font-size: 20px;
     }
     .imgs{
         font-size: 18px;
@@ -624,11 +624,9 @@ color: #fff;
     .wdw{
         
         max-height: 100%;
-        max-width: 100%;
+        max-width: 90%;
     }
-    .wdw__inner{
-        max-width: 700px;
-    }
+    
     .wdw__img{
         max-height: 200px;
         max-width: 250px;
