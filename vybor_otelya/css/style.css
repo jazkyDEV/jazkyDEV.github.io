@@ -534,9 +534,36 @@ color: #fff;
 
 }
 
-@media(max-width:767px){
+
+@media(max-width:1205px) {
+
+  .section__suptitle {
+        font-size: 21px;
+    }
+
+}
+
+@media (max-width: 990px){
+  .counter__item{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    padding-top: 7px;
+  }
+  .section__suptitle{
+    font-size: 16px;
+}
+}
+
+
+
+@media(max-width:770px){
     .section__suptitle{
+<<<<<<< HEAD
         font-size: 15px;
+=======
+        font-size: 14px;
+>>>>>>> 2deffeb4dffd902e4032e64c511ceacb7aa9bbb8
     }
     #myModal{
         max-height: 80%;
@@ -579,8 +606,12 @@ color: #fff;
         max-width: 60%;
         max-height: 60%;
     }
+<<<<<<< HEAD
     .counter__item{
         max-width: 120px; 
     }
+=======
+
+>>>>>>> 2deffeb4dffd902e4032e64c511ceacb7aa9bbb8
 }
 
