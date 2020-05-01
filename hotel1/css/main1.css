@@ -13,7 +13,7 @@ body{
 
 	.container{
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-around;
 		flex-wrap: wrap;
 
 	}
@@ -21,7 +21,7 @@ body{
 	.container .container-item{
 		margin: 1%;
 		padding: 1%;
-        max-width: 25%;
+        max-width: 30%;
 	}
 
 
