@@ -585,7 +585,7 @@ color: #fff;
         max-height: 80%;
     }
     .open__content{
-        max-height: 90%;
+        max-height: 100%;
     }
     .open-header{
         font-size: 18px;
@@ -594,10 +594,10 @@ color: #fff;
         font-size: 15px;
     }
     .service{
-        font-size: 16px;
+        font-size: 15px;
     }
     .images{
-        font-size: 16px;
+        font-size: 14px;
     }
 
 
@@ -625,9 +625,20 @@ color: #fff;
         max-width: 60%;
         max-height: 60%;
     }
-    .wdw__inner{
-        max-width: 60%;
-        max-height: 60%;
+    .wdw__img{
+        max-height: 200px;
+        max-width: 250px;
+    }
+    .wdw__title{
+        font-size: 25px;
+    }
+    .wdw__text{
+        font-size: 18px;
+    }
+    .wdw__btn{
+        max-width: 250px;
+        max-height: 65px;
+        font-size: 25px;
     }
 
     .counter__item{
