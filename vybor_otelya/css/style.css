@@ -622,16 +622,12 @@ color: #fff;
 
 
     .wdw{
-        margin-top: 10%;
-        margin-left: 10%;
+        
         max-height: 100%;
         max-width: 100%;
     }
     .wdw__inner{
-        top: 50%;
-        left: 50%;
         max-width: 700px;
-        margin: 0 auto;
     }
     .wdw__img{
         max-height: 200px;
