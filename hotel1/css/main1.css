@@ -13,16 +13,14 @@ body{
 
 	.container{
 		display: flex;
-        justify-content: space-between;
-       
-        flex-wrap: wrap;
+		justify-content: space-around;
+		
 
 	}
 
 	.container .container-item{
-		
+		margin: 1%;
 		padding: 1%;
-        max-width: 25%;
 	}
 
 
@@ -52,7 +50,7 @@ body{
 	}
 
 	.n1{
-		max-width: 100%;
+		width: 100%;
 	}
 
 	.razmer{
@@ -264,79 +262,3 @@ body{
      transition: all ease 0.3s;
 
 }
-
- @media(max-width: 992px){
-    .headertext{
-        font-size: 35px;
-    }
-     .container{
-         max-width: 750px;
-     }
-     
-     
-     .wdw{
-        max-height: 100%;
-        max-width: 100%;
-    }
-    
-    .wdw__img{
-        max-height: 170px;
-        max-width: 220px;
-    }
-    .wdw__title{
-        font-size: 23px;
-    }
-    .wdw__text{
-        font-size: 18px;
-    }
-    .wdw__btn{
-        max-width: 270px;
-        max-height: 65px;
-        font-size: 20px;
-        text-align: center;
-    }
-
-     
-    .counter__item{
-        max-width: 190px; 
-    }
-}
-
-@media(max-width: 767px){
-    .headertext{
-        font-size: 25px;
-    }
-    .container{
-        max-width: none;
-    }
-    
-    
-     .wdw{
-        max-height: 100%;
-        max-width: 100%;
-    }
-    
-    .wdw__img{
-        max-height: 170px;
-        max-width: 220px;
-    }
-    .wdw__title{
-        font-size: 23px;
-    }
-    .wdw__text{
-        font-size: 18px;
-    }
-    .wdw__btn{
-        max-width: 270px;
-        max-height: 65px;
-        font-size: 20px;
-        text-align: center;
-    }
-    
-
-    .counter__item{
-        max-width: 170px; 
-    }
-}
-
-
