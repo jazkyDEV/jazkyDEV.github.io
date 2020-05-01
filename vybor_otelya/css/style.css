@@ -562,7 +562,7 @@ color: #fff;
         font-size: 15px;
     }
     #myModal{
-        max-height: 80%;
+        max-height: 100%;
     }
     .modal__content{
         max-height: 90%;
@@ -582,7 +582,7 @@ color: #fff;
     
     
     #myOpen{
-        max-height: 90%;
+        max-height: 100%;
     }
     .open__content{
         max-height: 100%;
@@ -591,7 +591,7 @@ color: #fff;
         font-size: 18px;
     }
     .open-description{
-        font-size: 12px;
+        font-size: 10px;
     }
     .service{
         font-size: 15px;
@@ -602,7 +602,7 @@ color: #fff;
 
 
      #myBox{
-        max-height: 80%;
+        max-height: 100%;
     }
     .box__content{
         max-height: 90%;
@@ -622,9 +622,8 @@ color: #fff;
 
 
     .wdw{
-        max-width: 40%;
-        max-height: 60%;
-        background-color: rgba(0,0,0,0.6);
+        margin-top: 50%;
+        margin-left: 50%;
     }
     .wdw__inner{
         top: 50%;
