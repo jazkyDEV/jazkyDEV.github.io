@@ -263,7 +263,7 @@ body{
 
 }
 
-@media(max-width: 992px){
+/*@media(max-width: 992px){
     .container{
         max-width: 750px;
     }
@@ -330,4 +330,16 @@ body{
         max-width: 170px; 
     }
 }
+*/
 
+@media(max-width:992px){
+    .headertext{
+        font-size: 35px;
+    }
+}
+
+@media(max-width:767px){
+    .headertext{
+        font-size: 25px;
+    }
+}
