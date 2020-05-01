@@ -12,10 +12,10 @@ body{
 
 
 	.container{
-		display: flex;
+		display: inline-block;
         justify-content: space-between;
        
-        flex-wrap: wrap;
+        
 
 	}
 
