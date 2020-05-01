@@ -314,3 +314,14 @@ body{
     }
 }
 
+@media(max-width: 320px){
+    .counter__item{
+    width: 120px;
+    height: 40px;
+    font-size: 25px;
+    padding-top: 7px;
+  }
+  .headertext{
+    font-size: 25px;
+  }
+}
