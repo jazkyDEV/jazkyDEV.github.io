@@ -151,7 +151,6 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 500;
     transform: translate3d(-50%, -50%, 0);
     width: 65vw;
-    height: 74vh;
     display: block;
     background-color: #fff;
     border: 5px solid #f79079;
@@ -259,6 +258,22 @@ h1, h2, h3, h4, h5, h6 {
     .line__higher {
         height: 43vh;
     }
+
+    /* INSTRUCTION */
+
+    .instruction {
+        width: 80vw;
+
+    }
+
+    .instruction__title {
+        font-size: 3vh;
+        margin-bottom: 3vh;
+    }
+
+    .instruction__text {
+        font-size: 2.5vh;
+    }
 }
 
 @media (max-width: 1000px){
@@ -291,6 +306,10 @@ h1, h2, h3, h4, h5, h6 {
     .btn {
         font-size: 32px;
     }
+/*  INSTRUCTION */
+    .instruction__text {
+        font-size: 2vh;
+    }
 }
 
 @media (max-width: 575px) {
@@ -315,5 +334,28 @@ h1, h2, h3, h4, h5, h6 {
         width: 25vw;
         right: 3vw;
         font-size: 25px;
+    }
+
+
+    /* INSTRUCTION */
+
+    .instruction__title {
+        font-size: 2.5vh;
+        margin-bottom: 1.5vh;
+    }
+
+    .instruction__text {
+        font-size: 1.7vh;
+        margin-bottom: 1.5vh;
+    }
+    .instruction__btn {
+        width: 190px;
+        height: 50px;
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    .cross {
+        font-size: 20px;
     }
 }
