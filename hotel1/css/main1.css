@@ -275,7 +275,7 @@ body{
     padding-top: 7px;
   }
   .headertext{
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
@@ -283,7 +283,7 @@ body{
 
 @media(max-width:770px){
     .headertext{
-        font-size: 30px;
+        font-size: 20px;
     }
     .counter__item{
         max-width: 120px; 
