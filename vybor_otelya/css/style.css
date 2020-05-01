@@ -534,9 +534,32 @@ color: #fff;
 
 }
 
-@media(max-width:767px){
+
+@media(max-width:1205px) {
+
+  .section__suptitle {
+        font-size: 21px;
+    }
+
+}
+
+@media (max-width: 990px){
+  .counter__item{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    padding-top: 7px;
+  }
+  .section__suptitle{
+    font-size: 16px;
+}
+}
+
+
+
+@media(max-width:770px){
     .section__suptitle{
-        font-size: 10px;
+        font-size: 14px;
     }
     #myModal{
         max-height: 80%;
@@ -548,8 +571,6 @@ color: #fff;
         max-width: 60%;
         max-height: 60%;
     }
-    .counter__item{
-        max-width: 40px; 
-    }
+
 }
 
