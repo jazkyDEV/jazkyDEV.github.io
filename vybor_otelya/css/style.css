@@ -559,17 +559,13 @@ color: #fff;
 
 @media(max-width:770px){
     .section__suptitle{
-<<<<<<< HEAD
         font-size: 15px;
-=======
-        font-size: 14px;
->>>>>>> 2deffeb4dffd902e4032e64c511ceacb7aa9bbb8
     }
     #myModal{
         max-height: 80%;
     }
     .modal__content{
-        max-height: 60%;
+        max-height: 90%;
     }
     .modal-header{
         font-size: 18px;
@@ -577,12 +573,19 @@ color: #fff;
     .description{
         font-size: 15px;
     }
+    .list{
+        font-size: 16px;
+    }
+    .img{
+        font-size: 18px;
+    }
+    
+    
     #myOpen{
         max-height: 80%;
     }
-     }
     .open__content{
-        max-height: 60%;
+        max-height: 90%;
     }
     .open-header{
         font-size: 18px;
@@ -590,11 +593,19 @@ color: #fff;
     .open-description{
         font-size: 15px;
     }
+    .service{
+        font-size: 16px;
+    }
+    .images{
+        font-size: 18px;
+    }
+
+
      #myBox{
         max-height: 80%;
     }
     .box__content{
-        max-height: 60%;
+        max-height: 90%;
     }
     .box-header{
         font-size: 18px;
@@ -602,16 +613,26 @@ color: #fff;
     .box-description{
         font-size: 15px;
     }
-    #wdw{
+    .conv{
+        font-size: 16px;
+    }
+    .imgs{
+        font-size: 18px;
+    }
+
+
+    .wdw{
         max-width: 60%;
         max-height: 60%;
     }
-<<<<<<< HEAD
+    .wdw__inner{
+        max-width: 60%;
+        max-height: 60%;
+    }
+
     .counter__item{
         max-width: 120px; 
     }
-=======
-
->>>>>>> 2deffeb4dffd902e4032e64c511ceacb7aa9bbb8
 }
+
 
