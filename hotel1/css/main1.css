@@ -282,7 +282,7 @@ body{
 
 @media(max-width:770px){
     .headertext{
-        font-size: 22px;
+        font-size: 25px;
     }
     
     .wdw{
@@ -309,8 +309,8 @@ body{
     }
 
     .counter__item{
-        max-width: 110px; 
-        height: 45px;
+        max-width: 120px; 
+        height: 40px;
     }
 }
 
