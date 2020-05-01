@@ -21,7 +21,8 @@ body{
 	.container .container-item{
 		margin: 0 auto;
 		padding: 1%;
-        max-width: 5%;
+        max-width: 390px;
+        height: 530px;
         
 	}
 
