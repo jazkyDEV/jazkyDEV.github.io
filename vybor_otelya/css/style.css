@@ -536,20 +536,51 @@ color: #fff;
 
 @media(max-width:767px){
     .section__suptitle{
-        font-size: 10px;
+        font-size: 15px;
     }
     #myModal{
         max-height: 80%;
     }
     .modal__content{
+        max-height: 60%;
+    }
+    .modal-header{
+        font-size: 18px;
+    }
+    .description{
+        font-size: 15px;
+    }
+    #myOpen{
         max-height: 80%;
+    }
+     }
+    .open__content{
+        max-height: 60%;
+    }
+    .open-header{
+        font-size: 18px;
+    }
+    .open-description{
+        font-size: 15px;
+    }
+     #myBox{
+        max-height: 80%;
+    }
+    .box__content{
+        max-height: 60%;
+    }
+    .box-header{
+        font-size: 18px;
+    }
+    .box-description{
+        font-size: 15px;
     }
     #wdw{
         max-width: 60%;
         max-height: 60%;
     }
     .counter__item{
-        max-width: 40px; 
+        max-width: 120px; 
     }
 }
 
