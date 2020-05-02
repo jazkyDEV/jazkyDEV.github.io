@@ -671,21 +671,21 @@ color: #fff;
 @media(max-width:500px){
     .section__suptitle{
         font-size: 15px;
-        margin-top: 15px;
+        margin-top: 40px;
     }
     .price{
-        bottom: 66px;
+        bottom: 50px;
         font-size: 20px;
     }
     .button{
         bottom: 5px;
     }
     .text{
-        bottom: 28px;
+        bottom: 40px;
         font-size: 15px;
     }
     .container_image{
-        max-width: 250px;
+        max-width: 100px;
     }
     #myModal{
         max-height: 100%;
