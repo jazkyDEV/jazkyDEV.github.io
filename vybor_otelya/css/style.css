@@ -668,19 +668,24 @@ color: #fff;
     }
 }
 
-@media(max-width:600px){
+@media(max-width:500px){
     .section__suptitle{
         font-size: 15px;
         margin-top: 15px;
     }
     .price{
-        bottom: 60px;
+        bottom: 66px;
+        font-size: 20px;
     }
     .button{
         bottom: 5px;
     }
+    .text{
+        bottom: 28px;
+        font-size: 15px;
+    }
     .container_image{
-        max-width: 100%;
+        max-width: 250px;
     }
     #myModal{
         max-height: 100%;
