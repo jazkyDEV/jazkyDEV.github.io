@@ -671,7 +671,7 @@ color: #fff;
 @media(max-width:500px){
     .section__suptitle{
         font-size: 15px;
-        margin-top: 40px;
+        margin-top: 50px;
     }
     .price{
         bottom: 50px;
@@ -685,7 +685,7 @@ color: #fff;
         font-size: 15px;
     }
     .container_image{
-        max-width: 100px;
+        max-width: 50px;
     }
     #myModal{
         max-height: 100%;
