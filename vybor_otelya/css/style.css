@@ -93,6 +93,8 @@ h6 {
 
   margin-top: 60px;
   margin-left: 0;
+  max-width: 370px; 
+  height: 300px;
 }
 
 
@@ -671,7 +673,7 @@ color: #fff;
 @media(max-width:500px){
     .section__suptitle{
         font-size: 15px;
-        margin-top: 60px;
+        margin-top: 70px;
     }
     .price{
         bottom: 50px;
