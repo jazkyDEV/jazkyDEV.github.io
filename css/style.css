@@ -270,6 +270,7 @@ animation-delay: 1.5s;
     .button {
         left: 51.3%;
     }
+    
 }
 
 @media (max-width: 575px){
@@ -280,6 +281,25 @@ animation-delay: 1.5s;
     .back span {
         font-size: 18px;
     }
+    
+}
+
+@media (height: 1366px) {
+    h1, h2, h3 {
+        font-size: 30vh;
+    }
+    
+     h1 {
+         top: 10%;
+     }
+     h3 {
+        right: 0%;
+        top: -45%;
+    }
+    h2 {
+        left: 8%;
+    }
+    
 }
 
 
