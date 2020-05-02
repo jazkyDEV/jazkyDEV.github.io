@@ -684,8 +684,9 @@ color: #fff;
         bottom: 40px;
         font-size: 15px;
     }
-    .container_image{
-        max-width: 30px;
+    .container{
+        background-image: url(images/hostel_viva_04.jpg);
+        max-width: 200px;
     }
     #myModal{
         max-height: 100%;
