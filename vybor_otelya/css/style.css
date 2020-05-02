@@ -668,6 +668,112 @@ color: #fff;
     }
 }
 
+@media(max-width:320px){
+    .section__suptitle{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .price{
+        bottom: 60px;
+    }
+    .button{
+        bottom: 5px;
+    }
+    .container_image{
+        max-width: 100%;
+    }
+    #myModal{
+        max-height: 100%;
+    }
+    .modal__content{
+        max-height: 100%;
+    }
+    .modal-header{
+        font-size: 18px;
+    }
+    .description{
+        font-size: 14px;
+    }
+    .list{
+        font-size: 15px;
+    }
+    .img{
+        font-size: 14px;
+    }
+    
+    
+    #myOpen{
+        max-height: 100%;
+    }
+    .open__content{
+        max-height: 100%;
+    }
+    .open-header{
+        font-size: 18px;
+    }
+    .open-description{
+        font-size: 14px;
+    }
+    .service{
+        font-size: 15px;
+    }
+    .images{
+        font-size: 14px;
+    }
+
+
+     #myBox{
+        max-height: 100%;
+    }
+    .box__content{
+        max-height: 100%;
+    }
+    .box-header{
+        font-size: 18px;
+    }
+    .box-description{
+        font-size: 14px;
+    }
+    .conv{
+        font-size: 15px;
+    }
+    .imgs{
+        font-size: 14px;
+    }
+
+
+    .wdw{
+        
+        max-height: 100%;
+        max-width: 100%;
+    }
+    
+    .wdw__img{
+        max-height: 130px;
+        max-width: 180px;
+    }
+    .wdw__title{
+        font-size: 18px;
+    }
+    .wdw__text{
+        font-size: 14px;
+    }
+    .wdw__btn{
+        max-width: 250px;
+        max-height: 55px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .counter__item{
+        max-width: 110px; 
+    }
+}
+
+
+
+
+
 
 
 
