@@ -668,7 +668,7 @@ color: #fff;
     }
 }
 
-@media(max-width:320px){
+@media(max-width:600px){
     .section__suptitle{
         font-size: 15px;
         margin-top: 15px;
