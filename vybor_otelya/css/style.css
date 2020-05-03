@@ -95,7 +95,10 @@ h6 {
   margin-left: 0;
 }
 
-
+.ih{
+    width: 370px;
+    height: 300px;
+}
 
 .name-of-hotel {
   text-transform: uppercase;
