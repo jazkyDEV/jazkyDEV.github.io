@@ -275,7 +275,7 @@ body{
   }
   .headertext{
     font-size: 30px;
-      margin-top: 80px;
+      margin-top: 40px;
   }
 }
 
@@ -283,7 +283,7 @@ body{
 
 @media(max-width:770px){
     .headertext{
-        font-size: 18px;
+        font-size: 22px;
         margin-top: 80px;
     }
     
