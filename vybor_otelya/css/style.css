@@ -687,6 +687,9 @@ color: #fff;
         bottom: 40px;
         font-size: 15px;
     }
+    .ih{
+        max-width: 200px;
+    }
    
     }
     #myModal{
