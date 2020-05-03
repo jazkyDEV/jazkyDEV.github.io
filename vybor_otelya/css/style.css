@@ -543,6 +543,8 @@ color: #fff;
   .section__suptitle {
         font-size: 21px;
     }
+    .counter__item{
+    width: 190px;
 
 }
 
@@ -651,14 +653,14 @@ color: #fff;
     }
     
     .wdw__img{
-        max-height: 170px;
-        max-width: 220px;
+        max-height: 230px;
+        max-width: 270px;
     }
     .wdw__title{
-        font-size: 23px;
+        font-size: 36px;
     }
     .wdw__text{
-        font-size: 18px;
+        font-size: 24px;
     }
     .wdw__btn{
         max-width: 270px;
@@ -689,7 +691,7 @@ color: #fff;
         font-size: 15px;
     }
     .ih{
-        max-width: 200px;
+        max-width: 350px;
     }
    
     }
