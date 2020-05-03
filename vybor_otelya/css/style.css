@@ -95,7 +95,9 @@ h6 {
   margin-left: 0;
 }
 
-
+.h1{
+    max-width: 100%;
+}
 
 .name-of-hotel {
   text-transform: uppercase;
@@ -684,10 +686,7 @@ color: #fff;
         bottom: 40px;
         font-size: 15px;
     }
-    .container{
-        background-image: url(images/hostel_viva_04.jpg);
-        max-width: 200px;
-    }
+  
     #myModal{
         max-height: 100%;
     }
