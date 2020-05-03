@@ -670,7 +670,7 @@ color: #fff;
     }
 
     .counter__item{
-        max-width: 150px; 
+        max-width: 170px; 
     }
 }
 
@@ -680,18 +680,18 @@ color: #fff;
         margin-top: 70px;
     }
     .adress{
-        font-size: 12px;
+        font-size: 14px;
     }
     .price{
-        bottom: 50px;
-        font-size: 15px;
+        bottom: 70px;
+        font-size: 17px;
     }
     .button{
         bottom: 5px;
     }
     .text{
-        bottom: 40px;
-        font-size: 10px;
+        bottom: 50px;
+        font-size: 12px;
     }
     .ih{
         width: 100%;
@@ -782,7 +782,7 @@ color: #fff;
     }
 
     .counter__item{
-        max-width: 110px; 
+        max-width: 150px; 
     }
 }
 
