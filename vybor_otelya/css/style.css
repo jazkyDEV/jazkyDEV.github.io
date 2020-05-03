@@ -89,15 +89,13 @@ h6 {
 }
 
 .container_image {
+  position: absolute;
 
   margin-top: 60px;
   margin-left: 0;
 }
 
-.hot{
-    width: 50px;
-    height: 50px;
-}
+
 
 .name-of-hotel {
   text-transform: uppercase;
@@ -686,7 +684,8 @@ color: #fff;
         bottom: 40px;
         font-size: 15px;
     }
-  
+   
+    }
     #myModal{
         max-height: 100%;
     }
