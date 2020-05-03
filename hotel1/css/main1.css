@@ -275,6 +275,7 @@ body{
   }
   .headertext{
     font-size: 30px;
+      margin-top: 1500px;
   }
 }
 
@@ -283,7 +284,7 @@ body{
 @media(max-width:770px){
     .headertext{
         font-size: 22px;
-        margin-top: 30px;
+        margin-top: 150px;
     }
     
     .wdw{
@@ -324,6 +325,6 @@ body{
   }
   .headertext{
     font-size: 20px;
-      margin-top: 30px;
+      margin-top: 1500px;
   }
 }
