@@ -582,6 +582,7 @@ color: #fff;
 @media(max-width:770px){
     .section__suptitle{
         font-size: 15px;
+         margin-top: 70px;
     }
     #myModal{
         max-height: 100%;
@@ -671,7 +672,7 @@ color: #fff;
     }
 }
 
-@media(max-width:500px){
+@media(max-width:400px){
     .section__suptitle{
         font-size: 15px;
         margin-top: 70px;
@@ -688,7 +689,7 @@ color: #fff;
         font-size: 15px;
     }
     .ih{
-        max-width: 200px;
+        max-width: 50px;
     }
    
     }
