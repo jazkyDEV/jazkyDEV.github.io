@@ -676,19 +676,22 @@ color: #fff;
 
 @media(max-width:568px){
     .section__suptitle{
-        font-size: 15px;
+        font-size: 12px;
         margin-top: 70px;
+    }
+    .adress{
+        font-size: 12px;
     }
     .price{
         bottom: 50px;
-        font-size: 20px;
+        font-size: 15px;
     }
     .button{
         bottom: 5px;
     }
     .text{
         bottom: 40px;
-        font-size: 15px;
+        font-size: 10px;
     }
     .ih{
         width: 100%;
