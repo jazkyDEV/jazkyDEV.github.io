@@ -88,7 +88,11 @@ h6 {
   box-shadow: 3px 4px 15px #00000175;
 }
 
+.container_image {
 
+  margin-top: 60px;
+  margin-left: 0;
+}
 
 .hot{
     width: 100%;
