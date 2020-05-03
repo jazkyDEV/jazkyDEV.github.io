@@ -91,7 +91,8 @@ h6 {
 
 
 .hot{
-    max-width: 100%;
+    max-width: 370px;
+    max-height: 200px;
     margin-top: 40px;
 }
 
