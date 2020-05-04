@@ -711,7 +711,7 @@ color: #fff;
    
     }
     #myModal{
-        max-height: 75%;
+        max-height: 75.5%;
         background-size: cover;
     }
     .modal__content{
@@ -739,10 +739,10 @@ color: #fff;
         max-height: 100%;
     }
     .open-header{
-        font-size: 12px;
+        font-size: 11px;
     }
     .open-description{
-        font-size: 10px;
+        font-size: 8px;
     }
     .service{
         font-size: 10px;
