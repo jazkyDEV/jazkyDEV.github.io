@@ -679,6 +679,9 @@ color: #fff;
         font-size: 12px;
         margin-top: 70px;
     }
+    .container{
+        max-width: 370px;
+    }
     .nh{
         font-size: 16px;
     }
@@ -702,7 +705,7 @@ color: #fff;
    
     }
     #myModal{
-        max-height: 100%;
+        max-height: 70%;
     }
     .modal__content{
         max-height: 100%;
@@ -722,7 +725,7 @@ color: #fff;
     
     
     #myOpen{
-        max-height: 100%;
+        max-height: 70%;
     }
     .open__content{
         max-height: 100%;
@@ -742,7 +745,7 @@ color: #fff;
 
 
      #myBox{
-        max-height: 100%;
+        max-height: 70%;
     }
     .box__content{
         max-height: 100%;
