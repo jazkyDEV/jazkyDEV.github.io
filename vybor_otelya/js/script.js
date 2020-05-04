@@ -8,6 +8,7 @@ link.onclick = function() {
 }
 span.onclick = function() {
     modal.style.display = "none";
+     $('.page').css('filter', 'blur()');
 }
 
 window.onclick = function(event) {
@@ -16,7 +17,7 @@ window.onclick = function(event) {
     }
 }
 
-var height = $('.modal').height(height);
+var height = $('.open').height(height);
 var orbita = document.getElementById('orbita');
 var open = document.getElementById('myOpen');
 var exit = document.getElementsByClassName('exit')[0];
@@ -25,8 +26,9 @@ orbita.onclick = function() {
     $('.page').css('filter', 'blur(10px)');
 }
 exit.onclick = function() {
-    $('.page').css('filter', 'blur()');
-    open.style.display = "none"
+     $('.page').css('filter', 'blur()');
+    open.style.display = "none";
+     
 }
 
 window.onclick = function(event) {
@@ -35,7 +37,7 @@ window.onclick = function(event) {
     }
 }
 
-var height = $('.modal').height(height);
+var height = $('.box').height(height);
 var viva = document.getElementById('viva');
 var box = document.getElementById('myBox');
 var out = document.getElementsByClassName('out')[0];
@@ -44,6 +46,7 @@ viva.onclick = function() {
     $('.page').css('filter', 'blur(10px)');
 }
 out.onclick = function() {
+     $('.page').css('filter', 'blur()');
     box.style.display = "none"
 }
 
