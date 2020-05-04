@@ -181,7 +181,7 @@ h6 {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
-    background-size: cover;
+    
   
   display: none;
 }
@@ -552,6 +552,7 @@ color: #fff;
 @media(max-width: 992px){
     #myOpen{
         max-height: 100%;
+        background-size: cover;
     }
     .open__content{
         max-height: 100%;
@@ -589,6 +590,7 @@ color: #fff;
     }
     #myModal{
         max-height: 100%;
+        background-size: cover;
     }
     .modal__content{
         max-height: 90%;
@@ -609,6 +611,7 @@ color: #fff;
     
     #myOpen{
         max-height: 100%;
+        background-size: cover;
     }
     .open__content{
         max-height: 100%;
@@ -629,6 +632,7 @@ color: #fff;
 
      #myBox{
         max-height: 100%;
+         background-size: cover;
     }
     .box__content{
         max-height: 90%;
@@ -651,6 +655,7 @@ color: #fff;
         
         max-height: 100%;
         max-width: 100%;
+        background-size: cover;
     }
     
     .wdw__img{
@@ -707,6 +712,7 @@ color: #fff;
     }
     #myModal{
         max-height: 70%;
+        background-size: cover;
     }
     .modal__content{
         max-height: 100%;
@@ -726,7 +732,8 @@ color: #fff;
     
     
     #myOpen{
-        max-height: 72%;
+        max-height: 74%;
+        background-size: cover;
     }
     .open__content{
         max-height: 100%;
@@ -747,6 +754,7 @@ color: #fff;
 
      #myBox{
         max-height: 70%;
+         background-size: cover;
     }
     .box__content{
         max-height: 100%;
@@ -769,6 +777,7 @@ color: #fff;
         
         max-height: 100%;
         max-width: 100%;
+        background-size: cover;
     }
     
     .wdw__img{
@@ -794,7 +803,7 @@ color: #fff;
 }
 
 @media(max-width: 500px){
-    .container{
+    .containers{
         width: 100%;
         display: flex;
         justify-content: space-between;
