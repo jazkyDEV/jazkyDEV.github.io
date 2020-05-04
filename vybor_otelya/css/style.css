@@ -794,7 +794,7 @@ color: #fff;
 
 @media(max-width: 500px){
     .container{
-        max-width: 40px;
+        max-width: 200px;
     }
 }
 
