@@ -548,9 +548,7 @@ color: #fff;
     width: 230px;
 
     }
-    #myModal{
-        margin-top: 5%;
-    }
+    
     .modal-header{
         font-size: 24px;
     }
@@ -561,6 +559,34 @@ color: #fff;
         font-size: 20px;
     }
     .img{
+        font-size: 20px;
+    }
+    
+    
+    .open-header{
+        font-size: 24px;
+    }
+    .open-description{
+        font-size: 20px;
+    }
+    .service{
+        font-size: 20px;
+    }
+    .images{
+        font-size: 20px;
+    }
+    
+    
+    .box-header{
+        font-size: 24px;
+    }
+    .box-description{
+        font-size: 20px;
+    }
+    .conv{
+        font-size: 20px;
+    }
+    .imgs{
         font-size: 20px;
     }
 }
