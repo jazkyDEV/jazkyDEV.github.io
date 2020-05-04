@@ -547,7 +547,7 @@ color: #fff;
     .counter__item{
     width: 230px;
 
-        
+    }
 }
 
 @media(max-width: 992px){
@@ -682,6 +682,13 @@ color: #fff;
 }
 
 @media(max-width:568px){
+    .containers{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto
+    }
     .section__suptitle{
         font-size: 12px;
         margin-top: 70px;
@@ -710,7 +717,7 @@ color: #fff;
         width: 100%;
     }
    
-    }
+    
     #myModal{
         max-height: 75.5%;
         
@@ -802,6 +809,7 @@ color: #fff;
         max-width: 150px; 
     }
 }
+
 
 @media(max-width: 500px){
     .containers{
