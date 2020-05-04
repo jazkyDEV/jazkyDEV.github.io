@@ -596,16 +596,16 @@ color: #fff;
         max-height: 90%;
     }
     .modal-header{
-        font-size: 22px;
+        font-size: 24px;
     }
     .description{
-        font-size: 18px;
-    }
-    .list{
         font-size: 20px;
     }
+    .list{
+        font-size: 22px;
+    }
     .img{
-        font-size: 18px;
+        font-size: 20px;
     }
     
     
@@ -617,16 +617,16 @@ color: #fff;
         max-height: 100%;
     }
     .open-header{
-        font-size: 22px;
+        font-size: 24px;
     }
     .open-description{
-        font-size: 15px;
+        font-size: 19px;
     }
     .service{
-        font-size: 20px;
+        font-size: 22px;
     }
     .images{
-        font-size: 18px;
+        font-size: 20px;
     }
 
 
@@ -638,16 +638,16 @@ color: #fff;
         max-height: 90%;
     }
     .box-header{
-        font-size: 22px;
+        font-size: 24px;
     }
     .box-description{
-        font-size: 18px;
-    }
-    .conv{
         font-size: 20px;
     }
+    .conv{
+        font-size: 22px;
+    }
     .imgs{
-        font-size: 18px;
+        font-size: 20px;
     }
 
 
@@ -692,7 +692,7 @@ color: #fff;
         font-size: 20px;
     }
     .adress{
-        font-size: 22px;
+        font-size: 18px;
     }
     .price{
         bottom: 85px;
@@ -811,7 +811,7 @@ color: #fff;
         margin: 0 auto
     }
     #myModal{
-        top: 20%;
+        margin-top: 20%;
     }
 }
 
