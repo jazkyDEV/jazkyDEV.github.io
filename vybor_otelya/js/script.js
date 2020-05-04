@@ -47,3 +47,5 @@ window.onclick = function(event) {
         this.open.style.display = "none"
     }
 }
+
+var height = $('.modal').height(height);
