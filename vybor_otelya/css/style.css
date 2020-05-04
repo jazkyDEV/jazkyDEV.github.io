@@ -547,21 +547,6 @@ color: #fff;
     .counter__item{
     width: 230px;
     }
-    #myModal{
-        margin-top: 10%;
-    }
-    .modal-header{
-        font-size: 24px;
-    }
-    .description{
-        font-size: 20px;
-    }
-    .list{
-        font-size: 20px;
-    }
-    .img{
-        font-size: 20px;
-    }
         
 }
 
