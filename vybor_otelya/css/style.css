@@ -794,7 +794,11 @@ color: #fff;
 
 @media(max-width: 500px){
     .container{
-        max-width: 200px;
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 90px;
+        flex-wrap: wrap;
     }
 }
 
