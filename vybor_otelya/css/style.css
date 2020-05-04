@@ -810,6 +810,9 @@ color: #fff;
         flex-wrap: wrap;
         margin: 0 auto
     }
+    #myModal{
+        top: 20%;
+    }
 }
 
 
