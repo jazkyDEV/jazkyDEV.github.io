@@ -546,70 +546,8 @@ color: #fff;
     }
     .counter__item{
     width: 230px;
-    }
-  #myModal{
-        max-height: 100%;
-        background-size: cover;
-    }
-    .modal__content{
-        max-height: 90%;
-    }
-    .modal-header{
-        font-size: 25px;
-    }
-    .description{
-        font-size: 20px;
-    }
-    .list{
-        font-size: 20px;
-    }
-    .img{
-        font-size: 20px;
-    }
-    
-    
-    #myOpen{
-        max-height: 100%;
-        background-size: cover;
-    }
-    .open__content{
-        max-height: 90%;
-    }
-    .open-header{
-        font-size: 25px;
-    }
-    .open-description{
-        font-size: 20px;
-    }
-    .service{
-        font-size: 20px;
-    }
-    .images{
-        font-size: 20px;
-    }
 
-
-     #myBox{
-        max-height: 100%;
-         background-size: cover;
-    }
-    .box__content{
-        max-height: 90%;
-    }
-    .box-header{
-        font-size: 25px;
-    }
-    .box-description{
-        font-size: 20px;
-    }
-    .conv{
-        font-size: 20px;
-    }
-    .imgs{
-        font-size: 20px;
-    }
-
-      
+        
 }
 
 @media(max-width: 992px){
@@ -621,16 +559,16 @@ color: #fff;
         max-height: 100%;
     }
     .open-header{
-        font-size: 25px;
+        font-size: 24px;
     }
     .open-description{
-        font-size: 20px;
+        font-size: 22px;
     }
     .service{
         font-size: 20px;
     }
     .images{
-        font-size: 20px;
+        font-size: 22px;
     }
     
     .counter__item{
@@ -659,16 +597,16 @@ color: #fff;
         max-height: 90%;
     }
     .modal-header{
-        font-size: 25px;
+        font-size: 24px;
     }
     .description{
-        font-size: 20px;
+        font-size: 22px;
     }
     .list{
         font-size: 20px;
     }
     .img{
-        font-size: 20px;
+        font-size: 22px;
     }
     
     
@@ -680,7 +618,7 @@ color: #fff;
         max-height: 90%;
     }
     .open-header{
-        font-size: 25px;
+        font-size: 24px;
     }
     .open-description{
         font-size: 20px;
@@ -689,7 +627,7 @@ color: #fff;
         font-size: 20px;
     }
     .images{
-        font-size: 20px;
+        font-size: 22px;
     }
 
 
@@ -701,16 +639,16 @@ color: #fff;
         max-height: 90%;
     }
     .box-header{
-        font-size: 25px;
+        font-size: 24px;
     }
     .box-description{
-        font-size: 20px;
+        font-size: 22px;
     }
     .conv{
         font-size: 20px;
     }
     .imgs{
-        font-size: 20px;
+        font-size: 22px;
     }
 
 
@@ -781,16 +719,16 @@ color: #fff;
         max-height: 90%;
     }
     .modal-header{
-        font-size: 25px;
+        font-size: 12px;
     }
     .description{
-        font-size: 20px;
+        font-size: 10px;
     }
     .list{
-        font-size: 20px;
+        font-size: 10px;
     }
     .img{
-        font-size: 20px;
+        font-size: 12px;
     }
     
     
@@ -802,16 +740,16 @@ color: #fff;
         max-height: 90%;
     }
     .open-header{
-        font-size: 25px;
+        font-size: 10px;
     }
     .open-description{
-        font-size: 20px;
+        font-size: 8px;
     }
     .service{
-        font-size: 20px;
+        font-size: 10px;
     }
     .images{
-        font-size: 20px;
+        font-size: 12px;
     }
 
 
@@ -823,16 +761,16 @@ color: #fff;
         max-height: 100%;
     }
     .box-header{
-        font-size: 25px;
+        font-size: 12px;
     }
     .box-description{
-        font-size: 20px;
+        font-size: 10px;
     }
     .conv{
-        font-size: 20px;
+        font-size: 10px;
     }
     .imgs{
-        font-size: 20px;
+        font-size: 12px;
     }
 
 
