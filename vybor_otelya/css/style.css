@@ -546,28 +546,105 @@ color: #fff;
     }
     .counter__item{
     width: 230px;
+    }
+  #myModal{
+      max-width: 80%;
+        max-height: 100%;
+        background-size: cover;
+       margin-top: 18%;
+    }
+    .modal__content{
+        max-height: 90%;
+    }
+    .modal-header{
+        font-size: 25px;
+    }
+    .description{
+        font-size: 20px;
+    }
+    .list{
+        font-size: 20px;
+    }
+    .img{
+        font-size: 20px;
+    }
+    
+    
+    #myOpen{
+         max-width: 80%;
+        max-height: 100%;
+        background-size: cover;
+         margin-top: 18%;
+    }
+    .open__content{
+        max-height: 90%;
+    }
+    .open-header{
+        font-size: 25px;
+    }
+    .open-description{
+        font-size: 20px;
+    }
+    .service{
+        font-size: 20px;
+    }
+    .images{
+        font-size: 20px;
+    }
 
+
+     #myBox{
+          max-width: 80%;
+        max-height: 100%;
+         background-size: cover;
+          margin-top: 18%;
+    }
+    .box__content{
+        max-height: 90%;
+    }
+    .box-header{
+        font-size: 25px;
+    }
+    .box-description{
+        font-size: 20px;
+    }
+    .conv{
+        font-size: 20px;
+    }
+    .imgs{
+        font-size: 20px;
+    }
+
+      
 }
 
 @media(max-width: 992px){
     #myOpen{
         max-height: 100%;
         background-size: cover;
+         margin-top: 18%;
     }
     .open__content{
         max-height: 100%;
     }
     .open-header{
-        font-size: 22px;
+        font-size: 25px;
     }
     .open-description{
-        font-size: 16px;
+        font-size: 20px;
     }
     .service{
-        font-size: 18px;
+        font-size: 20px;
     }
     .images{
-        font-size: 18px;
+        font-size: 20px;
+    }
+    
+    #myModal{
+         margin-top: 18%;
+    }
+    #myBox{
+         margin-top: 18%;
     }
     
     .counter__item{
@@ -591,18 +668,19 @@ color: #fff;
     #myModal{
         max-height: 100%;
         background-size: cover;
+         margin-top: 18%;
     }
     .modal__content{
         max-height: 90%;
     }
     .modal-header{
-        font-size: 24px;
+        font-size: 25px;
     }
     .description{
         font-size: 20px;
     }
     .list{
-        font-size: 22px;
+        font-size: 20px;
     }
     .img{
         font-size: 20px;
@@ -612,18 +690,19 @@ color: #fff;
     #myOpen{
         max-height: 100%;
         background-size: cover;
+         margin-top: 18%;
     }
     .open__content{
-        max-height: 100%;
+        max-height: 90%;
     }
     .open-header{
-        font-size: 24px;
+        font-size: 25px;
     }
     .open-description{
-        font-size: 19px;
+        font-size: 20px;
     }
     .service{
-        font-size: 22px;
+        font-size: 20px;
     }
     .images{
         font-size: 20px;
@@ -633,18 +712,19 @@ color: #fff;
      #myBox{
         max-height: 100%;
          background-size: cover;
+          margin-top: 18%;
     }
     .box__content{
         max-height: 90%;
     }
     .box-header{
-        font-size: 24px;
+        font-size: 25px;
     }
     .box-description{
         font-size: 20px;
     }
     .conv{
-        font-size: 22px;
+        font-size: 20px;
     }
     .imgs{
         font-size: 20px;
@@ -712,64 +792,67 @@ color: #fff;
     }
     #myModal{
         max-height: 75.5%;
-        background-size: cover;
+         margin-top: 18%;
+        
     }
     .modal__content{
-        max-height: 100%;
+        max-height: 90%;
     }
     .modal-header{
-        font-size: 12px;
+        font-size: 25px;
     }
     .description{
-        font-size: 10px;
+        font-size: 20px;
     }
     .list{
-        font-size: 10px;
+        font-size: 20px;
     }
     .img{
-        font-size: 12px;
+        font-size: 20px;
     }
     
     
     #myOpen{
-        max-height: 76%;
-        background-size: cover;
+        max-height: 76.5%;
+         margin-top: 18%;
+        
     }
     .open__content{
-        max-height: 100%;
+        max-height: 90%;
     }
     .open-header{
-        font-size: 11px;
+        font-size: 25px;
     }
     .open-description{
-        font-size: 8px;
+        font-size: 20px;
     }
     .service{
-        font-size: 10px;
+        font-size: 20px;
     }
     .images{
-        font-size: 12px;
+        font-size: 20px;
     }
 
 
      #myBox{
         max-height: 75%;
          background-size: cover;
+          margin-top: 18%;
     }
     .box__content{
         max-height: 100%;
     }
     .box-header{
-        font-size: 12px;
+        font-size: 25px;
     }
     .box-description{
-        font-size: 10px;
+        font-size: 20px;
     }
     .conv{
-        font-size: 10px;
+        font-size: 20px;
     }
     .imgs{
-        font-size: 12px;
+        font-size: 20px;
     }
 
 
@@ -810,15 +893,74 @@ color: #fff;
         flex-wrap: wrap;
         margin: 0 auto
     }
+   
+    
     #myModal{
-        margin-top: 20%;
+        max-height: 100%;
+        background-size: cover;
+        margin-top: 18%;
     }
+    .modal__content{
+        max-height: 90%;
+    }
+    .modal-header{
+        font-size: 24px;
+    }
+    .description{
+        font-size: 22px;
+    }
+    .list{
+        font-size: 20px;
+    }
+    .img{
+        font-size: 22px;
+    }
+    
+    
     #myOpen{
-        margin-top: 20%;
+        max-height: 100%;
+        background-size: cover;
+         margin-top: 18%;
     }
-    #myBox{
-        margin-top: 20%;
+    .open__content{
+        max-height: 90%;
     }
+    .open-header{
+        font-size: 24px;
+    }
+    .open-description{
+        font-size: 20px;
+    }
+    .service{
+        font-size: 20px;
+    }
+    .images{
+        font-size: 22px;
+    }
+
+
+     #myBox{
+        max-height: 100%;
+         background-size: cover;
+          margin-top: 18%;
+    }
+    .box__content{
+        max-height: 90%;
+    }
+    .box-header{
+        font-size: 24px;
+    }
+    .box-description{
+        font-size: 22px;
+    }
+    .conv{
+        font-size: 20px;
+    }
+    .imgs{
+        font-size: 22px;
+    }
+
+
 }
 
 
