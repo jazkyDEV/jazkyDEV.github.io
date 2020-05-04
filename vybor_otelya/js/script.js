@@ -49,3 +49,4 @@ window.onclick = function(event) {
 }
 
 var height = $('.modal').height(height);
+$('.page').css('filter', 'blur(10px)');
