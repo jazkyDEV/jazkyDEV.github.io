@@ -692,18 +692,18 @@ color: #fff;
         font-size: 20px;
     }
     .adress{
-        font-size: 18px;
+        font-size: 22px;
     }
     .price{
-        bottom: 90px;
-        font-size: 18px;
+        bottom: 85px;
+        font-size: 22px;
     }
     .button{
         bottom: 5px;
     }
     .text{
         bottom: 50px;
-        font-size: 22px;
+        font-size: 18px;
     }
     .ih{
         width: 100%;
@@ -711,7 +711,7 @@ color: #fff;
    
     }
     #myModal{
-        max-height: 70%;
+        max-height: 75%;
         background-size: cover;
     }
     .modal__content{
@@ -732,7 +732,7 @@ color: #fff;
     
     
     #myOpen{
-        max-height: 74%;
+        max-height: 76%;
         background-size: cover;
     }
     .open__content{
@@ -753,7 +753,7 @@ color: #fff;
 
 
      #myBox{
-        max-height: 70%;
+        max-height: 75%;
          background-size: cover;
     }
     .box__content{
