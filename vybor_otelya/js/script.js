@@ -25,6 +25,7 @@ orbita.onclick = function() {
     $('.page').css('filter', 'blur(10px)');
 }
 exit.onclick = function() {
+    $('.page').css('filter', 'blur()');
     open.style.display = "none"
 }
 
