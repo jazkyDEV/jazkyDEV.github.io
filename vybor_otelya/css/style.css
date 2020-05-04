@@ -689,21 +689,21 @@ color: #fff;
         max-width: 370px;
     }
     .nh{
-        font-size: 16px;
+        font-size: 20px;
     }
     .adress{
-        font-size: 14px;
+        font-size: 18px;
     }
     .price{
-        bottom: 95px;
-        font-size: 17px;
+        bottom: 90px;
+        font-size: 18px;
     }
     .button{
         bottom: 5px;
     }
     .text{
         bottom: 50px;
-        font-size: 12px;
+        font-size: 22px;
     }
     .ih{
         width: 100%;
