@@ -849,7 +849,7 @@ color: #fff;
     }
 
     .counter__item{
-        max-width: 150px; 
+        max-width: 170px; 
     }
 }
 
@@ -872,6 +872,9 @@ color: #fff;
     .
     #myBox{
         margin-top: 15%;
+    }
+    .counter__item{
+        max-width: 170px; 
     }
 }
 
