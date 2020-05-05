@@ -878,6 +878,21 @@ color: #fff;
     }
 }
 
+@media(max-width){
+    .nh{
+        font-size: 18px;
+    } 
+    .adress{
+        font-size: 15px;
+    }
+    .price{
+        font-size: 15px;
+    }
+    .text{
+        font-size: 12px;
+    }
+}
+
 
 
 
