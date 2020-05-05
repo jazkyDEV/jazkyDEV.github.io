@@ -835,7 +835,7 @@ color: #fff;
     }
 }
 
-@media(max-width: 395px){
+@media(max-width: 390px){
     .nh{
         font-size: 18px;
     } 
