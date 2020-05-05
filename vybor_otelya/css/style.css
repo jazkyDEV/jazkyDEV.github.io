@@ -25,6 +25,7 @@ h6 {
 .page {
   
   position: relative;
+  transition: all .1s ease;
 }
 
 
