@@ -266,7 +266,7 @@ body{
 
 }
 
-@media(max-width: 1445px){
+@media(min-width: 1200){
     .counter__item{
         right: 40px;
         top: 0; 
