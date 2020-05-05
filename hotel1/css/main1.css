@@ -311,7 +311,7 @@ body{
     }
 
     .counter__item{
-        max-width: 120px; 
+        max-width: 150px; 
         height: 40px;
     }
 }
@@ -327,4 +327,13 @@ body{
     font-size: 20px;
       margin-top: 80px;
   }
+    .counter__item{
+        max-width: 150px; 
+    }
+}
+
+@media(max-width:500px){
+    .counter__item{
+        max-width: 150px; 
+    }
 }
