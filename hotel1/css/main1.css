@@ -266,6 +266,13 @@ body{
 
 }
 
+@media(max-width: 1440px){
+    .counter__item{
+        margin-right: 30px;
+        margin-top: 0; 
+    }
+}
+
 @media(max-width: 992px){
     .counter__item{
     width: 150px;
