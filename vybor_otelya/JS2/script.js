@@ -7,9 +7,13 @@ jQuery(document).ready(function($){
         delay: 10,
         time: 500
     });
+    
 
     if(money<=0){
       $(function(){
+        var height = $(document).height();
+        $('#wdw').innerHeight(height);
+        $('.page').css("filter", "blur(10px)");
         $('#wdw').fadeIn();
       });
     };
