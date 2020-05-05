@@ -311,14 +311,20 @@ body{
     }
 
     .counter__item{
-        max-width: 120px; 
+        max-width: 170px; 
         height: 40px;
+    }
+}
+
+@media(max-width: 500px){
+    .counter__item{
+        max-width: 170px;
     }
 }
 
 @media(max-width: 320px){
     .counter__item{
-    width: 120px;
+    max-width: 170px;
     height: 40px;
     font-size: 25px;
     padding-top: 7px;
