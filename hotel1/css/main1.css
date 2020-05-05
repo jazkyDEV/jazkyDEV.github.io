@@ -266,10 +266,10 @@ body{
 
 }
 
-@media(max-width: 1440px){
+@media(max-width: 1445px){
     .counter__item{
-        margin-right: 30px;
-        margin-top: 0; 
+        right: 40px;
+        top: 0; 
     }
 }
 
