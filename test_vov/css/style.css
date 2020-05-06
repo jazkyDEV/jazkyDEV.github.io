@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    font-family: 'Didact Gothic', sans-serif;
+    color: #370101;
+   
+}
+.page{
+    margin: 0;
+    padding-top: 30px;
+    background-image: url(../img/photo.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.questions{
+    position: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 28px;
+}
+.backTest{
+    background-color: #fcf2f0;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+     -webkit-box-shadow: 3px 4px 9px #00000075;
+    box-shadow: 3px 4px 9px #00000075;
+    opacity: 90%;
+}
+p{
+    margin-top: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+input{
+    margin-left: 40px;
+}
+label{
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.btn{
+    background-color: #f09882;
+    color: #370101;
+    font-size: 36px;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+     -webkit-box-shadow: 3px 4px 9px #00000075;
+    box-shadow: 3px 4px 9px #00000075;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #370101;
+    color: #fff;
+}
+
+center{
+    padding: 20px 20px 40px 20px;
+}
+.last{
+    margin-bottom: 30px;
+}
+
+
+
+.result {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    transform: translate3d(-50%, -50%, 0);
+    width: 65vw;
+    height: 74vh;
+    display: block;
+    background-color: #fff;
+    border: 5px solid #f79079;
+    display: none;
+}
+.result__inner {
+    padding: 4.2vh 5.7vw 7.4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+    text-align: center;
+    text-transform: initial;
+}
+.result__title {
+    font-size: 4.2vh;
+    margin-bottom: 4vh;
+}
+.result__text {
+    font-weight: 400;
+    font-size: 3.5vh;
+    font-style: italic;
+    margin-bottom: 3vh;
+    line-height: 1;
+}
+.result__btn {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    padding-top: 15px;
+    background-color: #e2907a;
+    border-radius: 4px;
+
+    font-size: 22px;
+    line-height: 0.9;
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.1s linear;
+    transition: background-color 0.1s linear;
+}
+.result__btn:hover {
+    color: #fff;
+    background-color: #320b0b;
+}

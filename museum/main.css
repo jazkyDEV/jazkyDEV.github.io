@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Didact Gothic', sans-serif;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.pink-section{
+    
+    display: flex;
+    width: 60%;
+    height: 720px;
+    position: relative;
+    background-image: url(img/Pryamougolnik_1.png);
+    background-size: 100%;
+}
+
+.box{
+    position: relative;
+    /*border:3px solid red;*/
+    display: flex;
+    width: 500px;
+    height: 450px;
+    top: 15%;
+    left: 15%; 
+    justify-content: center;
+}
+
+.text{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    color: hsl(0, 95%, 8%);
+    font-size: 25px;
+}
+
+.button{
+    width: 235px;
+    height: 75px;
+    cursor: pointer;
+    display: inline-block;
+    top: 80%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+    position: absolute;
+    background-color: #f19883;
+    font-size: 30px; ;
+    border: 3px #f19883;
+    
+}
+
+.button:hover {
+    background-color: #370101;
+    color: #fff;
+}
+
+.for-iphone{
+
+    display: flex;
+    width: 40%;
+    height: 710px;
+    position: relative;
+    justify-content: center;
+}
+
+.img{
+    top: 6%;
+    position: absolute;
+    width: 100%;
+}
+/*адаптивка через медиа запросы*/
+/*но она немного не работает)))*/
+@media (max-width: 1200px){
+    .container{max-width: 970px;}
+}
+
+@media (max-width: 992px){
+    .container{max-width: 750px;}
+}
+
+@media (max-width: 768px){
+    .container{max-width: none;}
+}

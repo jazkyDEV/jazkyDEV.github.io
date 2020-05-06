@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    font-family: 'Didact Gothic', sans-serif;
+    color: #370101;
+}
+
+
+.card-block {
+    perspective: 550px;
+}
+
+.card {
+    position: relative;
+    transition: all .5s ease;
+    transform-style: preserve-3d;
+
+}
+
+
+.slide{
+    margin-top: 15px;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    border-top: 6px solid #370101;
+    border-bottom: 6px solid #370101;
+    border-left: 6px solid #370101;
+    border-right: 6px solid #370101;
+    float: right;
+
+    -webkit-box-shadow: 3px 4px 20px #00000075;
+    box-shadow: 3px 4px 20px #00000075;
+    backface-visibility: hidden;
+
+
+
+}
+
+.back {
+    position: relative;
+}
+
+.front {
+position: absolute;
+top: 0;
+right: 10px;
+
+
+transform: rotateY(180deg);
+}
+
+.flip {
+    transform: rotateY(180deg);
+}
+
+
+
+
+.logo{
+    margin-top: 20px;
+}
+.name{
+   
+    font-size: 24px;
+}
+.firp{
+    padding-right: 15px;
+    padding-left: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.secp{
+    padding-right: 15px;
+    padding-left: 5px;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+.qr{
+    float: right;
+    margin-top: 92px;
+}
+.sait{
+    font-size: 18px;
+    margin-top: 540px;
+}
+.inf{
+   
+    margin-left: 105px;
+    font-size: 16px;
+}
+.kontr{
+    position: absolute;
+    left: 520px;
+    top: -260px;
+    font-size: 68px;
+    transform: rotate(-90deg);
+    border: 10px solid #370101;
+    text-align: left;
+}
+.kkk{
+    padding: 0;
+    margin: 10px 10px 1250px 10px;
+}
+
+
+
+
+
+
+.fline{
+    font-size: 27px;
+    margin-right: 5px;
+}
+.tb{
+    font-size: 27px;
+    margin-bottom: 0;
+}
+.ty{
+    font-size: 27px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.tbb{
+    font-size: 32px;
+    margin-top: 0;
+}
+.da{
+    float: left;
+    font-size: 32px;
+    margin-bottom: 0;
+    margin-top: 8px;
+    margin-right: 110px;
+}
+.ta{
+    font-size: 43px;
+    margin-top: 26px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.stoim{
+    float: left;
+    font-size: 32px;
+    margin-top: 18px;
+    margin-bottom: 0;
+    margin-right: 140px;
+}
+.money{
+    font-size: 43px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.num{
+    font-size: 27px;
+    float: left;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+.data{
+    font-size: 27px;
+    float: left;
+    margin-left: 150px;
+    margin-right: 30px;
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+.time{
+    font-size: 27px;
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+.la1{
+    float: left;
+    font-size: 27px;
+    margin-right: 30px;
+    margin-bottom: 29px;
+}
+.la2{
+    float: left;
+    font-size: 27px;
+    margin-right: 50px;
+    margin-bottom: 29px;
+}
+.la3{
+    float: left;
+    font-size: 27px;
+    font-weight: 600;
+    margin-right: 150px;
+    margin-bottom: 29px;
+}
+.la4{
+    float: left;
+    font-size: 27px;
+    font-weight: 600;
+    margin-right: 80px;
+    margin-bottom: 29px;
+}
+.la5{
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 29px;
+}
+
+.shtrixkod{
+    position: absolute;
+    left: 1240px;
+    top: 110px;
+}
+.button{
+    position: absolute;
+    font-size: 48px;
+    padding: 5px 90px 5px 90px;
+    background-color: #f09882;
+    color: #370101;
+    border-radius: 5px;
+    left: 700px;
+    top: 450px;
+    text-decoration: none;
+    -webkit-box-shadow: 3px 4px 9px #00000075;
+    box-shadow: 3px 4px 9px #00000075;
+
+    -webkit-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  -webkit-box-shadow: 2px 2px 5px #00000040;
+  box-shadow: 2px 2px 5px #00000040;
+}
+.button:hover{
+    background-color: #370101;
+    color: #fff;
+    -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.82);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.82);
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+.nextim{
+    transform: rotate(-90deg);
+    position: absolute;
+    margin-top: 540px;
+    margin-left: -75px;
+}
+.previm{
+    transform: rotate(-90deg);
+    position: absolute;
+    margin-top: -42px;
+    margin-left: 1376px;
+}
+.next,
+.prev {
+    cursor: pointer;
+}

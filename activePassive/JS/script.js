@@ -17,9 +17,38 @@ jQuery(document).ready(function($){
         });
       };
 
+      $('#katok').on('click', function(){
 
-    
-    
+        money=money-3;
+        sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
+        });
+
+
+        $('#lotos').on('click', function(){
+
+          money=money-87;
+          sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
+          });
+
+        $('#lebyajiy').on('click', function(){
+
+            money=money-21;
+            sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
+            });
+
+
+        $('#spa').on('click', function(){
+
+              money=money-27;
+              sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
+              });
+
+
+        $('#roup').on('click', function(){
+
+              money=money-6;
+              sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
+              });
     
 
 
