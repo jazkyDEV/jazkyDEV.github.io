@@ -266,7 +266,7 @@ transform: rotateY(180deg);
 	display: inline-block;
 	background: linear-gradient(#ccc, #fff);
 	width: 208px;
-	height: 60px;
+	height: 50px;
 	border: 4px solid #F0B965;
 	border-radius: 50px;
 	cursor: pointer;
