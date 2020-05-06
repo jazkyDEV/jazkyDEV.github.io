@@ -1,5 +1,16 @@
+jQuery(document).ready(function($){
+
+    var money = JSON.parse(sessionStorage.getItem('counter'));
+    $('.counter').html(money);
+
+    $('.counter').counterUp({
+        delay: 10,
+        time: 500
+    });
+});
+
 function check(){
-            
+    var money = JSON.parse(sessionStorage.getItem('counter'));            
             var q1=document.myform.q1.value;
             var q2=document.myform.q2.value;
             var q3=document.myform.q3.value;
@@ -50,6 +61,8 @@ function check(){
             
             if(count==11)
             {
+                money=money+15;
+                sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
                 var btn=document.getElementById("btn");
                 var page=document.getElementById("page");
                 var result=document.getElementById("result_Yes");

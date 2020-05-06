@@ -119,4 +119,8 @@ $(document).ready(function() {
       curSlide = $(this).data("page");
       changeSlides();
     });   
+
+    $('#next').on('click', function(){
+      location.href = "https://jazkydev.github.io/museum/";
+    });
   });

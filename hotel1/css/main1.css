@@ -329,7 +329,9 @@ body{
 }
 
 /* MODAL YOU LOSE ADAPTIVKA */
-
+.page {
+    transition: all .1s ease;
+}
 
 @media(max-width:1600px) {
     .wdw__inner {
@@ -456,4 +458,3 @@ body{
         font-size: 20px;
     }
 }
-

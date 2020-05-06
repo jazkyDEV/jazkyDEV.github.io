@@ -1,28 +1,3 @@
-/* var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n){
-    showSlides(slideIndex += n);
-}
-
-function showSlides(n){
-    var i;
-    var slides = document.getElementsByClassName("slide");
-    
-    if(n > slides.length){
-        slideIndex = 1
-    }
-    if(n < 1){
-        slideIndex = slides.length
-    }
-    for(i = 0; i<slides.length; i++){
-        slides[i].style.display = "none";
-    }
-    
-    slides[slideIndex-1].style.display = "block";
-}
- */
-
 
 $('.next').on('click', function(){
     if($('.card-block').find('.card').hasClass('flip')){
@@ -48,4 +23,38 @@ $('.prev').on('click', function(){
         $('.kontr').fadeOut(10);
         $('.next').fadeOut(10);
     }
+});
+
+jQuery(document).ready(function($){
+
+    var money = JSON.parse(sessionStorage.getItem('counter'));
+    $('.counter').html(money);
+
+    $('.counter').counterUp({
+        delay: 10,
+        time: 500
+    });
+
+
+    if(money<=0){
+        $(function(){
+          var height = $(document).height();
+          $('#wdw').innerHeight(height);
+          $('.page').css("filter", "blur(10px)");
+          $('#wdw').fadeIn();
+        });
+      };
+    
+    $('#roma1').on('click', function(){
+
+        money=money-14;
+        sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
+        location.href = 'https://jazkydev.github.io/activePassive';
+
+        
+        });
+    
+
+
+
 });
