@@ -10,6 +10,9 @@ jQuery(document).ready(function($){
 
     if(money<=0){
         $(function(){
+          var height = $(document).height();
+          $('#wdw').innerHeight(height);
+          $('.page').css("filter", "blur(10px)");
           $('#wdw').fadeIn();
         });
       };
