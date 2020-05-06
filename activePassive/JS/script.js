@@ -1,4 +1,4 @@
-jQuery(document).ready(function(){
+jQuery(document).ready(function($){
 
     var money = JSON.parse(sessionStorage.getItem('counter'));
     $('.counter').html(money);
