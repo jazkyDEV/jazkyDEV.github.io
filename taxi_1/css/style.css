@@ -170,7 +170,7 @@ section .taxi:hover {
 
 @media screen and (max-width: 440px){
     header {
-        height: 200px;
+        height: 190px;
     }
      header p{
         font-size: 45px;
@@ -192,4 +192,14 @@ section .taxi:hover {
         padding-left: 10px;
     }
    
+}
+@media screen and (max-width: 420px){
+   header {
+        height: 170px;
+    }
+}
+@media screen and (max-width: 400px){
+     header p{
+        font-size: 40px;
+    }
 }
