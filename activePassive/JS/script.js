@@ -17,35 +17,35 @@ jQuery(document).ready(function($){
         });
       };
 
-      $('#katok').on('click', function(){
-        var money = JSON.parse(sessionStorage.getItem('counter'));
+      $('#kotok').on('click', function(){
+
         money=money-3;
         sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
         });
 
 
-        $('#lotos').on('click', function(){
-          var money = JSON.parse(sessionStorage.getItem('counter'));
+        $('#lot').on('click', function(){
+
           money=money-87;
           sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
           });
 
-        $('#lebyajiy').on('click', function(){
-          var money = JSON.parse(sessionStorage.getItem('counter'));
+        $('#leb').on('click', function(){
+
             money=money-21;
             sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
             });
 
 
-        $('#spa').on('click', function(){
-          var money = JSON.parse(sessionStorage.getItem('counter'));
+        $('#spaPlanet').on('click', function(){
+
               money=money-27;
               sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
               });
 
 
         $('#roup').on('click', function(){
-          var money = JSON.parse(sessionStorage.getItem('counter'));
+
               money=money-6;
               sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
               });
