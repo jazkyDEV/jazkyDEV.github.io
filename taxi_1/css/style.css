@@ -175,6 +175,7 @@ section .taxi:hover {
     }
      header p{
         font-size: 40px;
+         padding-bottom: 5px;
     }
     section{
         margin-right: auto;
