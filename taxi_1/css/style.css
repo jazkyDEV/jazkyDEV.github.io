@@ -178,10 +178,12 @@ section .taxi:hover {
          padding-bottom: 5px;
     }
     section{
-        margin-right: auto;
-        margin-left: auto;
         padding-left: 10px;
         justify-content: space-between;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto
     }
     a {
         padding-right: 5px;  
