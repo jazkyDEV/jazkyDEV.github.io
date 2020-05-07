@@ -178,7 +178,6 @@ section .taxi:hover {
          padding-bottom: 5px;
     }
     section{
-        padding-left: 10px;
         justify-content: space-between;
         width: 90%;
         display: flex;
