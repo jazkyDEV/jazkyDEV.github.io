@@ -169,6 +169,9 @@ section .taxi:hover {
 }
 
 @media screen and (max-width: 480px){
+    header p{
+        font-size: 40px;
+    }
     section{
         position: center;
         justify-content: space-between;
