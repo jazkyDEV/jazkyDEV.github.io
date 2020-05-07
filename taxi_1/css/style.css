@@ -167,3 +167,16 @@ section .taxi:hover {
         padding-top: 75px;
     }
 }
+
+@media screen and (max-width: 400px){
+    a {
+        margin-right: 5px;  
+    }
+    .bottom{
+        margin-left: 5px;
+    }
+    section .taxi img {
+    width: 380px;
+    height: 260px;
+    }
+}
