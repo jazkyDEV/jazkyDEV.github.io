@@ -5,6 +5,8 @@ body {
   color: #370101;
 }
 header {
+    max-width: 100%;
+    max-width: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -173,7 +175,6 @@ section .taxi:hover {
         font-size: 40px;
     }
     section{
-        position: center;
         justify-content: space-between;
         width: 90%;
         display: flex;
