@@ -173,12 +173,12 @@ section .taxi:hover {
         width: 100%;
     }
     header p{
-        padding-right: 5px;
         font-size: 40px;
     }
     section{
         margin-right: auto;
         margin-left: auto;
+        padding-left: 10px;
     }
     a {
         padding-right: 5px;  
