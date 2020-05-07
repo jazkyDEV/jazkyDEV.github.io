@@ -162,38 +162,3 @@ section .taxi:hover {
 }
 
 
-@media screen and (max-width: 825px){
-    header p{
-        padding-top: 70px;
-    }
-}
-
-@media screen and (max-width: 480px){
-    header {
-        background-size: cover;
-        background-repeat: repeat;
-    }
-     header p{
-        font-size: 40px;
-         padding-bottom: 5px;
-    }
-    section{
-        justify-content: space-between;
-        width: 90%;
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 auto
-    }
-    a {
-        padding-right: 5px;  
-    }
-    .bottom{
-        padding-left: 10px;
-    }
-    section .taxi img {
-        width: 360px;
-        height: 260px;
-        padding-left: 10px;
-    }
-   
-}
