@@ -200,3 +200,19 @@ section .taxi:hover {
         font-size: 15px;
     }
 }
+
+@media screen and (max-width: 380px){
+    section .taxi img{
+        width: 280px;
+        height: auto;
+    }
+    header p{
+        font-size: 35px;
+    }
+    section .taxi .bottom a{
+        font-size: 20px;
+    }
+    section .taxi .bottom p{
+        font-size: 13px;
+    }
+}
