@@ -179,8 +179,7 @@ section .taxi:hover {
         width: 90%;
         display: flex;
         flex-wrap: wrap;
-        margin: 0 auto;
-
+        margin: auto 0;
     }
     section .taxi img{
         width: 300px;
