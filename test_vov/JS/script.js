@@ -1,4 +1,4 @@
-jQuery(document).ready(function($){
+$(function($){
 
     var money = JSON.parse(sessionStorage.getItem('counter'));
     $('.counter').html(money);
@@ -96,5 +96,5 @@ $('#btn').on('click',  function(){
 $('.win').on('click', function(){
     var money = JSON.parse(sessionStorage.getItem('counter'));
     money=money+15;
-    sessionStorage.setItem('counter', JSON.stringify(money));
+    sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
 });
