@@ -1,6 +1,6 @@
 
 function check(){
-    var money = JSON.parse(sessionStorage.getItem('counter'));            
+            
             var q1=document.myform.q1.value;
             var q2=document.myform.q2.value;
             var q3=document.myform.q3.value;
@@ -51,21 +51,25 @@ function check(){
             
             if(count==11)
             {
+                var money = JSON.parse(sessionStorage.getItem('counter'));   
                 money=money+15;
-                sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
+                money=Math.floor(money);
+                sessionStorage.setItem('counter', JSON.stringify(money));
+
                 var btn=document.getElementById("btn");
                 var page=document.getElementById("page");
                 var result=document.getElementById("result_Yes");
                 if(result.style.display==="block")
                 {
                     result.style.display="none";
-                    page.style.filter="blur()"
+                    page.style.filter="blur()";
                 }
                 else 
                 {
-                    instruction.style.display="block";
-                    page.style.filter="blur(10px)"
+                    result.style.display="block";
+                    page.style.filter="blur(10px)";
                 }
+                
             }
             else{
                 var btn=document.getElementById("btn");
@@ -74,13 +78,14 @@ function check(){
                 if(result.style.display==="block")
                 {
                     result.style.display="none";
-                    page.style.filter="blur()"
+                    page.style.filter="blur()";
                 }
                 else 
                 {
                     result.style.display="block";
-                    page.style.filter="blur(10px)"
+                    page.style.filter="blur(10px)";
                 }
             }
+
 }
 
