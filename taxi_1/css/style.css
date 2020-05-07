@@ -8,7 +8,7 @@ header {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../img/wallpaper-635e5.jpg);
+  background-image: url(../img/wallpaper-635e5.jpg.png);
   -webkit-box-shadow: inset 0px -4px 4px #0000006b;
   box-shadow: inset 0px -4px 4px #0000006b;
 }
@@ -170,7 +170,8 @@ section .taxi:hover {
 
 @media screen and (max-width: 480px){
     header {
-        height: 190px;
+        background-size: cover;
+        background-repeat: repeat;
     }
      header p{
         font-size: 45px;
@@ -195,7 +196,7 @@ section .taxi:hover {
 }
 @media screen and (max-width: 420px){
    header {
-        height: 170px;
+        
     }
 }
 @media screen and (max-width: 400px){
