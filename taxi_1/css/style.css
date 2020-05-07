@@ -176,7 +176,8 @@ section .taxi:hover {
         margin-left: 5px;
     }
     section .taxi img {
-    width: 380px;
+    width: 360px;
     height: 260px;
+        position: center;
     }
 }
