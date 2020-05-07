@@ -171,7 +171,6 @@ section .taxi:hover {
 @media screen and (max-width: 480px){
     header{
         font-size: 40px;
-        width: 120%;
         
     }
     section{
