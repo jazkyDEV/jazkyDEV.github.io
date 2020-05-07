@@ -185,4 +185,7 @@ section .taxi:hover {
         width: 300px;
         height: auto;
     }
+    section .taxi .bottom p{
+        font-size: 15px;
+    }
 }
