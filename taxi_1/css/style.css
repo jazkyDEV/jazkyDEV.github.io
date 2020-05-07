@@ -169,10 +169,6 @@ section .taxi:hover {
 }
 
 @media screen and (max-width: 480px){
-    header{
-        font-size: 40px;
-        
-    }
     section{
         position: center;
         justify-content: space-between;
@@ -180,6 +176,6 @@ section .taxi:hover {
         display: flex;
         flex-wrap: wrap;
         padding: auto 0;
-        
+        padding-left: 10px;
     }
 }
