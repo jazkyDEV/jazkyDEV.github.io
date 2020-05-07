@@ -181,6 +181,7 @@ section .taxi:hover {
         margin-right: auto;
         margin-left: auto;
         padding-left: 10px;
+        justify-content: space-between;
     }
     a {
         padding-right: 5px;  
