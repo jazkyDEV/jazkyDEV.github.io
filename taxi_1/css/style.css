@@ -183,4 +183,8 @@ section .taxi:hover {
         padding-left: 10px;
         padding-right: 10px;
     }
+    section .taxi img{
+        width: 340px;
+        height: auto;
+    }
 }
