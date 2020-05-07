@@ -160,3 +160,10 @@ section .taxi:hover {
   color: #ffc000;
   padding-right: 5px;
 }
+
+
+@media screen and (max-width: 825px){
+    header p{
+        padding-top: 75px;
+    }
+}

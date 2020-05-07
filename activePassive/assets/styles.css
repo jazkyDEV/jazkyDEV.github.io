@@ -97,11 +97,47 @@ a, a:hover {
     margin-top: 100px;
   }
 }
-@media screen and (max-width: 576px) {
+
+@media screen and (max-width: 1350px) {
+  .title {
+    padding-top: 45px;
+  }
   .news-slider {
-    margin-top: 45px;
+    padding-top: 30px;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .title {
+    padding-top: 55px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .title {
+      font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+     .title {
+      font-size: 27px;
+         padding-top: 65px;
+  }
+  .news-slider {
+    padding-top: 80px;
+  }
+}
+
+@media screen and (max-width: 416px) {
+  .title {
+    font-size: 24px;
+  }
+  .news-slider {
+   
+  }
+}
+
 .news-slider__wrp {
   display: flex;
   align-items: flex-start;
@@ -511,6 +547,7 @@ color: #fff;
    transition: all ease 0.3s;
 
 }
+
 
 /* MODAL YOU LOSE ADAPTIVKA */
 .page {
