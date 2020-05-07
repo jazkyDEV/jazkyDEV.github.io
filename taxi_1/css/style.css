@@ -180,7 +180,7 @@ section .taxi:hover {
         display: flex;
         flex-wrap: wrap;
         margin: 0 auto;
-        padding-left: 10px;
+        padding-left: 5px;
         padding-right: 10px;
     }
     section .taxi img{
