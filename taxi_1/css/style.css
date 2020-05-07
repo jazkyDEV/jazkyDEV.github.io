@@ -173,6 +173,7 @@ section .taxi:hover {
         width: 100%;
     }
     header p{
+        padding-right: 5px;
         font-size: 40px;
     }
     section{
