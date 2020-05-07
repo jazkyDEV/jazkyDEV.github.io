@@ -96,6 +96,6 @@ $('#btn').on('click',  function(){
 $('.win').on('click', function(){
     var money = JSON.parse(sessionStorage.getItem('counter'));
     money=money+15;
-    money.toFixed(1);
+    money=money.toFixed(1);
     sessionStorage.setItem('counter', JSON.stringify(money));
 });
