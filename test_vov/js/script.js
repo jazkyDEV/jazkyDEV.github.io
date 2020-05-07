@@ -1,5 +1,5 @@
-document.getElementById("btn").onclick = function(){
-            
+
+function check(){          
             var q1=document.myform.q1.value;
             var q2=document.myform.q2.value;
             var q3=document.myform.q3.value;
@@ -50,10 +50,6 @@ document.getElementById("btn").onclick = function(){
             
             if(count==11)
             {
-                var money = JSON.parse(sessionStorage.getItem('counter'));   
-                money=money+15;
-                money=Math.floor(money);
-                sessionStorage.setItem('counter', JSON.stringify(money));
 
                 var btn=document.getElementById("btn");
                 var page=document.getElementById("page");
@@ -68,7 +64,6 @@ document.getElementById("btn").onclick = function(){
                     result.style.display="block";
                     page.style.filter="blur(10px)";
                 }
-                
             }
             else{
                 var btn=document.getElementById("btn");
@@ -85,6 +80,5 @@ document.getElementById("btn").onclick = function(){
                     page.style.filter="blur(10px)";
                 }
             }
-
-};
+}
 
