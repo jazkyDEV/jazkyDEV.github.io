@@ -162,3 +162,24 @@ section .taxi:hover {
 }
 
 
+@media screen and (max-width: 825px){
+    header p{
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    header{
+        font-size: 40px;
+        width: 120%;
+        
+    }
+    section{
+        position: center;
+        justify-content: space-between;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+}
