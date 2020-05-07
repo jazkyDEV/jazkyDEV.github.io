@@ -174,7 +174,7 @@ section .taxi:hover {
         background-repeat: repeat;
     }
      header p{
-        font-size: 45px;
+        font-size: 40px;
     }
     section{
         margin-right: auto;
@@ -193,14 +193,4 @@ section .taxi:hover {
         padding-left: 10px;
     }
    
-}
-@media screen and (max-width: 420px){
-   header p{
-        font-size: 45px;
-    }
-}
-@media screen and (max-width: 400px){
-     header p{
-        font-size: 40px;
-    }
 }
