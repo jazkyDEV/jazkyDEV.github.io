@@ -168,7 +168,7 @@ section .taxi:hover {
     }
 }
 
-@media screen and (max-width: 440px){
+@media screen and (max-width: 480px){
     header {
         height: 190px;
     }
