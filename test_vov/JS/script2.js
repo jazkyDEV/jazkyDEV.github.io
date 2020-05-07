@@ -8,3 +8,9 @@ jQuery(document).ready(function($){
         time: 500
     });
 });
+
+$('#win').on('click', function(){
+    var money = JSON.parse(sessionStorage.getItem('counter'));
+    money=money+15;
+    sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
+})
