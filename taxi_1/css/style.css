@@ -175,7 +175,8 @@ section .taxi:hover {
         width: 80%;
         display: flex;
         flex-wrap: wrap;
-        padding: auto 0;
+        margin: auto 0;
         padding-left: 10px;
+        padding-right: 10px;
     }
 }
