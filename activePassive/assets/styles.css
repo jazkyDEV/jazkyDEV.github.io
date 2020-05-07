@@ -142,7 +142,11 @@ a, a:hover {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 440px) {
+    .title {
+        font-size: 20px;
+        padding-top: 73px;
+    }
   .news-slider{
       padding-top: 50px;
     }
