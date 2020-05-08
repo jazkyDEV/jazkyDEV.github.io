@@ -10,10 +10,8 @@ $(function($){
 
 
     $('.win').on('click', function(){
-        money = parseFloat(money).toFixed(1);
-        money=money+15;
-        money = parseFloat(money).toFixed(1);
-        sessionStorage.setItem('counter', JSON.stringify(money));
+        money -= (-15);
+        sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
     });
 
 
