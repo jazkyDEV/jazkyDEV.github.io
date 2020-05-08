@@ -9,6 +9,11 @@ $(function($){
     });
 });
 
+$('.win').on('click', function(){
+    money=money+15;
+    sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
+});
+
 
 $('#btn').on('click',  function(){          
     var q1=document.myform.q1.value;
@@ -93,9 +98,4 @@ $('#btn').on('click',  function(){
     }
 });
 
-$('.win').on('click', function(){
-    var money = sessionStorage.getItem('counter');
-    money= parseInt(money);
-    money=money+15;
-    sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
-});
+
