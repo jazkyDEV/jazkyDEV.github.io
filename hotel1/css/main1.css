@@ -270,7 +270,7 @@ body{
 
 }
 
-<<<<<<< HEAD
+
 
 @media screen and  (max-width: 600px)
 {
@@ -281,65 +281,9 @@ body{
 		margin-bottom: -20px;
   
 	}
+}
 	  
-=======
-@media(min-width: 1200){
-    .counter__item{
-        right: 40px;
-        top: 0; 
-    }
-}
 
-@media(max-width: 992px){
-    .counter__item{
-    width: 150px;
-    height: 40px;
-    font-size: 25px;
-    padding-top: 7px;
-  }
-  .headertext{
-    font-size: 30px;
-      margin-top: 40px;
-  }
-}
-
-
-
-@media(max-width:770px){
-    .headertext{
-        font-size: 22px;
-        margin-top: 80px;
-    }
-    
-    
-
-    .counter__item{
-        max-width: 150px; 
-        height: 40px;
-    }
-}
-
-@media(max-width: 320px){
-    .counter__item{
-    width: 120px;
-    height: 40px;
-    font-size: 25px;
-    padding-top: 7px;
-  }
-  .headertext{
-    font-size: 20px;
-      margin-top: 80px;
-  }
-    .counter__item{
-        max-width: 150px; 
-    }
-}
-
-@media(max-width:500px){
-    .counter__item{
-        max-width: 150px; 
-    }
-}
 
 /* MODAL YOU LOSE ADAPTIVKA */
 .page {
@@ -470,5 +414,3 @@ body{
         height: 35px;
         font-size: 20px;
     }
->>>>>>> d44382a1bc90b9816a38b3979e0897828dbd3d65
-}
