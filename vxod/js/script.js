@@ -18,7 +18,7 @@ jQuery(document).ready(function($){
         });
       };
     
-    $('#btn').on('click', function(){
+    $('.button-4').on('click', function(){
 
         money=money-4;
         sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
