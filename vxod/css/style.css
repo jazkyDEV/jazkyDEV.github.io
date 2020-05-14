@@ -406,7 +406,7 @@ font-weight: bold;
 .vov__phM {
     display: block;
     width: 100vw;
-    height: 27.5vh;
+    height: 45.5vh;
     background: url(../img/фото.png) center no-repeat;
     background-size: cover;
     margin-bottom: .2vh;
@@ -1032,9 +1032,10 @@ font-weight: bold;
     }
     .linkM {
         margin-bottom: 11vh;
-        
-        
-    
+    }
+    .vov__phM {
+
+        height: 27.5vh;
     }
 }
 
