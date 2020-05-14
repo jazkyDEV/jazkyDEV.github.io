@@ -398,7 +398,7 @@ font-weight: bold;
 .content__mob {
     margin-top: 5px;
     border: 4px solid #370101;
-    
+    border-bottom:  none;
     overflow-x: hidden;
 
 }
