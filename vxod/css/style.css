@@ -447,10 +447,10 @@ font-weight: bold;
 }
 
 .linkM {
-    margin-top: 9px;
-    font-size: 2.3vh;
+    margin-top: 0.5vh;
+    font-size: 2.4vh;
     text-align: center;
-    margin-bottom: 17vh;
+    margin-bottom: 16vh;
     font-weight: bold;
     
     
@@ -1035,7 +1035,8 @@ font-weight: bold;
         height: 50px
     }
     .linkM {
-        margin-bottom: 7vh;
+        margin-top: 3.5vh;
+        margin-bottom: 9vh;
     }
     .vov__phM {
 
@@ -1043,6 +1044,9 @@ font-weight: bold;
     }
     .col1 {
         font-size: 6.4vh;
+    }
+    .container__mob {
+        width: 82%;
     }
 }
 
@@ -1088,9 +1092,7 @@ font-weight: bold;
     .linkM {
 
         margin-bottom: 21vh;
-        
-        
-    
+
     }
 }
 
