@@ -386,6 +386,8 @@ transform: rotateY(180deg);
     max-width: 40%;
     height: auto;
     padding-bottom: 33px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .title__mob {
     font-size: 1.8vh;
@@ -424,8 +426,9 @@ font-weight: bold;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 5.4vh;
-    padding-left: 10vw;
-    margin-right: -3vw;
+    padding-left: 5vw;
+    
+    padding-bottom: 20px;
 }
 
 .col2 {
@@ -435,19 +438,20 @@ font-weight: bold;
 }
 
 .qrM {
-    height: 8vh;
-    width: 8vh;
+    height: 15vh;
+    width: 15vh;
     float: right;
 }
 .contentM {
-    font-size: 2vh;
+    font-size: 1.8vh;
 }
 
 .linkM {
-    margin-top: 5px;
-    font-size: 2vh;
+    margin-top: 9px;
+    font-size: 2.3vh;
     text-align: center;
-    margin-bottom: 21vh;
+    margin-bottom: 17vh;
+    font-weight: bold;
     
     
 
@@ -1031,11 +1035,14 @@ font-weight: bold;
         height: 50px
     }
     .linkM {
-        margin-bottom: 11vh;
+        margin-bottom: 7vh;
     }
     .vov__phM {
 
         height: 27.5vh;
+    }
+    .col1 {
+        font-size: 6.4vh;
     }
 }
 
