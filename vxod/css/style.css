@@ -870,7 +870,7 @@ font-weight: bold;
         font-size: 22px;
     }
     .kontr {
-        font-size: 50px;
+        font-size: 71px;
     }
     .fline {
         margin-top: 35px;
@@ -884,7 +884,7 @@ font-weight: bold;
         font-size: 18px;
     }
     .kontr {
-        font-size: 55px;
+        font-size: 60px;
     }
     .back__footer {
         font-size: 16px;
@@ -973,7 +973,7 @@ font-weight: bold;
 
 
 
-@media(max-width: 800px) {
+@media(max-width: 780px) {
     .body {
         overflow-x: hidden;
     }
