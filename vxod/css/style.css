@@ -465,6 +465,7 @@ font-weight: bold;
 .front__m {
     border: 4px solid #370101;
     display: none;
+    overflow-x: hidden;
 }
 .mobile {
     width: 100vw;
@@ -1018,12 +1019,13 @@ font-weight: bold;
 
 @media(max-width: 600px) {
     .front__m .nextM {
-        bottom: 70px;
+        bottom: 75px;
         right: -15px;
     }
     .nextM {
         width: 40px;
         height: 40px;
+        bottom: 35px;
     }
     .logo__mob {
         height: 50px
