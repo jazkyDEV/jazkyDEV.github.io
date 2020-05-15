@@ -361,20 +361,12 @@ body{
 }
 
 @media(max-width:425px) {
-    .counter__item{
-        margin-right: 95px;
-    }
-
     .name{
         font-size: 20px;
     }
 }
 
 @media(max-width:396px) {
-    .counter__item{
-        margin-right: 75px;
-    }
-    
     .header{
     background-size: cover;
     }
@@ -400,14 +392,6 @@ body{
 }
 
 @media(max-width:320px) {
-    .parent_container{
-        
-    }
-
-    .counter__item{
-        margin-right: 45px;
-    }
-
     .button{
     margin-left: 65%;
 

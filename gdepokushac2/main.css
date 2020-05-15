@@ -296,10 +296,6 @@ body{
     .buttonB{
         margin-left: 75%;
     }
-
-    .counter__item {
-        margin-right: 95px;
-    }
 }
 
 @media(max-width:375px) {
@@ -315,10 +311,6 @@ body{
 
     .buttonB{
         margin-left: 60%;
-    }
-
-    .counter__item {
-        margin-right: 75px;
     }
 
     .Restraunt{
@@ -339,10 +331,6 @@ body{
 
     .buttonB{
         margin-left: 40%;
-    }
-
-    .counter__item {
-        margin-right: 40px;
     }
 
     .Restraunt{
