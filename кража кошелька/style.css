@@ -1,0 +1,299 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Didact Gothic', sans-serif;
+	color: #370101;
+	background-color: #ebe4e2;
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fon{
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.section-left{
+    position: relative;
+    width: 50%;
+    
+}
+
+.block-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.levcl{
+    position: relative;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width:450px;
+    height: 300px;
+}
+
+.text{
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+}
+
+.text1{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    vertical-align: middle;
+}
+
+.chel{
+    height: 400px;
+    width: 25%;
+    left: 90px;
+    top: 358px;
+    position: relative;
+}
+
+.block-2{
+    position: absolute; 
+}
+
+.cloud{
+    width: 370px;
+    height: 320px;
+    position: absolute;
+    top: -40px;
+    left: 270px;
+    z-index: 1;
+}
+
+.text2{
+    position: relative;
+    left: 320px;
+    top: 15px; 
+}
+
+.block-3{
+    position: absolute;
+    right: 69px;
+}
+
+.pravcl{
+    width: 370px;
+    height: 320px;
+    
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.text3{
+    position: relative;
+    right: -60px;
+    top: 10px;
+}
+
+
+
+.buttonB{
+    bottom: 50px;
+    right: 50px;
+	width: 150px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #f19883;
+    border: 3px #f19883;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    z-index: 6;
+}
+
+.button-1:hover {
+  background-color: #370101;
+  color: #fff;
+}
+
+@media(max-width: 768px){
+    .fon{
+        width: 100%;
+        height: 52%;
+        top: 500px;
+        left: 0;
+    }
+    .chel{
+        top: 151px;
+        left: 310px;
+        width: 40%;
+        height: 350px;
+    }
+    .cloud{
+        left: 80px;
+        top: 200px;
+        width: 330px;
+    }
+    .text{
+        font-size: 21px;
+    }
+    .text2{
+        left: 120px;
+        top: 260px;
+    }
+    .levcl{
+        width: 400px;
+    } 
+    .pravcl{
+        height: 300px;
+        width: 350px;
+        right: -69px;
+    }
+    .buttonB{
+        bottom: 70px;
+    }
+}
+
+@media(max-width: 425px){
+    .section-right{
+       
+        width: 100%;
+        
+    }
+    .fon{
+        left: 4px;
+        top: 545px;
+        height: 65%;
+        width: 552px;
+    }
+    .levcl{
+        width: 300px;
+        height: 260px;
+    }
+    .text{
+        top: 20px;
+        font-size: 16px;
+    }
+    .pravcl{
+        top: -304px;
+        left: 157px;
+        width: 255px;
+        height: 260px;
+    }
+    .text3{
+        top: -285px;
+        left: 195px;
+    }
+    .chel{
+        height: 300px;
+        padding: 0;
+        top: 246px;
+        width: 50%;
+    }
+    .buttonB{
+        padding: 0;
+        bottom: -230px;
+        right: -80px;
+    }
+    .cloud{
+        width: 260px;
+        height: 230px;
+        top: 260px;
+        left: 180px;
+    }
+    .text2{
+        top: 300px;
+        left: 220px;
+    }
+}
+
+@media(max-width: 414px){
+    .buttonB{
+        bottom: -210px;
+    }
+    .cloud{
+        left: 50px;
+    }
+    .text2{
+        left: 90px;
+    }
+    .chel{
+        width: 67%;
+        left: 230px;
+    }
+    .pravcl{
+        left: 165px;
+    }
+    .text3{
+        left: 202px;
+    }
+}
+
+@media(max-width: 375px){
+    .fon{
+        top: 542px;
+        height: 81%;
+    }
+    .buttonB{
+        bottom: -305px;
+        right: -120px;
+    }
+    .pravcl{
+        left: 205px;
+    }
+    .text3{
+        left: 240px;
+    }
+    .cloud{
+        left: 50px;
+    }
+    .text2{
+        left: 90px;
+    }
+    .chel{
+        width: 72%;
+        left: 230px;
+    }
+}
+
+@media(max-width: 320px){
+    .fon{
+        top: 500px;
+        height: 100%;
+    }
+    .chel{
+        height: 300px;
+        padding: 0;
+        top: 202px;
+        left: 230px;
+        width: 67%;
+    }
+    .buttonB{
+        bottom: -370px;
+        right: -180px;
+    }
+    .pravcl{
+        left: 260px;
+        top: -310px;
+    }
+    .text3{
+        left: 295px;
+        top: -287px;
+    }
+    .cloud{
+        left: 50px;
+    }
+    .text2{
+        top: 270px;
+        left: 90px;
+    }
+}
+
