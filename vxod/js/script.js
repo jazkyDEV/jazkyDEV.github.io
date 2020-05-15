@@ -9,16 +9,16 @@ jQuery(document).ready(function($){
     });
 
 
-    if(money<=0){
+    /* if(money<=0){
         $(function(){
           var height = $(document).height();
           $('#wdw').innerHeight(height);
           $('.page').css("filter", "blur(10px)");
           $('#wdw').fadeIn();
         });
-      };
+      }; */
     
-    $('#btn').on('click', function(){
+    $('.button-4').on('click', function(){
 
         money=money-4;
         sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));

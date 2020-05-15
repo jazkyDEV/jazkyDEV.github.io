@@ -17,34 +17,34 @@ jQuery(document).ready(function($){
         });
       };
 
-      $('#kotok').on('click', function(){
+      $('.kotok').on('click', function(){
 
         money=money-3;
         sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
         });
 
 
-        $('#lot').on('click', function(){
+        $('.lot').on('click', function(){
 
           money=money-87;
           sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
           });
 
-        $('#leb').on('click', function(){
+        $('.leb').on('click', function(){
 
             money=money-21;
             sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
             });
 
 
-        $('#spaPlanet').on('click', function(){
+        $('.spaPlanet').on('click', function(){
 
               money=money-27;
               sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
               });
 
 
-        $('#roup').on('click', function(){
+        $('.roup').on('click', function(){
 
               money=money-6;
               sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
