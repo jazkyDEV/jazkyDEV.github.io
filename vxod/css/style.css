@@ -366,9 +366,11 @@ transform: rotateY(180deg);
 }
 /* backside */
 .back__m {
+
     display: none;
     width: 100vw;
     position: relative;
+
 }
 .container__mob {
     width: 72%;
@@ -384,6 +386,8 @@ transform: rotateY(180deg);
     max-width: 40%;
     height: auto;
     padding-bottom: 33px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .title__mob {
     font-size: 1.8vh;
@@ -396,6 +400,7 @@ font-weight: bold;
 .content__mob {
     margin-top: 5px;
     border: 4px solid #370101;
+    border-bottom:  none;
     overflow-x: hidden;
 
 }
@@ -403,7 +408,7 @@ font-weight: bold;
 .vov__phM {
     display: block;
     width: 100vw;
-    height: 35.5vh;
+    height: 45.5vh;
     background: url(../img/фото.png) center no-repeat;
     background-size: cover;
     margin-bottom: .2vh;
@@ -421,8 +426,9 @@ font-weight: bold;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 5.4vh;
-    padding-left: 10vw;
-    margin-right: -3vw;
+    padding-left: 5vw;
+    
+    padding-bottom: 20px;
 }
 
 .col2 {
@@ -432,26 +438,28 @@ font-weight: bold;
 }
 
 .qrM {
-    height: 8vh;
-    width: 8vh;
+    height: 15vh;
+    width: 15vh;
     float: right;
 }
 .contentM {
-    font-size: 2vh;
+    font-size: 1.8vh;
 }
 
 .linkM {
-    margin-top: 5px;
-    font-size: 2vh;
+    margin-top: 0.5vh;
+    font-size: 2.4vh;
     text-align: center;
-    margin-bottom: 20vh;
+    margin-bottom: 16vh;
+    font-weight: bold;
+    
     
 
 }
 .nextM {
     cursor: pointer;
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     right: 4px;
     width: 30px;
     height: 30px;
@@ -461,6 +469,7 @@ font-weight: bold;
 .front__m {
     border: 4px solid #370101;
     display: none;
+    overflow-x: hidden;
 }
 .mobile {
     width: 100vw;
@@ -556,7 +565,7 @@ font-weight: bold;
 }
 
 .front__m .nextM {
-    bottom: 60px;
+    bottom: 70px;
     right: -15px;
 }
 
@@ -866,7 +875,7 @@ font-weight: bold;
         font-size: 22px;
     }
     .kontr {
-        font-size: 50px;
+        font-size: 71px;
     }
     .fline {
         margin-top: 35px;
@@ -880,7 +889,7 @@ font-weight: bold;
         font-size: 18px;
     }
     .kontr {
-        font-size: 55px;
+        font-size: 60px;
     }
     .back__footer {
         font-size: 16px;
@@ -952,6 +961,10 @@ font-weight: bold;
 }
 
 @media(max-width: 970px) {
+    .name {
+        font-size: 12px;
+
+    }
     .kontr {
         font-size: 52px;
     }
@@ -965,7 +978,10 @@ font-weight: bold;
 
 
 
-@media(max-width: 800px) {
+@media(max-width: 780px) {
+    .body {
+        overflow-x: hidden;
+    }
     .desktop{
         display: none;
     }
@@ -976,7 +992,7 @@ font-weight: bold;
     .slide {
         border: none;
         height: 100vh;
-        margin: 60px 0 0 0;
+        margin: 70px 0 0 0;
         padding: 0;
         
         -webkit-box-shadow: none;
@@ -1000,22 +1016,37 @@ font-weight: bold;
         height: 50px;
     }
     .front__m .nextM {
-        bottom: 60px;
+
         right: -39px;
     }
 }
 
 @media(max-width: 600px) {
     .front__m .nextM {
-        bottom: 60px;
+        bottom: 75px;
         right: -15px;
     }
     .nextM {
         width: 40px;
         height: 40px;
+        bottom: 35px;
     }
     .logo__mob {
-        padding-bottom: 55px;
+        height: 50px
+    }
+    .linkM {
+        margin-top: 3.5vh;
+        margin-bottom: 9vh;
+    }
+    .vov__phM {
+
+        height: 27.5vh;
+    }
+    .col1 {
+        font-size: 6.4vh;
+    }
+    .container__mob {
+        width: 82%;
     }
 }
 
@@ -1056,6 +1087,12 @@ font-weight: bold;
     .front__m .nextM {
         bottom: 60px;
         right: -39px;
+    }
+
+    .linkM {
+
+        margin-bottom: 21vh;
+
     }
 }
 
