@@ -238,16 +238,19 @@ body{
 }
 
 @media(max-width: 375px){
+    .text{
+        font-size: 14px;
+    }
     .fon{
         top: 542px;
         height: 81%;
     }
     .buttonB{
-        bottom: -305px;
+        bottom: -280px;
         right: -120px;
     }
     .pravcl{
-        left: 225px;
+        left: 230px;
     }
     .text3{
         left: 250px;
