@@ -244,7 +244,8 @@ body{
     .fon{
         top: 542px;
         height: 81%;
-        right: 0;
+        right: -5px;
+        width: 560px;
     }
     .buttonB{
         bottom: -350px;
