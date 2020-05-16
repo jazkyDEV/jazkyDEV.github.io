@@ -265,6 +265,9 @@ body{
 }
 
 @media(max-width: 320px){
+    .text{
+        font-size: 14px;
+    }
     .fon{
         top: 500px;
         height: 100%;
@@ -277,11 +280,11 @@ body{
         width: 67%;
     }
     .buttonB{
-        bottom: -370px;
+        bottom: -340px;
         right: -180px;
     }
     .pravcl{
-        left: 260px;
+        left: 280px;
         top: -310px;
     }
     .text3{
