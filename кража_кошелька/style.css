@@ -244,9 +244,10 @@ body{
     .fon{
         top: 542px;
         height: 81%;
+        right: 0;
     }
     .buttonB{
-        bottom: -170px;
+        bottom: -320px;
         right: -120px;
     }
     .pravcl{
