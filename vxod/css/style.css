@@ -380,6 +380,7 @@ transform: rotateY(180deg);
 
 .head__inerM {
     display: flex;
+    height: 14.2vh;
 }
 .logo__mob {
     display: block;
@@ -398,7 +399,7 @@ font-weight: bold;
 }
 
 .content__mob {
-    margin-top: 5px;
+    height: calc(85.8vh - 70px);
     border: 4px solid #370101;
     border-bottom:  none;
     overflow-x: hidden;
@@ -447,10 +448,8 @@ font-weight: bold;
 }
 
 .linkM {
-    margin-top: 0.5vh;
     font-size: 2.4vh;
     text-align: center;
-    margin-bottom: 16vh;
     font-weight: bold;
     
     
@@ -1034,10 +1033,7 @@ font-weight: bold;
     .logo__mob {
         height: 50px
     }
-    .linkM {
-        margin-top: 3.5vh;
-        margin-bottom: 9vh;
-    }
+
     .vov__phM {
 
         height: 27.5vh;
@@ -1089,11 +1085,7 @@ font-weight: bold;
         right: -39px;
     }
 
-    .linkM {
 
-        margin-bottom: 21vh;
-
-    }
 }
 
 
