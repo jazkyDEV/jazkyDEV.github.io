@@ -280,7 +280,7 @@ body{
 
 @media(max-width: 375px){
     .text{
-        font-size: 10px;
+        font-size: 9px;
     }
     .fon{
         top: 542px;
@@ -293,16 +293,16 @@ body{
         right: 40px;
     }
     .levcl{
-        width: 180px;
+        width: 185px;
         height: 170px;
     }
     .text1{
         left: 5px;
     }
     .pravcl{
-        width: 180px;
+        width: 185px;
         height: 170px;
-        left: 20px;
+        left: 40px;
     }
     .text3{
         left: 60px;
