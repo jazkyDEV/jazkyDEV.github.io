@@ -10,7 +10,7 @@ body{
 .main-page {
     background: url(../images/bg.png) center / cover no-repeat;
     background-position: center center;
-    background-size: contain;
+    background-size: auto 100vh;
     background-clip: content-box;
     background-origin: content-box;
 
@@ -37,8 +37,8 @@ body{
   
 .button{
     left: 50.7%;
-    transform: translateX(-50%);
-    bottom: 83%;
+    top: 8.88%;
+    transform: translate3D(-50%, -50%, 0);
     border-radius: 50%;
     height: 100px;
     width: 100px;
@@ -201,6 +201,23 @@ animation-delay: 1.5s;
     }
 }
 
+@media (max-width: 1400px) {
+    h1, h2, h3 {
+        font-size: 41vh;
+    }
+    h3 {
+        top: -40%;
+        right: 15%;
+    }
+    h2 {
+        left: 22%;
+    }
+    h1 {
+
+        top: 15%;
+    }
+}
+
 @media (max-width: 1080px){
     .main-page{
         padding-top: 0;
@@ -210,7 +227,7 @@ animation-delay: 1.5s;
     .button {
         left: 50.9%;
 
-        bottom: 83%;
+
     }
     h3 {
         right: 15%;
@@ -231,7 +248,7 @@ animation-delay: 1.5s;
         font-size: 35vh;
     }
     h1 {
-        top: 15%;
+        top: 23%;
     }
     h3 {
         right: 5%;
@@ -269,6 +286,9 @@ animation-delay: 1.5s;
 @media (max-width: 650px){
     .button {
         left: 51.3%;
+    }
+    .h2 {
+        left: 0;
     }
     
 }
