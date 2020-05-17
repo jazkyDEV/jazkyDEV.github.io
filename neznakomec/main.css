@@ -244,6 +244,22 @@ body
 	.button1, .button2 {
 		font-size: 70%;
 	}
+	.oblako {
+		height: 55%;
+	}
+	.section {
+		top: 13%;
+	}
 }
+
+@media(max-width: 321px) {
+	body {
+		font-size: 12px;
+	}
+	.section {
+		top: 12%;
+	}
+}
+
 
 
