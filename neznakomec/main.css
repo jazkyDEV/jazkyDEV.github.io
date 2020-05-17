@@ -1,0 +1,249 @@
+body
+{
+	font-family: 'Didact Gothic', sans-serif;
+	margin: 0;
+	background-image: url(pictures/voksal.png);
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 28px;
+}
+
+.oblako
+{ 
+   position: absolute;	
+	display: inline-block;
+	width: 90%;
+	height: 450px;
+	left: 5%;
+	top: 0;
+    
+
+}
+
+
+
+
+.section
+{
+	
+	position: absolute;
+	display: inline-block;
+	width: 53%;
+	height: 30%;
+	top: 14%;
+	left: 50%;
+	transform: translateX(-50%);
+	align-items: center;
+	text-align: center;
+
+}
+
+
+
+.button1
+{
+	border: none;
+	display: inline-block;
+	background-color: #f27457;
+	border-radius: 2px;
+	text-decoration: none;
+	color: #4f2020;
+	width: 20%;
+	height: 11%;
+	text-align: center;
+
+	font-size: 120%;
+	transition: color .2s linear;
+	transition: background .2s linear;
+
+	position: absolute;
+	bottom: 10%;
+	left: 7%;
+
+
+
+}
+.button1:focus {
+	outline: none;
+}
+
+.button1:hover
+{
+	color: white;
+	background-color: #4f2020;
+}
+
+.button2
+{
+	border: none;
+	display: inline-block;
+	background-color: #f27457;
+	border-radius: 2px;
+	text-decoration: none;
+	color: #4f2020;
+	width: 20%;
+	height: 11%;
+	text-align: center;
+	font-size: 120%;
+	transition: color .2s linear;
+	transition: background .2s linear;
+	
+	position: absolute;
+	bottom: 10%;
+	right: 7%;
+
+
+}
+
+.button2:hover
+{
+	color: white;
+	background-color: #4f2020;
+}
+
+.button1:focus, .button2:focus {
+	outline: none;
+}
+
+ 
+ .div
+ {
+ 	display: none;
+ }
+
+ .button2:hover+div
+ {
+  display: block;
+ }
+
+ .nesnakomec
+{
+	position: absolute;
+	display: inline-block;
+
+	width: 285px;
+	height: 280px;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+ .happy
+{
+	position: absolute;
+	display: inline-block;
+
+	width: 285px;
+	height: 280px;
+	bottom: 0;
+	left: 51%;
+	transform: translateX(-50%);
+}
+
+ .sad
+ {
+	position: absolute;
+	display: inline-block;
+
+	width: 285px;
+	height: 280px;
+	bottom: 0;
+	left: 52%;
+	transform: translateX(-50%);
+}
+
+.button1:hover+div
+{
+	display: block;
+}
+.none{
+	display:none;
+}
+
+
+
+
+@media(max-width: 1600px) {
+		body
+	{
+		font-size: 26px;
+	}
+}
+
+@media(max-width: 1270px) {
+		body
+	{
+		font-size: 24px;
+	}
+}
+
+@media(max-width: 1050px) {
+	body
+	{
+		font-size: 22px;
+	}
+	.oblako {
+		left: 0;
+		width: 100%;
+	}
+}
+
+@media(max-width: 860px) {
+	body
+	{
+		font-size: 19px;
+	}
+}
+
+@media(max-width: 700px) {
+	body
+	{
+		font-size: 20px;
+	}
+	.nesnakomec,.happy, .sad {
+		width: 265px;
+		height: 220px;
+	}
+	.oblako {
+		height: 80%;
+	}
+}
+@media(max-width: 580px) {
+	body
+	{
+		font-size: 19px;
+	}
+	.section {
+		width: 65%;
+		top: 13%;
+	}
+	.button1, .button2 {
+		font-size: 110%;
+	}
+}
+
+@media(max-width: 480px) {
+	body
+	{
+		font-size: 18px;
+	}
+	.section {
+		top: 18%;
+	}
+	.button1, .button2 {
+		font-size: 80%;
+		height: 7%;
+	}
+}
+
+@media(max-width: 480px) {
+	body
+	{
+		font-size: 15px;
+	}
+	.button1, .button2 {
+		font-size: 70%;
+	}
+}
+
+
