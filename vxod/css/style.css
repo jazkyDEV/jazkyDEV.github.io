@@ -91,7 +91,37 @@ transform: rotateY(180deg);
     float: right;
 }
 
+.qrdiv {
+    position: relative;
+}
 
+.kontr{
+    z-index: 10000;
+    position: absolute;
+    left: 1vh;
+    top: 0;
+    width: 85vw;
+
+    font-size: 58px;
+
+    border: 10px solid #370101;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.kkk{
+    display: inline-block;
+
+
+    writing-mode: vertical-lr;
+    transform: scale(-1, -1);
+    vertical-align: text-top;
+    
+
+}
 .logo{
     margin-top: 20px;
 }
@@ -114,9 +144,10 @@ transform: rotateY(180deg);
 .qr {
     display: block;
     max-width: 11vw;
-
     height: auto;
     float: right;
+    padding-top: 15px;
+    padding-right: 5px;
     padding-bottom: 30vh;
 }
 
@@ -132,23 +163,8 @@ transform: rotateY(180deg);
     margin-left: 105px;
     font-size: 16px;
 }
-.kontr{
-    position: absolute;
-    left: 1vh;
-    bottom: 1vw;
-    width: 85vw;
-    font-size: 50px;
 
-    border: 10px solid #370101;
-    text-align: left;
 
-}
-.kkk{
-    writing-mode: vertical-lr;
-    transform: scale(-1, -1);
-    padding: 0;
-
-}
 
 
 .vov__img {
@@ -379,6 +395,7 @@ transform: rotateY(180deg);
 
 
 .head__inerM {
+    position: relative;
     display: flex;
     height: 14.2vh;
 }
@@ -873,9 +890,7 @@ font-weight: bold;
     .name {
         font-size: 22px;
     }
-    .kontr {
-        font-size: 71px;
-    }
+
     .fline {
         margin-top: 35px;
     }
@@ -887,9 +902,7 @@ font-weight: bold;
     .name {
         font-size: 18px;
     }
-    .kontr {
-        font-size: 60px;
-    }
+
     .back__footer {
         font-size: 16px;
      }
@@ -905,9 +918,7 @@ font-weight: bold;
         font-size: 16px;
 
     }
-    .kontr {
-        font-size: 57px;
-    }
+
 
     .leftpart{
         width: 45%;
@@ -957,6 +968,10 @@ font-weight: bold;
     .front__pies {
         font-size: 22px;
     }
+    .front__pies {
+        font-size: 16px;
+    }
+    
 }
 
 @media(max-width: 970px) {
@@ -964,15 +979,34 @@ font-weight: bold;
         font-size: 12px;
 
     }
-    .kontr {
-        font-size: 52px;
-    }
+
     .button {
         font-size: 24px;
         padding: 15px 40px 0 40px;
     }
+    .slide{
+        margin-left: 0;
+    }
+    .front {
+        right: 0;
+    }
 
+}
 
+@media(max-width: 850px) {
+    .kontr{
+        font-size: 48px;
+    }
+    .slide{
+        height: 65vh;
+    }
+    .name{
+
+        font-size: 10px;
+    }
+    .kontr {
+        font-size: 38px;
+    }
 }
 
 
@@ -1021,6 +1055,9 @@ font-weight: bold;
 }
 
 @media(max-width: 600px) {
+    .body {
+        overflow-y: hidden;
+    } 
     .front__m .nextM {
         bottom: 75px;
         right: -15px;
