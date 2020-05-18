@@ -16,7 +16,7 @@ body{
     position: absolute;
     height: 100%;
     width: 60%;
-    right: -15px;
+    right: -5px;
     top: 0;
     z-index: -1;
     overflow: hidden;
@@ -61,7 +61,7 @@ body{
     height: 370px;
     width: 23%;
     left: 90px;
-    top: -200px;
+    top: 220px;
     position: relative;
 }
 
@@ -86,7 +86,7 @@ body{
 
 .block-3{
     position: absolute;
-    right: 110px;
+    right: 100px;
     
 }
 
