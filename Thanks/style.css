@@ -69,7 +69,7 @@ body{
 }
 
 .cloud{
-    width: 371px;
+    width: 370px;
     height: 340px;
     position: absolute;
     top: -50px;
@@ -367,11 +367,11 @@ body{
         width: 100%;
     }
     .buttonB{
-        bottom: -170px;
+        bottom: -230px;
         right: 40px;
     }
     .levcl{
-        width: 190px;
+        width: 210px;
         height: 170px;
     }
     .text1{
@@ -380,14 +380,14 @@ body{
     .pravcl{
         width: 175px;
         height: 170px;
-        left: 52px;
+        left: 72px;
     }
     .text3{
-        left: 92px;
+        left: 112px;
     }
     .cloud{
         left: 50px;
-        width: 180px;
+        width: 200px;
         height: 190px;
     }
     .text2{
