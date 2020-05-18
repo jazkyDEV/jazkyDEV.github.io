@@ -19,6 +19,7 @@ body{
     right: -15px;
     top: 0;
     z-index: -1;
+    overflow: hidden;
 }
 
 .section-left{
@@ -86,7 +87,7 @@ body{
 .block-3{
     position: absolute;
     right: 110px;
-    overflow: hidden;
+    
 }
 
 .pravcl{
