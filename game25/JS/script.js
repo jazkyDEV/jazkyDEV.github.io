@@ -8,7 +8,14 @@ jQuery(document).ready(function($){
         time: 500
     });
 
-
+    if(money<=0){
+        $(function(){
+          var height = $(document).height();
+          $('#wdw').innerHeight(height);
+          $('.page').css("filter", "blur(10px)");
+          $('#wdw').fadeIn();
+        });
+      };
     
     
     $('.btn-lose').on('click', function(){
@@ -17,8 +24,6 @@ jQuery(document).ready(function($){
         });
     
     $('.btn-win').on('click', function(){
-
-            money=money-20;
             sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
     });
 
