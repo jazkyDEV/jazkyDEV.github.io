@@ -22,8 +22,7 @@ $(function($){
       };
 
     $('.button1').on('click', function(){
-        sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
-        location.href = "https://jazkydev.github.io/%D0%BA%D1%80%D0%B0%D0%B6%D0%B0_%D0%BA%D0%BE%D1%88%D0%B5%D0%BB%D1%8C%D0%BA%D0%B0/";       
+        location.href = "https://jazkydev.github.io/Thanks/";       
         });
 
     $('.button2').on('click', function(){
@@ -40,7 +39,7 @@ $(function($){
           };
           if(money>0){
               location.href = "https://jazkydev.github.io/Thanks/";
-          }
+          };
         });
 
         
