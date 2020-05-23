@@ -13,6 +13,14 @@ body {
 a, a:hover {
   text-decoration: none;
 }
+.news-date__txt
+{
+  color: white;
+}
+.news-date__txt:hover
+{
+  color: #000;
+}
 
 .icon {
   display: inline-block;
