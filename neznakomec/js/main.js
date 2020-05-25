@@ -22,7 +22,7 @@ jQuery(document).ready(function($){
       };
 
     $('.button1').on('click', function(){
-        location.href = "https://jazkydev.github.io/Thanks/";       
+        location.href = "https://jazkydev.github.io/кража_кошелька/";       
         });
 
     $('.button2').on('click', function(){
