@@ -1,0 +1,560 @@
+body
+{
+	font-family: 'Didact Gothic', sans-serif;
+	margin: 0;
+	background-color: #272628;
+   color: white;
+}
+
+.plane
+{
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+
+
+}
+
+.icon
+{
+	position: absolute;
+	width: 6%;
+	left: 1%;
+	top: 2%;
+}
+
+.container
+{
+	width: 100%;
+	max-width: 1050px;
+}
+
+.MIA
+{
+	font-size: 200%;
+	position: absolute;
+	text-transform: uppercase;
+	
+	display: flex;
+ 	left: 50%;
+ 	transform: translate(-50%);
+ 	top: 35%;
+ 	text-align: center;
+
+}
+
+.des2
+{
+	
+	position: absolute;
+	display: flex;
+ 	left: 50%;
+ 	transform: translate(-50%);
+ 	top: 46%;
+
+ 
+ 	text-align: center;
+}
+
+.tagline
+{
+	font-size: 150%;
+	position: absolute;
+	
+	
+	display: flex;
+ 	left: 50%;
+ 	transform: translate(-50%);
+ 	top: 54%;
+ 	text-align: center;
+}
+
+.hiker
+{
+	position: absolute;
+	font-size: 175%;
+	left: 4%;
+	top: 75%;
+
+}
+.des
+{
+	position: absolute;
+	left: 4%;
+	top: 83%;
+
+}
+
+.text
+{
+	position: absolute;
+	left: 4%;
+	top: 87%;
+	font-size: 120%;
+}
+
+.text1
+{
+	position: absolute;
+	left: 4%;
+	top: 90%;
+	font-size: 120%;
+}
+
+.text2
+{
+	position: absolute;
+	left: 4%;
+	top: 93%;
+	font-size: 120%;
+}
+
+.button
+{
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+	background-color: #f27457;
+	border-radius: 2px;
+	text-decoration: none;
+	color: #4f2020;
+	width: 20%;
+	height: 10%;
+	text-align: center;
+	align-items: center;
+	padding: 1% 1%;
+	font-size: 200%;
+	transition: color .2s linear;
+	transition: background .2s linear;
+	position: absolute;
+	bottom: 8%;
+	right: 3%;
+	
+
+}
+
+
+
+.button:hover
+{
+	color: white;
+	background-color: #4f2020;
+}
+
+@media (max-width: 1200px)
+{
+	.MIA
+	{
+		top: 28%;
+		font-size: 170%;
+	}
+
+	.des2
+	{
+		top: 40%;
+		width: 85px;
+	}
+
+	.tagline
+	{
+		top: 45%;
+	}
+
+	.hiker
+	{
+		top: 67%;
+	}
+
+	.des
+	{
+		top: 75%;
+		width: 35px;
+	}
+
+	.text
+	{
+		top: 80%;
+	}
+
+	.text1
+	{
+		top: 84%;
+	}
+
+	.text2
+	{
+		top: 88%;
+	}
+
+	.button
+	{
+		font-size: 150%;
+	}
+}
+
+@media (max-width: 1440px)
+{
+	.hiker
+	{
+		top: 70%;
+	}
+
+	.des
+	{
+		top: 77%;
+	}
+
+	.text
+	{
+		top: 83%;
+		font-size: 130%;
+	}
+
+	.text1
+	{
+		top: 86%;
+		font-size: 130%;
+	}
+
+	.text2
+	{
+		top: 89%;
+		font-size: 130%;
+	}
+}
+
+@media (max-width: 1024px)
+{
+	.MIA
+	{
+		top: 17%;
+	}
+
+	.des2
+	{
+		top: 30%;
+	}
+
+	.tagline
+	{
+       top: 35%;
+	}
+
+	.des
+	{
+		top: 67%;
+	}
+
+	.hiker
+	{
+		top: 60%;
+	}
+
+	.text
+	{
+		top: 73%;
+	}
+
+	.text1
+	{
+		top: 77%;
+	}
+
+	.text2
+	{
+		top: 81%;
+	}
+
+	.button
+	{
+		bottom: 15%;
+	}
+}
+
+@media (max-width: 990px)
+{
+	.MIA
+	{
+		top: 23%;
+		font-size: 150%;
+	}
+
+
+	.tagline
+	{
+		top: 35%;
+		font-size: 140%;
+	}
+
+	.hiker
+	{
+		top: 56%;
+		font-size: 155%;
+	}
+
+	.des
+	{
+		top: 64%;
+		width: 30px;
+	}
+
+	.des2
+	{
+		top: 33%;
+		width: 80px;
+	}
+
+	.text
+	{
+		top: 70%;
+		font-size: 110%;
+	}
+
+	.text1
+	{
+		top: 74%;
+		font-size: 110%;
+	}
+
+	.text2
+	{
+		top: 78%;
+		font-size: 110%;
+	}
+	
+	.button
+	{
+    font-size: 170%;
+    bottom: 18%;
+    
+	}
+	
+}
+
+
+
+
+@media (max-width: 775px)
+{
+	.MIA
+	{
+		top: 18%;
+		font-size: 130%;
+	}
+
+	.des2
+	{
+		top: 38%;
+		width: 70px;
+	}
+
+	.tagline
+	{
+		display: none;
+	}
+
+	.hiker
+	{
+		top: 47%;
+		left: 50%;
+		transform: translate(-50%);
+	
+		font-size: 160%;
+	}
+
+	.des
+	{
+		top: 60%;
+	}
+
+
+	.text
+	{
+		top: 64%;
+		font-size: 120%;
+		
+	
+	}
+
+	.text1
+	{
+		top: 67%;
+		font-size: 120%;
+
+
+	}
+
+	.text2
+	{
+		top: 70%;
+		font-size: 120%;
+	}
+
+	.button
+	{
+    
+	width: 20%;
+	height: 9%;
+	font-size: 120%;
+	bottom: 8%;
+	left: 50%;
+	transform: translate(-50%);
+    
+	}
+}
+
+@media (max-width: 575px)
+{
+	.MIA
+	{
+		top: 13%;
+		font-size: 85%;
+	}
+
+	.des2
+	{
+		top: 31%;
+	}
+
+	.hiker
+	{
+		top: 38%;
+		
+		font-size: 138%;
+	}
+
+	.des
+	{
+		top: 50%;
+		width: 25px;
+	}
+
+		.text
+	{
+		top: 56%;
+		font-size: 100%;
+		
+	
+	}
+
+	.text1
+	{
+		top: 62%;
+		font-size: 100%;
+		
+
+	}
+
+	.text2
+	{
+		top: 68%;
+		font-size: 100%;
+	}
+
+	.button
+	{
+    
+	width: 34%;
+	height: 10%;
+	font-size: 127%;
+	
+	
+    
+	}
+}
+
+@media (max-width: 420px)
+{
+	.MIA
+	{
+		top: 8%;
+	}
+
+	.des2
+	{
+		top: 23%;
+	}
+
+	.hiker
+	{
+		top: 28%;
+	}
+
+	.des
+	{
+		top: 40%;
+	}
+
+	.text
+	{
+		top: 45%;
+	}
+
+	.text1
+	{
+		top: 51%;
+	}
+
+	.text2
+	{
+		top: 57%;
+	}
+
+	.button
+	{
+		top: 70%;
+	}
+}
+
+@media (max-width: 340px)
+{
+	.MIA
+	{
+		top: 10%;
+	}
+
+	.hiker
+	{
+		top: 35%;
+	}
+
+	.des
+	{
+		top: 48%;
+	}
+
+		.text
+	{
+		top: 56%;
+		
+		
+	
+	}
+
+	.text1
+	{
+		top: 63%;
+		
+		
+
+	}
+
+	.text2
+	{
+		top: 70%;
+		
+	}
+	.button
+	{
+    
+	width: 34%;
+	height: 10%;
+	font-size: 120%;
+	top: 78%;
+
+}
+
+
+
+
+
