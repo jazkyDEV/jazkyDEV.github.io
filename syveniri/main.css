@@ -192,6 +192,16 @@ body,html{
     padding-right: 5px;
   }
 
+  @media(max-width: 860px) {
+
+	.counter__item{
+		max-width: 150px;
+		height: 50px;
+		font-size: 20px;
+		padding-top: 7px;
+	  }
+}
+
 /* MODAL YOU LOOSE */
 
 .wdw {
