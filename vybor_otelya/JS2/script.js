@@ -25,7 +25,7 @@ jQuery(document).ready(function($){
 
       money = money-47*taxi;
       sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));  
-
+      sessionStorage.setItem('hotel', 47);
 
 
     });
@@ -34,7 +34,7 @@ jQuery(document).ready(function($){
 
         money = money-48*taxi;
         sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1))); 
-  
+        sessionStorage.setItem('hotel', 48);
   
   
       });
@@ -43,7 +43,7 @@ jQuery(document).ready(function($){
 
         money = money-40*taxi;
         sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));   
-  
+        sessionStorage.setItem('hotel', 40);
   
   
       });
