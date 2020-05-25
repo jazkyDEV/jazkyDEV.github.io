@@ -365,21 +365,21 @@ transform: rotateY(180deg);
 }
 
 .flipper {
-    animation: shake 0.7s;
+    animation: shake 1s;
     animation-iteration-count: infinite;
 }
 @keyframes shake {
     0% {transform: rotate(0deg); }
-    10% { transform: rotate(-10deg); }
-    20% { transform: rotate(-20deg); }
-    30% { transform: rotate(-30deg); }
-    40% { transform: rotate(-15deg); }
-    50% { transform: rotate(0deg); }
-    60% { transform: rotate(10deg); }
-    70% { transform: rotate(20deg); }
-    80% { transform: rotate(30deg); }
-    90% { transform: rotate(15deg); }
-    100% { transform: rotate(0deg); }
+    10% { transform: rotate(-10deg);}
+    20% { transform: rotate(-20deg);}
+    30% { transform: rotate(-30deg);}
+    40% { transform: rotate(-15deg);}
+    50% { transform: rotate(0deg);}
+    60% { transform: rotate(10deg);}
+    70% { transform: rotate(20deg);}
+    80% { transform: rotate(30deg);}
+    90% { transform: rotate(15deg);}
+    100% { transform: rotate(0deg);}
   }
 
 
