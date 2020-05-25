@@ -21,7 +21,12 @@ a, a:hover {
 {
   color: #000;
 }
-
+.news__item:hover a{
+  color:#000;
+}
+a{
+  color:#fff;
+}
 .icon {
   display: inline-block;
   width: 1em;
