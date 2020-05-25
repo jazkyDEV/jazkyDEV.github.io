@@ -1,4 +1,4 @@
-$(function($){
+jQuery(document).ready(function($){
     $('.button1,.button2').hover(function(){
         $('.nesnakomec').toggleClass('none');
     })
@@ -27,7 +27,7 @@ $(function($){
 
     $('.button2').on('click', function(){
 
-        money=money-10;
+        money-=10;
         sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));     
         if(money<=0){
             $(function(){
