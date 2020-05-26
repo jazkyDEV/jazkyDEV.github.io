@@ -2,7 +2,7 @@ jQuery(document).ready(function($){
 
     var money = JSON.parse(sessionStorage.getItem('counter'));
     money-=150;
-    money.toFixed(1);
+    money.toFixed(0);
     $('.counter').html(money);
 
     
