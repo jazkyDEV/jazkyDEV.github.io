@@ -23,7 +23,7 @@ jQuery(document).ready(function($){
     $('#yandex1').on('click', function(){
 
     money-=(0.2*hotel);
-    sessionStorage.setItem('counter', JSON.stringify(money));
+    sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
 
     });
 
@@ -31,7 +31,7 @@ jQuery(document).ready(function($){
     $('#almaz1').on('click', function(){
         money-=(0.4*hotel);
 
-        sessionStorage.setItem('counter', JSON.stringify(money));
+        sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
 
     });
 
@@ -39,7 +39,7 @@ jQuery(document).ready(function($){
     $('#bavaria1').on('click', function(){
 
         money-=(0.5*hotel);
-        sessionStorage.setItem('counter', JSON.stringify(money));
+        sessionStorage.setItem('counter', JSON.stringify(money.toFixed(1)));
     });
     
     
