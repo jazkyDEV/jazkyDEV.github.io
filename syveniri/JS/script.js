@@ -19,7 +19,7 @@ jQuery(document).ready(function($){
       };
 
       function goto(){
-        location.href = "file:///D:/Github/jazkyDEV.github.io/taxi_2/index.html";
+        location.href = "https://jazkydev.github.io/syveniri/taxi_2/";
       };
 
     
