@@ -1,7 +1,10 @@
 jQuery(document).ready(function($){
+  if($(window).width()>=600){
     $('.button1,.button2').hover(function(){
-        $('.nesnakomec').toggleClass('none');
-    })
+      $('.nesnakomec').toggleClass('none');
+  }); 
+  }
+    
 
     var money = JSON.parse(sessionStorage.getItem('counter'));
     $('.counter').html(money);
