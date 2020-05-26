@@ -592,3 +592,31 @@ section {
       font-size: 20px;
   }
 }
+
+@media(max-width:500px) {
+  .board {
+    width: 400px;
+    height: 400px;
+  }
+
+  .newMainText {
+    font-size: 16px;
+  }
+  .controls {
+    width: 400px;
+}
+}
+
+@media(max-width:400px) {
+  .board {
+    width: 320px;
+    height: 320px;
+  }
+
+  .newMainText {
+    font-size: 14px;
+  }
+  .controls {
+    width: 320px;
+}
+}
