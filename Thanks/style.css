@@ -3,8 +3,8 @@ body{
 	padding:0;
 	font-family: 'Didact Gothic', sans-serif;
 	color: #370101;
-	background-color: #ebe4e2;
-    
+    background-color: #ebe4e2;
+    overflow-x: hidden;
 }
 
 .container{
@@ -16,7 +16,7 @@ body{
     position: absolute;
     height: 100%;
     width: 60%;
-    right: -5px;
+    right: 0;
     top: 0;
     z-index: -1;
     overflow: hidden;
@@ -25,6 +25,7 @@ body{
 .section-left{
     position: relative;
     width: 50%;
+    height: 100vh;
     
 }
 
@@ -61,8 +62,8 @@ body{
     height: 370px;
     width: 23%;
     left: 90px;
-    top: 180px;
-    position: relative;
+    bottom: 0;
+    position: absolute;
 }
 
 .block-2{
@@ -73,7 +74,7 @@ body{
     width: 370px;
     height: 340px;
     position: absolute;
-    top: -50px;
+    top: 190px;
     left: 270px;
     z-index: 1;
 }
@@ -81,12 +82,12 @@ body{
 .text2{
     position: relative;
     left: 320px;
-    top: 0px; 
+    top: 245px; 
 }
 
 .block-3{
     position: absolute;
-    right: 100px;
+    right: 0;
     
 }
 
@@ -96,12 +97,13 @@ body{
     
     position: absolute;
     top: 0;
+    right: 0;
     z-index: 1;
 }
 
 .text3{
     position: relative;
-    right: -85px;
+    right: 10px;
     top: 15px;
 }
 
@@ -138,346 +140,141 @@ body{
   transform: scale(1.03);
 }
 
-@media(max-width: 1440px){
-    .chel{
-        top: 370px;
-        height: 405px;
-    }
-    .fon{
-        height: 100%;
-        bottom: 0;
-        right: 0px;
-    }
-    .pravcl{
-        right: -110px;
-    }
-    .text3{
-        right: -70px;
-    }
-    .buttonB{
-        right: 120px;
-    }
-}
 
-@media(min-height: 1366px){
-    .fon{
+@media(max-width: 900px){
+    .fon {
         width: 100%;
-        height: 45%;
-        top: 570px;
-        left: 0;
     }
-    .chel{
-        top: 200px;
-        left: 390px;
-        width: 30%;
-    }
-    .cloud{
-        top: 220px;
-        left: 120px;
-        height: 360px;
-    }
-    .text2{
-        top: 270px;
-        left: 180px;
-    }
-    .buttonB{
-        bottom: 260px;
-    }
-    .pravcl{
-        left: -10px;
-    }
-    .text3{
-        left: 70px;
-    }
-}
 
-@media(max-width: 768px) {
-    .fon{
-        width: 100%;
-        height: 70%;
-        top: 500px;
-        left: 0;
-    }
-    .chel{
-        top: 151px;
-        left: 310px;
-        width: 40%;
-        height: 350px;
-    }
-    .cloud{
-        left: 80px;
-        top: 200px;
-        width: 330px;
-    }
-    .text{
+    .text {
         font-size: 18px;
     }
-    .text2{
-        left: 130px;
-        top: 260px;
-    }
-    .levcl{
-        width: 370px;
-        height: 240px;
-    } 
-    .pravcl{
-        height: 250px;
-        width: 300px;
-        right: -110px;
-    }
-    .text3{
-        right: -80px;
-    }
-    .buttonB{
-        bottom: -130px;
-    }
-}
 
-@media(max-width: 425px){
-    .section-right{
-       
-        width: 100%;
-        
-    }
-    .fon{
-        left: 4px;
-        top: 545px;
-        height: 65%;
-        width: 552px;
-    }
-    .levcl{
-        width: 300px;
-        height: 260px;
-    }
-    .text{
-        top: 20px;
-        font-size: 16px;
-    }
-    .pravcl{
-        top: -304px;
-        left: 157px;
-        width: 255px;
-        height: 260px;
-    }
-    .text3{
-        top: -285px;
-        left: 195px;
-    }
-    .chel{
-        height: 300px;
-        padding: 0;
-        top: 246px;
-        width: 50%;
-    }
-    .buttonB{
-        padding: 0;
-        bottom: -230px;
-        right: -80px;
-    }
-    .cloud{
-        width: 260px;
+    .levcl {
+        width: 350px;
         height: 230px;
-        top: 260px;
-        left: 180px;
     }
-    .text2{
-        top: 300px;
-        left: 220px;
-    }
-}
 
-@media(max-width: 414px){
-    .pravcl{
+    .cloud {
+        width: 340px;
+        height: 275px;
         left: 185px;
     }
-    .text3{
-        left: 230px;
+
+    .text2 {
+        left: 250px;
+        top: 225px;
     }
-    .cloud{
-        width: 290px;
-        height: 270px;
-        left: 70px;
+
+    .pravcl {
+        width: 300px;
+        height: 245px;
     }
-    .text2{
-        left: 110px;
+
+    .chel {
+        width: 35%;
+        left: 30px;
     }
 }
 
-@media(max-width: 411px){
-    .fon{
-        width: 100%;
-        left: 0;
+@media(max-width: 700px) {
+    .levcl {
+        width: 270px;
+        height: 180px;
     }
-    .buttonB{
-        bottom: -230px;
-        left: 200px;
+
+    .text {
+        font-size: 14px;
     }
-    .cloud{
-        left: 50px;
-        width: 230px;
+
+    .cloud {
+        width: 260px;
         height: 210px;
+        left: 145px;
     }
-    .text{
+    .text2 {
+        left: 188px;
+        top: 220px;
+    }
+    .pravcl {
+        width: 235px;
+        height: 180px;
+    }
+
+
+}
+
+@media(max-width: 520px){
+    .cloud {
+        left: 115px;
+        top: 175px;
+    }
+
+    .text {
         font-size: 12px;
     }
-    .text2{
-        left: 90px;
-        top: 290px;
+
+    .text2 {
+        left: 165px;
+        top: 200px;
     }
-    .chel{
-        width: 65%;
-        left: 150px;
+
+    .cloud {
+        width: 230px;
+        height: 190px;
+        left: 125px;
     }
-    .levcl{
-        width: 220px;
-        height: 200px;
+
+    .levcl {
+        width: 230px;
+        height: 155px;
     }
-    .text1{
-        left: 5px;
-    }
-    .pravcl{
-        left: 60px;
-        width: 190px;
-        height: 200px;
-    }
-    .text3{
-        left: 95px;
+
+    .pravcl {
+        width: 200px;
+        height: 155px;
     }
 }
 
-@media(max-width: 384px){
-    .text{
+@media(max-width: 420px) {
+    .chel {
+        width: 45%;
+        left: 10px;
+    }
+
+    .text {
         font-size: 10px;
     }
-    .levcl{
-        width: 190px;
-        height: 170px;
-    }
-    .pravcl{
-        width: 160px;
-        height: 180px;
-        left: 67px;
-    }
-    .text3{
-        left: 97px;
-    }
-    .text2{
-        top: 300px;
-        left: 100px;
-    }
-    .fon{
-        width: 100%;
-    }
-}
 
-@media(max-width: 375px){
-    .text{
-        font-size: 8px;
-    }
-    .fon{
-        top: 542px;
-        height: 60%;
-        left: 0;
-        width: 100%;
-    }
-    .buttonB{
-        bottom: -270px;
-        right: 40px;
-    }
-    .levcl{
-        width: 190px;
-        height: 170px;
-    }
-    .text1{
+    .text1 {
         left: 5px;
+        top: 10px;
     }
-    .pravcl{
+
+    .text3 {
+        right: 5px;
+        top: 10px;
+    }
+
+    .cloud {
         width: 175px;
-        height: 170px;
-        left: 47px;
-    }
-    .text3{
+        height: 150px;
+        top: 210px;
         left: 95px;
     }
-    .cloud{
-        left: 50px;
-        width: 200px;
-        height: 190px;
-    }
-    .text2{
-        left: 85px;
-        top: 295px;
-    }
-    .chel{
-        width: 72%;
-        left: 100px;
-        height: 298px;
-    }
-}
 
-@media(max-width: 360px){
-    .levcl{
-        width: 185px;
-        height: 140px;
+    .text2 {
+        left: 126px;
+        top: 225px;
     }
-    .text1{
-        top: 17px;
-    }
-    .pravcl{
-        width: 160px;
-        height: 150px;
-        left: 67px;
-    }
-    .text3{
-        left: 100px;
-    }
-    .text2{
-        left: 80px;
-    }
-    .buttonB{
-        left: 170px;
-        bottom: -230px;
-    }
-}
 
-@media(max-width: 320px){
-    .text{
-        font-size: 9px;
+    .levcl {
+        width: 190px;
+        height: 135px;
     }
-    .fon{
-        top: 500px;
-        height: 60%;
-    }
-    .chel{
-        height: 300px;
-        padding: 0;
-        top: 202px;
-        left: 100px;
-        width: 67%;
-    }
-    .buttonB{
-        bottom: -250px;
-        left: 130px;
-    }
-    .levcl{
-        width: 165px;
-    }
-    .pravcl{
-        left: 70px;
-        top: -312px;
-        width: 146px;
-    }
-    .text3{
-        left: 100px;
-        top: -285px;
-    }
-    .cloud{
-        left: 50px;
-        width: 160px;
-        height: 160px;
-    }
-    .text2{
-        top: 290px;
-        left: 80px;
+
+    .pravcl {
+        width: 150px;
+        height: 135px;
     }
 }
