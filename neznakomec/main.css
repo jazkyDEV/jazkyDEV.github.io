@@ -530,6 +530,14 @@ body
 	.button1, .button2 {
 		font-size: 110%;
 	}
+	.button2:hover+div
+	{
+	 display: none;
+	}
+	.button1:hover+div
+	{
+	 display: none;
+	}
 }
 
 @media(max-width: 480px) {
