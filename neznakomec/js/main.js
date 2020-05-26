@@ -21,9 +21,7 @@ jQuery(document).ready(function($){
         });
       };
 
-    $('.button1').on('click', function(){
-        location.href = "https://jazkydev.github.io/кража_кошелька/";       
-        });
+
 
     $('.button2').on('click', function(){
 
@@ -38,7 +36,7 @@ jQuery(document).ready(function($){
             });
           };
           if(money>0){
-              location.href = "https://jazkydev.github.io/Thanks/";
+
           };
         });
 
