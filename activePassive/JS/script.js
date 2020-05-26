@@ -12,7 +12,7 @@ jQuery(document).ready(function($){
         $(function(){
           var height = $(document).height();
           $('#wdw').innerHeight(height);
-          $('.page').css("filter", "blur(10px)");
+          $('.news-slider').css("filter", "blur(10px)");
           $('#wdw').fadeIn();
         });
       };
