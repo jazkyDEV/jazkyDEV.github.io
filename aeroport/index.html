@@ -1,23 +1,94 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap&subset=cyrillic" rel="stylesheet">
-	<title>Пора домой!</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
-</head>
-<body>
-<img class="plane" src="img/plane.png">
-<img class="icon" src="img/icon.png" title="Minsk International Airport" alt="Minsk International Airport">
-<span class="MIA"> Welcome to Minsk Internatioanal Airport!</span>
-<div><img class="des2" src="img/design2.png"></div>
-<span class="tagline">«Кратчайший путь к мечте!»</span>
-<span class="hiker">Дорогой турист!</span>
-<div><img class="des" src="img/design.png"></div>
-<span class="text">Ваше небольшое путешествие в столицу Беларуси подошло к концу!</span>
-<span class="text1">Пришло время отправляться домой и подвести итог.</span>
-<span class="text2">Осталось ли у вас 150$ на билет назад?</span>
-<div><a href="#" class="button">Отправиться домой</a></div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap&subset=cyrillic"
+      rel="stylesheet"
+	/>
+	<script src="https://kit.fontawesome.com/fe5438e1a9.js" crossorigin="anonymous"></script>
+    <title>Пора домой!</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+<div class="page">
+    <img class="plane" src="img/plane.png" />
+    <img
+      class="icon"
+      src="img/icon.png"
+      title="Minsk International Airport"
+      alt="Minsk International Airport"
+    />
+    <span class="MIA"> Welcome to Minsk Internatioanal Airport!</span>
+    <div><img class="des2" src="img/design2.png" /></div>
+    <span class="tagline">«Кратчайший путь к мечте!»</span>
+    <span class="hiker">Дорогой турист!</span>
+    <div><img class="des" src="img/design.png" /></div>
+    <span class="text"
+      >Ваше небольшое путешествие в столицу Беларуси подошло к концу!</span
+    >
+    <span class="text1">Пришло время отправляться домой и подвести итог.</span>
+    <span class="text2">Осталось ли у вас 150$ на билет назад?</span>
+	<div><a href="#" class="button">Отправиться домой</a></div>
+</div>
+		<!-- counter -->
+		<div class="counter__item">
+			<i class="fas fa-wallet"></i>
+			<span>$</span>
+			<span class="counter"></span>
+		</div>
+	
+		<div class="wdw" id="wdw">
+			<div class="wdw__inner">
+				<img src="oops.png" alt="" class="wdw__img">
+				<div class="wdw__title">Кажется, Вы проиграли =(</div>
+				<div class="wdw__text">Чтобы добраться домой, Вам необходимо оставить $150 !<br>
+					Вы забыли, что Ваш бюджет ограничен и потратили всю<br>
+					сумму! В следующий раз Вам стоит быть поэкономнее. 
+					</div>
+					<a href="https://jazkydev.github.io/" class="wdw__link">
+						<button class="wdw__btn">Попробовать сначала</button>
+					</a>
+			</div>
+		</div>
+
+		<div class="wdw" id="wdw2">
+			<div class="wdw__inner">
+				<img src="oops.png" alt="" class="wdw__img">
+				<div class="wdw__title">Кажется, Вы проиграли =(</div>
+				<div class="wdw__text">Вы потратили слишком мало денег.<br>
+					Вам пока что рано домой. Останьтесь и пройдите квест еще раз!<br>
+					И помните: чтобы добраться домой, Вам необходимо оставить $150 ! 
+					</div>
+					<a href="https://jazkydev.github.io/" class="wdw__link">
+						<button class="wdw__btn">Попробовать сначала</button>
+					</a>
+			</div>
+		</div>
+
+		<div class="wdw" id="wdw3">
+			<div class="wdw__inner">
+				<img src="yep.jpg" alt="" class="wdw__img">
+				<div class="wdw__title">Поздравляю, вы выиграли!</div>
+				<div class="wdw__text">У вас остались деньги на билет домой.<br>
+					Надеемся, вам понравился наш квест !<br>
+					
+					</div>
+					<a href="https://jazkydev.github.io/" class="wdw__link">
+						<button class="wdw__btn">Пройти снова</button>
+					</a>
+			</div>
+		</div>
+	
+	
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+		<script src="JS/jquery.counterup.min.js"></script>
+		
+	
+		<script src="JS/script.js"></script>
+  </body>
 </html>
