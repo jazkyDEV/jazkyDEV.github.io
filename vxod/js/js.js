@@ -28,7 +28,7 @@ $('.prev').on('click', function(){
     }
 });
 
-$('.nextM__back').on('touchstart', function(){
+$('.nextM__back').on('click', function(){
     if($('.card-block').find('.card').hasClass('flip')){
         $('.card-block').find('.card').removeClass('flip');
         $('.back__m').fadeIn(1);
@@ -41,7 +41,7 @@ $('.nextM__back').on('touchstart', function(){
     }
 });
 
-$('.nextM__front').on('touchstart', function(){
+$('.nextM__front').on('click', function(){
     if($('.card-block').find('.card').hasClass('flip')){
         $('.card-block').find('.card').removeClass('flip');
         $('.back__m').fadeIn(1);
