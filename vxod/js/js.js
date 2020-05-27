@@ -28,7 +28,7 @@ $('.prev').on('click', function(){
     }
 });
 
-$('.nextM__back').on('click', function(){
+$('.nextM__back').on('touchend', function(){
     if($('.card-block').find('.card').hasClass('flip')){
         $('.card-block').find('.card').removeClass('flip');
         $('.back__m').fadeIn(1);
