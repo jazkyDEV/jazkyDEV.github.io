@@ -41,7 +41,7 @@ $('.nextM__back').on('click', function(){
     }
 });
 
-$('.nextM__front').on('click', function(){
+$('.nextM__front').on('touchend', function(){
     if($('.card-block').find('.card').hasClass('flip')){
         $('.card-block').find('.card').removeClass('flip');
         $('.back__m').fadeIn(1);
