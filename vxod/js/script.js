@@ -19,7 +19,12 @@ jQuery(document).ready(function($){
       }; */
       
 
-
+var user_agent = navigator.userAgent.toLowerCase();
+if (user_agent.match(/(iphone|ipod|ipad)/)) {
+    $('.card').addClass('flip');
+    $('.back__m').fadeOut(1);
+    $('.front__m').fadeIn(1);
+};
 
     let zis = $('.back').innerHeight()-$('.head').innerHeight();
     zis-=50;
