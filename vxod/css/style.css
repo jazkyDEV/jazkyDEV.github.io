@@ -419,7 +419,7 @@ transform: rotateY(180deg);
     padding-right: 10px;
 }
 .title__mob {
-    font-size: 1.8vh;
+    font-size: 1.6vh;
     font-weight: normal;
 }
 .title__mob::first-letter{
