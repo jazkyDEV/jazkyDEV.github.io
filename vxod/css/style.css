@@ -898,6 +898,9 @@ font-weight: bold;
 /* ОСНОВНАЯ АДАПТИВКА =======================================================================================================*/
 
 @media(max-width: 1600px) {
+    .back__m, .front__m {
+        display: none;
+    }
     .name {
         font-size: 22px;
     }
@@ -1042,7 +1045,7 @@ font-weight: bold;
         -webkit-box-shadow: none;
         box-shadow: none;
     }
-    .front__m, .back__m {
+    .back__m {
         display: block;
     }
     .counter__item {
