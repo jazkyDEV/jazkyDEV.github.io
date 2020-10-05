@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: 
+    linear-gradient(to top, #c5c5c5, #fff);
+}
+
+
+.order {
+    background: url(pizzabg.jpg) 
+    center center no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.order:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.6);
+    z-index: 2;
+  }
+  .inner{
+      z-index: 3;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+.order .inner * {
+    margin-bottom: 10px;
+}
+
+.order textarea{resize: none;}
+ #submitpizza {
+     padding: 2px;
+    border: none;
+    color: #fff;
+    background-color: #ff8800;
+    border: 1px solid #ccc;
+    width: 150px;
+    margin: 0 auto;
+
+
+    text-align: center;
+    transition: .2s ease;
+    cursor: pointer;
+ }
+
+ #submitpizza:hover {
+     background-color: #ff5e00;
+ }
+
+ .form {
+     width: 350px;
+     margin: 30px auto;
+     padding: 10px;
+     border: 1px solid #000;
+ }
+
+ .form * {
+     margin-bottom: 5px;
+ }
+

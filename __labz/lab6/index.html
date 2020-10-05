@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/" method="POST" class="order">
+        <div class="inner">
+            <p>Выберите Пиццу:</p>
+            <select name="pizza">
+                <option value="zeroval">Выберите пиццу</option>
+                <option value="sicilian"> Сицилийская пицца</option>
+                <option value="hunter">Охотничья Пицца</option>
+                <option value="4cheese">4 сыра</option>
+                <option value="chickenbbq">Чикен барбекю</option>
+            </select> 
+            <p>Пышный край <input type="radio" name="pyshniy" value="1"> Да 
+                <input type="radio" name="pyshniy" value="0"> Нет
+            </p>
+            <p>Дополнительный сыр(2р) <input type="radio" name="AddCheese" value="1"> Да 
+                <input type="radio" name="AddCheese" value="0"> Нет</p>
+                <p>Адресс</p>
+                <input type="text" name="adress" placeholder="Минск, ул. Чюрлениса, 1"></input>
+                <p>Номер телефона</p>
+                <input type="text" name="phone" placeholder="+375-12-345-67-89">
+                <p>Оставьте комментарий(по желанию):</p>
+            <textarea name="comment" cols="30" rows="5"></textarea>   
+            <input type="submit" name="submit" id="submitpizza" value="Заказать!">
+        </div>
+
+        </form>
+
+        <form action="/" class="form" method="POST">
+            <p>Обращение <input type="radio" name="sex" value="1"> Г-н 
+                <input type="radio" name="sex" value="0"> Г-жа</p>
+            <p>Имя <input type="text" name="name" id=""></p>
+            <p>Фамилия <input type="text" name="surname"></p>
+            <p>Email <input type="email" name="email" placeholder="example@ex.com"></p>
+            <p>Телефон <input type="text" name="phone" placeholder="+123-56-789-12-34"></p>
+            <p>Пароль <input type="password" name="password"></p>
+            <p>Подтвердите пароль <input type="password" name="password"></p>
+            <p>Страна <select name="country">
+                <option value="c">Канада</option>
+                <option value="r">Россия</option>
+                <option value="b">Беларусь</option>
+                <option value="u">Соединенные Штаты Америки</option>
+                <option value="p">Польша</option>
+                <option value="g">Германия</option>
+            </select></p>
+            <p><input type="checkbox" name="agree"> Я согласен с <a href="gotu.jpg" target="_blank">условиями использования</a></p>
+            <input type="submit" value="Зарегистрироваться">
+        </form>
+</body>
+</html>
