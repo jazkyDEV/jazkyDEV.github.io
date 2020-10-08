@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #000;
+    font-weight: 400;
+    font-size: 26px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 25px 0;
+
+    font-size: 28px;
+    color: #4d4d4d;
+}
+
+.anime{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.anime__item {
+    width: 300px;
+    height: 350px;
+    padding: 25px;
+    background: linear-gradient(to left, #eedfb6, #ebebeb);
+    -webkit-box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);    border-radius: 10px;
+
+    cursor: pointer;
+
+    transition: .2s ease;
+
+    margin: 20px;
+}
+
+.anime__item:hover{
+    transform: scale(1.02);
+    background: linear-gradient(to left, #fadb85, #ffffff);
+    -webkit-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+
+}
+
+.anime__item:hover .item__name {
+    color: #f10808;
+}
+
+.item__img{
+    margin-bottom: 25px;
+}
+
+.item__img a{
+    text-align: center;
+}
+.item__img a img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.item__name {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+
+    transition: .2s ease;
+}
+
