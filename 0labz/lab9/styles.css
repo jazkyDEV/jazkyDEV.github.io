@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin: 20px 0;
+}
+
+p{
+    font-family: 'Playfair Display', serif;
+    color: #414141;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 10px;
+    font-size: 18px;
+    padding: 10px 0;
+
+}
+
+body{
+    background: radial-gradient(circle, #24b5ee, #ffffff);
+}
+
+.container {
+    width: 1200px;
+    margin: 0  auto;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+h2, .prepared {
+    font-size: 32px;
+    text-transform: none;
+    text-align: left;
+    text-indent: 20px;
+}
+
+.citatte {
+    width: 400px;
+    text-align: justify;
+    background-color: rgba(0,0,0,0.7);
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: 0;
+
+    font-family: 'Oleo Script', cursive;
+    font-size: 14px;
+    font-weight: 400;
+
+    color: #fff;
+
+    transition: .1s linear;
+}
+.citatte__author{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.citatte:hover, img:hover{
+    transform: scale(1.03);
+}
+
+img{
+    display: block;
+    border-radius: 10px;
+    margin: 10px;
+
+    transition: .1s linear;
+
+}
+
+.prepared {
+    margin: 50px 0;
+}
