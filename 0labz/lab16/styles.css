@@ -1,0 +1,165 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #4d4d4d;
+}
+
+section {
+    width: 100%;
+    background-color: #fff;
+  }
+
+section .container {
+  width: 100%;
+  max-width: 1230px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+section.section__first {
+  background: url(first-wp.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+
+}
+
+.section__first:before {
+  content: "";
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.section__first > .section__first-inner {
+    position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__first-title {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 700;
+
+  text-transform: uppercase;
+  cursor: default;
+}
+
+.title:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 200px;
+  background-color: #fff;
+  margin: 25px auto 0;
+
+  transition: all .2s linear;
+}
+
+.title:hover.title:after {
+    width: 350px;
+}
+
+.sec__title{
+    margin-top: 25px;
+    color: #4d4d4d;
+    font-size: 32px;
+    font-weight: 700;
+
+    cursor: default;
+
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+  
+}
+
+.sec__title:after {
+    background-color: #000;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.section__about .container {
+  padding: 0;
+}
+
+.about__good{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about__good-item {
+    width: 350px;
+    padding: 10px;
+    margin: 0 15px 25px;
+}
+
+.about__good-item__img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.about__good-item__img + .about__good-item__title{
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 28px;
+ font-weight: 400;
+}
+
+section[class="section__last"] {
+  height: 100vh;
+  background: #000 url(lastpage-wp.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+section[class="section__last"]:before {
+  content: "";
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.section__last > .section__last-inner {
+    position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section__last-title{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.last__chosen {
+  display: block;
+  opacity: 0.35;
+}
