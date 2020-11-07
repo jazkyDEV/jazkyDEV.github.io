@@ -214,11 +214,9 @@ h2 {
   background-color: #000000;
 }
 
-#checkmate__parent:hover .mood__item-img{
-  opacity: .9;
-}
 #checkmate__parent:hover #formula__bg {
   z-index: 6;
+  opacity: .5;
   animation: formulas 6s infinite ;
 }
 
