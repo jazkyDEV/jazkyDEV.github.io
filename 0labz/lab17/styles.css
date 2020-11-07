@@ -1,0 +1,266 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+
+h1,
+h2 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.section__main {
+  height: 100vh;
+  position: relative;
+}
+
+.section__main-bg {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: url(main-bg.jpg) center center no-repeat;
+  background-size: cover;
+  filter: blur(50px);
+
+  transition: all 0.2s linear;
+}
+
+.section__main-inner {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.section__main-title {
+  text-transform: uppercase;
+  word-spacing: 20px;
+  text-shadow: 4px 2px 4px rgb(87, 87, 87);
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+
+  transition: all 0.1s linear;
+}
+
+.section__main-title:after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 10%;
+  margin: 10px auto 0;
+
+  transition: all 0.01s linear;
+}
+
+.section__main-title:hover {
+  animation: trrr 0.1s infinite;
+}
+.section__main-title:hover.section__main-title:after {
+  width: 240px;
+}
+
+@keyframes trrr {
+  0% {
+    transform: rotate(-0.5deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(0.5deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-0.5deg);
+  }
+}
+
+.section__second {
+  height: 100vh;
+  background-color: #fff;
+  color: #000;
+}
+
+.mood__title {
+  color: #000;
+  margin: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  cursor: pointer;
+
+  transition: all 0.1s linear;
+}
+
+.mood__title:hover {
+  transform: scale(1.02);
+}
+
+.mood__parent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.mood__item {
+  width: 300px;
+  margin: 50px;
+  position: relative;
+  overflow: hidden;
+
+  transition: all 0.1s linear;
+}
+
+.mood__item-img {
+  position: relative;
+  z-index: 5;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.mood__item-state {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 8;
+
+  text-shadow: 3px 3px 4px #474747;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+
+  opacity: 0;
+
+  transition: all 0.05s linear;
+}
+#aftr:hover {
+  box-shadow: 7px 14px 83px 0px rgba(239, 113, 26, 0.75);
+  -webkit-box-shadow: 7px 14px 83px 0px rgba(239, 113, 26, 0.75);
+  -moz-box-shadow: 7px 14px 83px 0px rgba(239, 113, 26, 0.75);
+}
+.mood__item:hover .mood__item-state {
+  opacity: 1;
+}
+
+.mood__item:hover #rage {
+  opacity: 0.8;
+  animation: rage 0.1s infinite;
+}
+
+#rage__parent {
+  background-color: #ff0000;
+}
+
+#dance__parent {
+  background: radial-gradient(circle, #ffd900, #ffbeaa);
+}
+
+#dance__parent .mood__item-img {
+  opacity: 1;
+}
+
+#dance__parent:hover .mood__item-img {
+  animation: dance 0.6s infinite;
+}
+
+#formula__bg {
+  display: block;
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  top: -20px;
+  width: 340px;
+  height: 300px;
+  transition: all .5s ease;
+}
+
+#checkmate__parent  .mood__item-img{
+  background-color: #000000;
+}
+
+#checkmate__parent:hover .mood__item-img{
+  opacity: .9;
+}
+#checkmate__parent:hover #formula__bg {
+  z-index: 6;
+  animation: formulas 6s infinite ;
+}
+
+@keyframes rage {
+  0% {
+    transform: translate(-2px, -2px);
+  }
+  25% {
+    transform: translate(-2px, 2px);
+  }
+  50% {
+    transform: translate(2px, 2px);
+  }
+  75% {
+    transform: translate(-2px, 2px);
+  }
+  100% {
+  }
+}
+@keyframes dance {
+  0% {
+    opacity: 1;
+    transform: translate(0.5px, 0.5px);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translate(0px, 0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-0.5px, -0.5px);
+  }
+}
+
+@keyframes formulas {
+  0%{
+transform: translateY(0);
+  }
+  50%{
+    transform: translateY(20px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
