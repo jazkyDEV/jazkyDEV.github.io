@@ -79,7 +79,7 @@ h2 {
   border-radius: 10%;
   margin: 10px auto 0;
 
-  transition: all 0.01s linear;
+  transition: all 0.1s linear;
 }
 
 .section__main-title:hover {
@@ -164,6 +164,8 @@ h2 {
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
 
   opacity: 0;
 
@@ -207,17 +209,16 @@ h2 {
   top: -20px;
   width: 340px;
   height: 300px;
-  transition: all .5s ease;
 }
 
-#checkmate__parent  .mood__item-img{
+#checkmate__parent .mood__item-img {
   background-color: #000000;
 }
 
 #checkmate__parent:hover #formula__bg {
   z-index: 6;
-  opacity: .5;
-  animation: formulas 6s infinite ;
+  opacity: 0.5;
+  animation: formulas 6s infinite;
 }
 
 @keyframes rage {
@@ -252,13 +253,13 @@ h2 {
 }
 
 @keyframes formulas {
-  0%{
-transform: translateY(0);
+  0% {
+    transform: translateY(0);
   }
-  50%{
+  50% {
     transform: translateY(20px);
   }
-  100%{
+  100% {
     transform: translateY(0);
   }
 }
