@@ -43,7 +43,7 @@ section.section__first {
 }
 
 .section__first > .section__first-inner {
-    position: relative;
+  position: relative;
   z-index: 2;
   height: 100%;
   display: flex;
