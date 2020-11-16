@@ -1,0 +1,142 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background: #fff;
+}
+
+h1, h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section__first {
+  height: 100vh;
+  background: #000 url('dushanbe_wallpaper.jpg') center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.section__first::after{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.section__first-inner {
+    position: relative;
+    z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__first-title {
+  cursor: pointer;
+}
+
+.section__first-title:hover.section__first-title:after {
+  width: 75px;
+}
+
+.section__first-title:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background-color: #fff;
+  margin: 10px auto 0;
+
+  transition: all 0.1s linear;
+}
+
+.section__places {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.places__title {
+    color: #000;
+    font-size: 38px;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 25px  auto;
+}
+
+
+.places__slider {
+
+width: 600px;
+margin: 0 auto;
+}
+
+.places__slider-item {
+    width: auto;
+    height: 340px;
+    position: relative;
+    background-color: #000;
+}
+
+.slider__img {
+    display: block;
+    width: 100%;
+    height: inherit;
+    transition: all .1s linear;
+}
+
+.item__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 24px;
+    width: inherit;
+    text-align: center;
+
+    opacity: 0;
+
+    transition: all .1s linear;
+}
+
+.places__slider-item:hover .slider__img{
+    opacity: .4;
+}
+.places__slider-item:hover .item__title{
+    opacity: 1;
+}
+
+.slick-prev {
+    color: #000;
+ 
+}
+.slick-prev:before {
+    color: rgba(0, 0, 0, 0.9);
+  }
+  .slick-next:before {
+    color: rgba(0, 0, 0, 0.9);
+  }
