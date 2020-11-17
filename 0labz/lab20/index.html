@@ -1,0 +1,33 @@
+<!DOCTYPE html> <!-- Узел документа -->
+<html lang="en"> <!-- Корневой элемент -->
+<head>
+    <meta charset="UTF-8"> <!-- Узел элемента -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Узел элемента -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,400;1,700&display=swap" rel="stylesheet"> <!-- Узел элемента -->
+    <link rel="stylesheet" href="styles.css"> <!-- Узел элемента -->
+    <title>Document</title><!-- Текстовый узел --> <!-- Узел элемента -->
+</head>
+<body> <!-- Узел элемента -->
+    <section class="section-page" > <!-- Узел элемента --> <!-- Узел комментрария -->
+        <div class="container"> <!-- Узел элемента -->
+
+            <div class="section-page__inner"> <!-- div Узел элемента, class -Узлел атрибута  -->
+                <h1 class="section-page__title" onclick="change()"> <!-- Узел элемента -->
+                    Shameless   <!-- Текстовый узел -->
+                </h1>
+                <p class="section-page-text" onclick="change2()">The Chicago</p>
+            </div>
+        </div>
+
+    </section>
+
+    <script>  
+        function change(){
+            document.querySelector('.section-page__title').innerHTML = "Changed";
+        }
+        function change2(){
+            document.querySelector('.section-page-text').innerHTML = "Changed";
+        }
+    </script>
+</body>
+</html>
