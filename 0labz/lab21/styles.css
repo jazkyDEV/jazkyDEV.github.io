@@ -1,0 +1,131 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section__time {
+    height: 100vh;
+    background: url(nywp.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Goldman', cursive;
+}
+
+.section__time-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    font-size: 42px;
+
+    margin-bottom: 25px;
+}
+
+.section__time-clock {
+    display: flex;
+    justify-content: center;
+}
+
+.clock__hours, .clock__minutes, .clock__seconds {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255,255,255, 0.7);
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 10px;
+
+    color: #252525;
+    font-size: 120px;
+    text-align: center; 
+}
+
+.section__form {
+    height: 100vh;
+    background: url(la.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    font-family: 'Big Shoulders Stencil Display', cursive;
+
+}
+
+.section__form:after{
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.button__popup {
+    border: 2px solid #fff;
+    background-color: transparent;
+    padding: 20px;
+    cursor: pointer;
+
+    position: relative;
+    z-index: 1;
+
+    text-align: center;
+    text-transform: uppercase;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 48px;
+    color: #fff;
+    font-family: 'Goldman', cursive;
+    
+    transition: all .2s linear;
+}
+
+.button__popup:focus{
+    outline: none;
+}
+
+.button__popup:hover {
+    background-color: #fff;
+    color: #373737;
+}
+
+.keanu__img {
+    width: 100%;
+    height: 100%;
+    background: url(keanu.gif) center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#close {
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    right: 5px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+}
