@@ -20,7 +20,7 @@ document.getElementsByTagName('body')[0].onload = function startTime() {
 
   document.getElementById('button__popup').onclick = function(){
       let popup =
-      window.open("", "", "width=630, height=360, scrollbars=no, resizable=no, top=250', left=350");
+      window.open("", "", "width=660, height=390, scrollbars=no, resizable=no, top=250', left=350");
       popup.document.write('<img src="keanu.gif">');
   }
 
