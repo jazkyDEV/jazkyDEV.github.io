@@ -1,0 +1,139 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Nerko One', cursive;
+    font-size: 32px;
+    text-align: center;
+}
+
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section__time {
+    height: 100vh;
+    background: #000 url(norway-bg.jpg) center center no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.browser__version-title {
+    text-transform: uppercase;
+    font-size: 48px;
+
+    cursor: pointer;
+
+    transition: all .1s ease;
+}
+
+.browser__version-title:hover{
+    color: #ffe1e1;
+}
+
+.browser__version-content {
+    opacity: 0;
+
+    transition: all 1s ease;
+
+}
+
+.section__time-title {
+    text-transform: uppercase;
+    font-size: 48px;
+
+    margin-bottom: 25px;
+}
+
+.section__time-clock {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.clock__hours, .clock__minutes, .clock__seconds {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255,255,255, 0.7);
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 10px;
+
+    color: #252525;
+    font-size: 80px;
+    text-align: center; 
+}
+
+.textarea {
+    border: 2px solid #02d9ff;
+    font-size: 24px;
+    padding: 5px;
+    font-family: inherit;
+    margin-bottom: 25px;
+    resize: none;
+    width: 250px;
+
+    transition: all .1s ease;
+}
+
+.textarea:focus{
+    outline: none;
+    border: 2px solid #0602ff;
+}
+
+#array{
+    width: 450px;
+}
+
+.button {
+    border: 2px solid #02d9ff;
+    font-size: 24px;
+    padding: 5px;
+    font-family: inherit;
+    margin-bottom: 25px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    transition: all .1s ease;
+}
+
+.button:focus{
+    outline: none;
+}
+
+.button:hover{
+    outline: none;
+    border: 2px solid #0602ff;
+    color: #000;
+}
+
+.text {
+    border: 2px solid #02d9ff;
+    font-size: 24px;
+    padding: 5px;
+    font-family: inherit;
+
+    text-align: center;
+    transition: all .1s ease;
+}
+
+.text:focus{
+    outline: none;
+    border: 2px solid #0602ff;
+}
