@@ -85,11 +85,14 @@ function pow(num, power){
     if(power===1){
         return num;
     }
+    if(power === 0){
+        return 1;
+    }
     return num*pow(num, power -1);
 }
 document.getElementById('pow').onclick = function(){
     var number = parseInt(prompt("Enter number:", ""));
-    var power = parseInt(prompt("Enter its powr:", ""));
+    var power = parseInt(prompt("Enter its power >=0:", ""));
     var result = pow(number, power);
     alert("Result: " + result);
 }
