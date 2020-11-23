@@ -122,18 +122,3 @@ body {
     border: 2px solid #0602ff;
     color: #000;
 }
-
-.text {
-    border: 2px solid #02d9ff;
-    font-size: 24px;
-    padding: 5px;
-    font-family: inherit;
-
-    text-align: center;
-    transition: all .1s ease;
-}
-
-.text:focus{
-    outline: none;
-    border: 2px solid #0602ff;
-}
