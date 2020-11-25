@@ -64,9 +64,9 @@ function ZoomIn(SomeClass) {
     var to_be_zoomed = document.getElementsByClassName(SomeClass);
     var i;
         for(i = 0; i < to_be_zoomed.length;++i){
-            to_be_zoomed[i].style.animation = 'zoom 1s';  
+            to_be_zoomed[i].style.animation = 'zoom 1.3s';  
         }
-        setTimeout(ZoomOut, 1000);
+        setTimeout(ZoomOut, 1300);
 
 }
 
