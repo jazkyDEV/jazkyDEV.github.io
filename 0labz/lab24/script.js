@@ -84,7 +84,10 @@ function PopUp(){
     document.getElementsByClassName('popup')[0].style.display = "block";
 
 }
-document.getElementsByClassName('popup')[0].onclick = function(){
+document.getElementsByClassName('popup')[0].onclick = function(e){
+  if(e.target.is == document.getElementsByClassName('popup')[0]) {
+    alert('aa');
+  }
     document.getElementsByClassName('section__joker')[0].style.filter = "blur(0)";
     document.getElementsByClassName('popup')[0].style.display = "none";
 
