@@ -37,10 +37,7 @@ function countdown() {
   document.getElementById("seconds").innerHTML = seconds;
 
   // If the count down is finished, write some text
-  if (days === 0 &&
-    hours === 0 &&
-    minutes === 0 &&
-    seconds <= 0) {
+  if (days == 0 && hours == 0 && minutes == 0 && seconds <= 0) {
     PopUp();
   }
   else {
