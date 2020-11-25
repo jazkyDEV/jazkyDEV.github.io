@@ -1,0 +1,169 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: 'Xanh Mono', monospace;
+    color: #fff;
+}
+
+.section__joker {
+    height: 100vh;
+    background: url(joker_wp.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    position: relative;
+
+    transition: all .1s ease;
+}
+
+.section__joker::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.section__joker-inner {
+    position: relative;
+    z-index: 1;
+}
+
+.joker__title{
+    font-size: 48px;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 10px; 
+}
+
+.clocks {
+    display: flex;
+    justify-content: center;
+}
+
+.clock__item {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-right: 25px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+    text-transform: uppercase;
+    color: #000;
+    font-size: 100px;
+
+    cursor: pointer;
+
+
+    transition: all .1s ease;
+}
+
+.clock__item:last-child{
+    margin-right: 0;
+}
+
+.clock__item:hover {
+
+    animation: spin 1s;
+
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
+.clock__kind {
+    font-size: 50px;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.15);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.button__reset {
+    font-family: inherit;
+    font-size: 38px;
+    display: block;
+    width: auto;
+    margin:  15px auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+
+    border: 1px solid #535353;
+
+    transition: all .1s ease;
+}
+
+.button__reset:focus{
+    outline: none;
+}
+
+.button__reset:hover{
+    background-color: rgba(255, 255, 255, 1);
+
+    border: 1px solid #000;
+}
+
+.popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    display: none;
+
+
+}
+
+.popup__inner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup__img {
+    display: block;
+    width: 800px;
+    height: auto;
+}
