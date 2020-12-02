@@ -112,7 +112,7 @@
 
 }
 
-.diabolical:hover {
+.menu li:hover .diabolical {
     animation: diabolical 1s infinite;
 }
 
