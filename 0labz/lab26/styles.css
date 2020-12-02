@@ -6,6 +6,13 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
 .container{
     max-width: 1230px;
     padding: 0 15px;
@@ -66,8 +73,6 @@
 }
 
 .menu {
-    font-weight: 400;
-    letter-spacing: 3px;
     list-style-type: none;
     font-size: 28px;
     text-transform: unset;
@@ -127,4 +132,127 @@
     100%{
         color: #fff;
     }
+}
+.section__characters__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__characters__inner > * {
+    width: 33.33333333333%;
+}
+
+.vs {
+    display: flex;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 900;
+    justify-content: center;
+    font-size: 100px;
+}
+
+.vs span:first-child{
+    display: block;
+    text-transform: uppercase;
+    animation: vletter 3s infinite;
+}
+.vs span:last-child{
+    display: block;
+    animation: sletter 3s infinite;
+}
+
+@keyframes vletter {
+    0%{
+        color: #ffe600;
+    }
+    50%{
+        color: #ff0000;
+    }
+    100%{
+        color:#ffe600;
+    }
+}
+
+
+@keyframes sletter {
+    0%{
+        color: #00aeff;
+    }
+    50%{
+        color: #0000ff;
+    }
+    100%{
+        color:#00aeff;
+    }
+}
+
+.characters__card {
+    width: 90%;
+    margin: 50px auto;
+    background-color: #000000;
+    position: relative;
+}   
+
+.characters__img {
+    width: 100%;
+    height: auto;
+    opacity: 1;
+
+    transition: all .1s linear;
+}
+
+.characters__card:hover .characters__img {
+    opacity: 0.6;
+}
+
+.characters__name {
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    text-shadow: 1px 2px 3px #666;
+    cursor: pointer;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+
+    opacity: 0;
+
+    transition: all .1s linear;
+}
+
+.characters__card:hover .characters__name {
+    opacity: 1;
+}
+
+.diabolical__title {
+    margin: 50px 0;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 38px;
+    color: #2c2c2c;
+
+}
+.diabolical__title:after{
+    content: "";
+    display: block;
+    width: 600px;
+    height: 5px;
+    background-color: #2c2c2c;
+    margin: 0 auto 50px;
+    transition: all .1s linear;
+}
+
+.diabolical__title:hover:after{
+    width: 550px;
+
+}
+
+.diabolical__img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
 }
