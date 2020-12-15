@@ -1,104 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/74436f4b93.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    
-    <header class="header">
-      <div class="container">
-        <div class="header__inner">
-          <a href="#" class="header__logo">
-            <img class="header__logo-img" src="logo.png" alt="LOGO" />
-          </a>
-          <ul class="header__nav">
-            <li class="header__nav-link">
-              <a href="#" class="header__nav-link-to"> about me </a>
-            </li>
-            <li class="header__nav-link" id="contacts">
-              <a href="#" class="header__nav-link-to"> social media </a>
-              <ul class="header__nav-link-menu">
-                <li class="nav-link-menu__item">
-                  <a href="#" class="menu__link">
-                    <i class="fab fa-instagram menu__icon"></i>instagram
-                  </a>
-                </li>
-                <li class="nav-link-menu__item">
-                  <a href="#" class="menu__link">
-                    <i class="fab fa-linkedin-in menu__icon"></i>linkedin
-                  </a>
-                </li>
-                <li class="nav-link-menu__item">
-                  <a href="#" class="menu__link">
-                    <i class="fab fa-twitter menu__icon"></i>twitter
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="header__nav-link">
-              <a href="#" class="header__nav-link-to"> something else </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&display=swap" rel="stylesheet" />
 
-    <section class="section">
-      <div class="container">
-        <h2 class="section-title">Who I am</h2>
-        <div class="about">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@400;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/74436f4b93.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Document</title>
+</head>
 
-          <img class="about__img" src="about.png" alt="" />
-
-          <div class="about__content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            quidem ullam quod, mollitia doloremque unde assumenda rem officia
-            consequatur veniam aliquid commodi. Vitae odit ipsum quia rem dicta
-            dolor accusantium!Vel at iure tempora possimus. Officiis pariatur
-            iure temporibus aspernatur est reprehenderit recusandae, voluptates
-            fugit in praesentium, excepturi nihil error aliquid nam dicta quo
-            omnis vitae fugiat illum, eos fuga.
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-        <div class="container">
-            <h2 class="section-title">
-                What I do
+<body>
+  <section class="section">
+    <div class="container">
+      <div class="section__inner">
+        <div class="section__info">
+          <img class="section__info-img" src="logo.png" alt="">
+          <div class="section__info-content">
+            <h2 class="content__name">
+              Stepan Kukharchik
             </h2>
-            <ol class="do">
-                <li><i class="fas fa-bed"></i>  Chill out</li>
-                <li> <i class="fas fa-child"></i> Chill out but in another color</li>
-            </ol>
-    
+            <h4 class="content__skills">
+              Software engineer at <span>Google</span>
+            </h4>
+          </div>
         </div>
-    </section>
 
-<!--     <footer class="footer">
+        <div class="section__about">
+          <div class="section__about-item">
+            <i class="fas fa-code about__icon"></i>
+            <div class="item__description">
+              28 labz on WD
+            </div>
+          </div>
+          <div class="section__about-item">
+            <i class="fas fa-terminal about__icon"></i>
+            <div class="item__description">
+              19 labz on AP
+            </div>
+          </div>
+        </div>
 
-    </footer> -->
+        <div class="section__click">
+          <i class="fas fa-arrow-left"></i> Click left to see my social media
+        </div>
 
-    <script src="script.js"></script>
-  </body>
+      </div>
+    </div>
+
+    <div class="section__menu">
+      <div class="section__menu-inner">
+        <button class="section__menu-button"><i class="fas fa-bars menu__icon"></i></button>
+
+        <a href="https://twitter.com/jazky" target="_blank" class="section__menu-link">
+          <i class="fab fa-twitter"></i> twitter
+        </a>
+        <a href="https://www.linkedin.com/in/jazky/" target="_blank" class="section__menu-link">
+          <i class="fab fa-linkedin"></i> linkedin
+        </a>
+        <a href="#" target="_blank" class="section__menu-link">
+          <i class="fab fa-instagram"></i> instagram
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+
 </html>
